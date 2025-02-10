@@ -1,0 +1,104 @@
+[
+  {
+    "id": "covid",
+    "meta": {
+      "style": {
+        "itemStyle": {
+          "color": "rgba(128, 128, 128, 0.2)"
+        }
+      }
+    },
+    "items": [
+      {
+        "name": "COVID",
+        "description": "Пандемия от COVID-19 в България",
+        "value": ["2020-03-13", "2022-03-30"],
+        "sources": [
+          {
+            "name": "РЕШЕНИЕ за обявяване на извънредно положение",
+            "url": ["https://www.parliament.bg/bg/desision/ID/157374"],
+            "date": "2020-03-13"
+          },
+          {
+            "name": "Край на извънредното положение - отпадат всички ограничения (ОБЗОР)",
+            "url": ["https://bntnews.bg/news/krai-na-izvanrednoto-polozhenie-otpadat-vsichki-ogranicheniya-obzor-1190146news.html"],
+            "date": "2022-03-30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "war-russia-ukraine",
+    "meta": {
+      "style": {
+        "itemStyle": {
+          "color": "rgba(255, 0, 0, 0.10)"
+        }
+      }
+    },
+    "items": [
+      {
+        "name": "Войната в Украйна",
+        "value": ["2022-02-24", null],
+        "sources": [
+          {
+            "name": "Vladimir Putin's Speech on Ukraine and US Foreign Policy and NATO - 24 February 2022, ENG Subtitles",
+            "url": ["https://www.youtube.com/watch?v=1qS6J-WbTD8&t=1222s"],
+            "date": "2022-02-24"
+          },
+          {
+            "name": "Русия нападна Украйна",
+            "url": ["https://bnr.bg/radiobulgaria/post/101605926/rusia-napadna-ukraina"],
+            "date": "2022-02-24"
+          },
+          {
+            "name": "РУСКАТА АТАКА В УКРАЙНА: Президентът Путин обяви специална военна операция в Донбас",
+            "url": ["https://www.youtube.com/watch?v=v0kxGOInFaQ"],
+            "date": "2022-02-24"
+          },
+          {
+            "name": "Войната започна. Русия нападна Украйна",
+            "url": ["https://www.svobodnaevropa.bg/a/31719771.html"],
+            "date": "2022-02-24"
+          },
+          {
+            "name": "'We will defend ourselves', says Ukrainian president Volodymyr Zelenskiy",
+            "url": ["https://www.youtube.com/watch?v=prfaWHQoxVg"],
+            "date": "2022-02-24"
+          },
+          {
+            "name": "Archival footage showing the assault on Antonov Airport February 24-25 of 2022. Russian POV",
+            "url": ["https://www.reddit.com/r/CombatFootage/comments/1hzudcn/archival_footage_showing_the_assault_on_antonov/"],
+            "date": "2022-02-25"
+          },
+          {
+            "name": "Ukrainian President Volodymyr Zelenskyy shares a message from Kyiv ",
+            "url": ["https://www.youtube.com/watch?v=tLv9IqcoNe8"],
+            "date": "2022-02-25"
+          },
+          {
+            "name": "Vladimir Putin announces partial mobilisation of Russian troops for Ukraine",
+            "url": ["https://www.youtube.com/watch?v=ZCOMTYt1VFI"],
+            "date": "2022-09-21"
+          },
+          {
+            "name": "Russian invasion of Ukraine: A visual timeline of the war",
+            "url": ["https://www.youtube.com/watch?v=6BvOBW3FwbA"],
+            "date": "2023-02-22"
+          },
+          {
+            "name": "Documenting Russian Equipment Losses During The Russian Invasion Of Ukraine",
+            "url": ["https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html"],
+            "date": "2022-02-24"
+          },
+          {
+            "name": "Documenting Ukrainian Equipment Losses During The Russian Invasion Of Ukraine",
+            "url": ["https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"],
+            "date": "2022-02-24"
+          }
+        ]
+      }
+    ]
+  }
+]

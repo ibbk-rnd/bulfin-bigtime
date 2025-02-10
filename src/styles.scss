@@ -1,0 +1,29 @@
+@import 'assets/scss/typography.scss';
+@import 'bootstrap/scss/bootstrap';
+
+* {
+  font-family: 'Sofia Sans';
+}
+
+.table tr:last-child {
+  border-bottom-width: 0;
+}
+
+.table tr:last-child td {
+  border-bottom-width: 0;
+}
+
+.markdown {
+  p {
+    margin: 0;
+  }
+
+  ol {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+}

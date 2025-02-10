@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Sofia Sans';
+  src:
+    url('../fonts/SofiaSans-Bold.woff2') format('woff2'),
+    url('../fonts/SofiaSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans';
+  src:
+    url('../fonts/SofiaSans-Italic.woff2') format('woff2'),
+    url('../fonts/SofiaSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Sans';
+  src:
+    url('../fonts/SofiaSans-Regular.woff2') format('woff2'),
+    url('../fonts/SofiaSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans';
+  src:
+    url('../fonts/SofiaSans-BoldItalic.woff2') format('woff2'),
+    url('../fonts/SofiaSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Sans SemiLight';
+  src:
+    url('../fonts/SofiaSans-SemiLight.woff2') format('woff2'),
+    url('../fonts/SofiaSans-SemiLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans SemiLight';
+  src:
+    url('../fonts/SofiaSans-SemiLightItalic.woff2') format('woff2'),
+    url('../fonts/SofiaSans-SemiLightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Sans';
+  src:
+    url('../fonts/SofiaSans-SemiBold.woff2') format('woff2'),
+    url('../fonts/SofiaSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Sans';
+  src:
+    url('../fonts/SofiaSans-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/SofiaSans-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sofia Sans';
+  src:
+    url('../fonts/SofiaSans-Black.woff2') format('woff2'),
+    url('../fonts/SofiaSans-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+//@font-face {
+//  font-family: 'Material Icons';
+//  font-style: normal;
+//  font-weight: 400;
+//  src: local('Material Icons'),
+//  local('MaterialIcons-Regular'),
+//  url('../fonts/MaterialIcons-Regular.woff2') format('woff2'),
+//  url('../fonts/MaterialIcons-Regular.woff') format('woff');
+//}

@@ -1,0 +1,394 @@
+[
+  {
+    "id": "gini-coefficient-bg-country",
+    "knowledgeId": "gini-coefficient",
+    "name": "Коефициент на Джини",
+    "sources": [
+      {
+        "name": "Gini coefficient of equivalised disposable income (Евростат)",
+        "url": [
+          "https://ec.europa.eu/eurostat/databrowser/bookmark/5e19cecf-51e8-476f-90e2-08c9c0fdf87c?lang=en"
+        ]
+      },
+      {
+        "name": "CSV (Евростат)",
+        "url": [
+          "/data/gini-coefficient/raw/gini-coefficient.csv"
+        ]
+      }
+    ],
+    "unit": "percent",
+    "data": [
+      {
+        "date": "2014-12-31",
+        "value": 35.4,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "2015-12-31",
+        "value": 37,
+        "change": 1.6,
+        "changePercent": 4.42
+      },
+      {
+        "date": "2016-12-31",
+        "value": 37.7,
+        "change": 0.7,
+        "changePercent": 1.87
+      },
+      {
+        "date": "2017-12-31",
+        "value": 40.2,
+        "change": 2.5,
+        "changePercent": 6.42
+      },
+      {
+        "date": "2018-12-31",
+        "value": 39.6,
+        "change": -0.6,
+        "changePercent": -1.5
+      },
+      {
+        "date": "2019-12-31",
+        "value": 40.8,
+        "change": 1.2,
+        "changePercent": 2.99
+      },
+      {
+        "date": "2020-12-31",
+        "value": 40,
+        "change": -0.8,
+        "changePercent": -1.98
+      },
+      {
+        "date": "2021-12-31",
+        "value": 39.7,
+        "change": -0.3,
+        "changePercent": -0.75
+      },
+      {
+        "date": "2022-12-31",
+        "value": 38.4,
+        "change": -1.3,
+        "changePercent": -3.33
+      },
+      {
+        "date": "2023-12-31",
+        "value": 37.2,
+        "change": -1.2,
+        "changePercent": -3.17
+      }
+    ]
+  },
+  {
+    "id": "gini-coefficient-ro-country",
+    "knowledgeId": "gini-coefficient",
+    "name": "Коефициент на Джини - Румъния",
+    "sources": [
+      {
+        "name": "Gini coefficient of equivalised disposable income",
+        "url": [
+          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
+        ]
+      }
+    ],
+    "unit": "percent",
+    "data": [
+      {
+        "date": "2014-12-31",
+        "value": 35,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "2015-12-31",
+        "value": 37.4,
+        "change": 2.4,
+        "changePercent": 6.63
+      },
+      {
+        "date": "2016-12-31",
+        "value": 34.7,
+        "change": -2.7,
+        "changePercent": -7.49
+      },
+      {
+        "date": "2017-12-31",
+        "value": 33.1,
+        "change": -1.6,
+        "changePercent": -4.72
+      },
+      {
+        "date": "2018-12-31",
+        "value": 35.1,
+        "change": 2,
+        "changePercent": 5.87
+      },
+      {
+        "date": "2019-12-31",
+        "value": 34.8,
+        "change": -0.3,
+        "changePercent": -0.86
+      },
+      {
+        "date": "2020-12-31",
+        "value": 33.8,
+        "change": -1,
+        "changePercent": -2.92
+      },
+      {
+        "date": "2021-12-31",
+        "value": 34.3,
+        "change": 0.5,
+        "changePercent": 1.47
+      },
+      {
+        "date": "2022-12-31",
+        "value": 32,
+        "change": -2.3,
+        "changePercent": -6.94
+      },
+      {
+        "date": "2023-12-31",
+        "value": 31,
+        "change": -1,
+        "changePercent": -3.17
+      }
+    ]
+  },
+  {
+    "id": "gini-coefficient-gr-country",
+    "knowledgeId": "gini-coefficient",
+    "name": "Коефициент на Джини - Гърция",
+    "sources": [
+      {
+        "name": "Gini coefficient of equivalised disposable income",
+        "url": [
+          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
+        ]
+      }
+    ],
+    "unit": "percent",
+    "data": [
+      {
+        "date": "2014-12-31",
+        "value": 34.5,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "2015-12-31",
+        "value": 34.2,
+        "change": -0.3,
+        "changePercent": -0.87
+      },
+      {
+        "date": "2016-12-31",
+        "value": 34.3,
+        "change": 0.1,
+        "changePercent": 0.29
+      },
+      {
+        "date": "2017-12-31",
+        "value": 33.4,
+        "change": -0.9,
+        "changePercent": -2.66
+      },
+      {
+        "date": "2018-12-31",
+        "value": 32.3,
+        "change": -1.1,
+        "changePercent": -3.35
+      },
+      {
+        "date": "2019-12-31",
+        "value": 31,
+        "change": -1.3,
+        "changePercent": -4.11
+      },
+      {
+        "date": "2020-12-31",
+        "value": 31.4,
+        "change": 0.4,
+        "changePercent": 1.28
+      },
+      {
+        "date": "2021-12-31",
+        "value": 32.4,
+        "change": 1,
+        "changePercent": 3.13
+      },
+      {
+        "date": "2022-12-31",
+        "value": 31.4,
+        "change": -1,
+        "changePercent": -3.13
+      },
+      {
+        "date": "2023-12-31",
+        "value": 31.8,
+        "change": 0.4,
+        "changePercent": 1.27
+      }
+    ]
+  },
+  {
+    "id": "gini-coefficient-hu-country",
+    "knowledgeId": "gini-coefficient",
+    "name": "Коефициент на Джини - Унгария",
+    "sources": [
+      {
+        "name": "Gini coefficient of equivalised disposable income",
+        "url": [
+          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
+        ]
+      }
+    ],
+    "unit": "percent",
+    "data": [
+      {
+        "date": "2014-12-31",
+        "value": 28.6,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "2015-12-31",
+        "value": 28.2,
+        "change": -0.4,
+        "changePercent": -1.41
+      },
+      {
+        "date": "2016-12-31",
+        "value": 28.2,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "2017-12-31",
+        "value": 28.1,
+        "change": -0.1,
+        "changePercent": -0.36
+      },
+      {
+        "date": "2018-12-31",
+        "value": 28.7,
+        "change": 0.6,
+        "changePercent": 2.11
+      },
+      {
+        "date": "2019-12-31",
+        "value": 28,
+        "change": -0.7,
+        "changePercent": -2.47
+      },
+      {
+        "date": "2020-12-31",
+        "value": 28,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "2021-12-31",
+        "value": 27.6,
+        "change": -0.4,
+        "changePercent": -1.44
+      },
+      {
+        "date": "2022-12-31",
+        "value": 27.4,
+        "change": -0.2,
+        "changePercent": -0.73
+      },
+      {
+        "date": "2023-12-31",
+        "value": 29,
+        "change": 1.6,
+        "changePercent": 5.67
+      }
+    ]
+  },
+  {
+    "id": "gini-coefficient-de-country",
+    "knowledgeId": "gini-coefficient",
+    "name": "Коефициент на Джини - Германия",
+    "sources": [
+      {
+        "name": "Gini coefficient of equivalised disposable income",
+        "url": [
+          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
+        ]
+      }
+    ],
+    "unit": "percent",
+    "data": [
+      {
+        "date": "2014-12-31",
+        "value": 30.7,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "2015-12-31",
+        "value": 30.1,
+        "change": -0.6,
+        "changePercent": -1.97
+      },
+      {
+        "date": "2016-12-31",
+        "value": 29.5,
+        "change": -0.6,
+        "changePercent": -2.01
+      },
+      {
+        "date": "2017-12-31",
+        "value": 29.1,
+        "change": -0.4,
+        "changePercent": -1.37
+      },
+      {
+        "date": "2018-12-31",
+        "value": 31.1,
+        "change": 2,
+        "changePercent": 6.64
+      },
+      {
+        "date": "2019-12-31",
+        "value": 29.7,
+        "change": -1.4,
+        "changePercent": -4.61
+      },
+      {
+        "date": "2020-12-31",
+        "value": 30.5,
+        "change": 0.8,
+        "changePercent": 2.66
+      },
+      {
+        "date": "2021-12-31",
+        "value": 31.2,
+        "change": 0.7,
+        "changePercent": 2.27
+      },
+      {
+        "date": "2022-12-31",
+        "value": 29,
+        "change": -2.2,
+        "changePercent": -7.31
+      },
+      {
+        "date": "2023-12-31",
+        "value": 29.4,
+        "change": 0.4,
+        "changePercent": 1.37
+      },
+      {
+        "date": "2024-12-31",
+        "value": 29.9,
+        "change": 0.5,
+        "changePercent": 1.69
+      }
+    ]
+  }
+]

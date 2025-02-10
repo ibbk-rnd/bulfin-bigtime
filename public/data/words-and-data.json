@@ -1,0 +1,188 @@
+[
+  {
+    "id": "jTYIh",
+    "name": "Теменужка Петкова: Дефицитът, който се очаква в края на 2022 г., е -5.4% от БВП, а прогнозата за 2023 г. е -6.6% от БВП.",
+    "sources": [
+      {
+        "name": "Теменужка Петкова: Дефицитът, който се очаква в края на 2022 г., е -5.4% от БВП, а прогнозата за 2023 г. е -6.6% от БВП.",
+        "url": ["https://www.youtube.com/watch?v=ef-jTYIh_0M&t=170s"],
+        "date": "2022-10-25"
+      }
+    ],
+    "unit": "percent",
+    "meta": {
+      "relatedCharts": ["government-deficit-and-surplus-gdp"],
+      "style": {
+        "lineStyle": {
+          "color": "#000",
+          "type": "dotted"
+        },
+        "itemStyle": {
+          "color": "#000"
+        }
+      }
+    },
+    "data": [
+      {
+        "date": "2021-12-31",
+        "value": -3.9
+      },
+      {
+        "date": "2022-12-31",
+        "value": -5.4
+      },
+      {
+        "date": "2023-12-31",
+        "value": -6.6
+      }
+    ]
+  },
+  {
+    "id": "KjFK3vY1tWI-263s",
+    "name": "Тошко Йорданов: От 1997 до 2021 година бюджетът на държавата е завършвал на излишък.",
+    "sources": [
+      {
+        "name": "Тошко Йорданов: От 1997 до 2021 година бюджетът на държавата е завършвал на излишък.",
+        "url": ["https://www.youtube.com/watch?v=KjFK3vY1tWI&t=263s"],
+        "date": "2025-02-07"
+      }
+    ],
+    "unit": "BGN",
+    "meta": {
+      "relatedCharts": ["government-deficit-and-surplus-bgn"],
+      "style": {
+        "lineStyle": {
+          "color": "#000",
+          "type": "dashed"
+        },
+        "itemStyle": {
+          "color": "#000"
+        }
+      }
+    },
+    "data": [
+      {
+        "date": "1997-12-31",
+        "value": 288000000,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "1998-12-31",
+        "value": 356000000,
+        "change": 68000000,
+        "changePercent": 21.12
+      },
+      {
+        "date": "1999-12-31",
+        "value": 38000000,
+        "change": -318000000,
+        "changePercent": -161.42
+      },
+      {
+        "date": "2000-12-31",
+        "value": 30000000,
+        "change": -8000000,
+        "changePercent": -23.53
+      },
+      {
+        "date": "2001-12-31",
+        "value": 210000000,
+        "change": 180000000,
+        "changePercent": 150
+      },
+      {
+        "date": "2004-12-31",
+        "value": 736000000,
+        "change": 750000000,
+        "changePercent": 200
+      },
+      {
+        "date": "2005-12-31",
+        "value": 757000000,
+        "change": 21000000,
+        "changePercent": 2.81
+      },
+      {
+        "date": "2006-12-31",
+        "value": 1430000000,
+        "change": 673000000,
+        "changePercent": 61.55
+      },
+      {
+        "date": "2008-12-31",
+        "value": 1034000000,
+        "change": 1041000000,
+        "changePercent": 200
+      },
+      {
+        "date": "2016-12-31",
+        "value": 303000000,
+        "change": 1968000000,
+        "changePercent": 200
+      },
+      {
+        "date": "2017-12-31",
+        "value": 1668000000,
+        "change": 1365000000,
+        "changePercent": 138.51
+      },
+      {
+        "date": "2018-12-31",
+        "value": 1898000000,
+        "change": 230000000,
+        "changePercent": 12.9
+      },
+      {
+        "date": "2019-12-31",
+        "value": 2580000000,
+        "change": 682000000,
+        "changePercent": 30.46
+      },
+      {
+        "date": "2020-12-31",
+        "value": 2580000000,
+        "change": -7170000000,
+        "changePercent": -200
+      }
+    ]
+  },
+  {
+    "id": "KjFK3vY1tWI-265s",
+    "name": "Тошко Йорданов: До 2021 година бюджетът на държавата е завършвал на излишък. С появата на Асен Василев тенденцията е тотално обърната.",
+    "sources": [
+      {
+        "name": "Тошко Йорданов: До 2021 година бюджетът на държавата е завършвал на излишък. С появата на Асен Василев тенденцията е тотално обърната.",
+        "url": ["https://www.youtube.com/watch?v=KjFK3vY1tWI&t=265s"],
+        "date": "2025-02-07"
+      }
+    ],
+    "unit": "BGN",
+    "meta": {
+      "relatedCharts": ["government-deficit-and-surplus-bgn"],
+      "style": {
+        "lineStyle": {
+          "color": "#000",
+          "type": "dashed"
+        },
+        "itemStyle": {
+          "color": "#000"
+        }
+      }
+    },
+    "data": [
+      {
+        "date": "2019-12-31",
+        "value": 2580000000
+      },
+      {
+        "date": "2020-12-31",
+        "value": 2580000000
+      },
+      {
+        "date": "2021-12-31",
+        "value": -5474000000
+      }
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "id": "government-deficit-and-surplus-gdp",
+  "knowledgeId": "government-deficit-and-surplus",
+  "name": "Държавен дефицит/излишък като процент от БВП",
+  "description": "Държавен дефицит/излишък като процент от брутния вътрешен продукт (БВП)",
+  "sources": [
+    {
+      "name": "Скрийншот (НСИ, проценти)",
+      "url": [
+        "/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"
+      ]
+    },
+    {
+      "name": "Общ държавен дефицит и излишък (НСИ, проценти)",
+      "url": [
+        "https://www.nsi.bg/bg/content/11478/%D0%BE%D0%B1%D1%89-%D0%B4%D1%8A%D1%80%D0%B6%D0%B0%D0%B2%D0%B5%D0%BD-%D0%B4%D0%B5%D1%84%D0%B8%D1%86%D0%B8%D1%82-%D0%B8-%D0%B8%D0%B7%D0%BB%D0%B8%D1%88%D1%8A%D0%BA"
+      ]
+    },
+    {
+      "name": "Government deficit/surplus, debt and associated data (Евростат, проценти)",
+      "url": [
+        "https://ec.europa.eu/eurostat/databrowser/bookmark/404d218c-afc3-4215-a310-f295d847695c?lang=en"
+      ]
+    },
+    {
+      "name": "Текст (НСИ, проценти)",
+      "url": [
+        "/data/government-deficit-and-surplus/raw/gdp.txt"
+      ]
+    }
+  ],
+  "unit": "percent",
+  "data": [
+    {
+      "date": "2012-12-31",
+      "value": -0.8,
+      "change": 0,
+      "changePercent": 0
+    },
+    {
+      "date": "2013-12-31",
+      "value": -0.7,
+      "change": 0.1,
+      "changePercent": 13.33
+    },
+    {
+      "date": "2014-12-31",
+      "value": -5.4,
+      "change": -4.7,
+      "changePercent": -154.1
+    },
+    {
+      "date": "2015-12-31",
+      "value": -1.9,
+      "change": 3.5,
+      "changePercent": 95.89
+    },
+    {
+      "date": "2016-12-31",
+      "value": 0.3,
+      "change": 2.2,
+      "changePercent": 200
+    },
+    {
+      "date": "2017-12-31",
+      "value": 1.6,
+      "change": 1.3,
+      "changePercent": 136.84
+    },
+    {
+      "date": "2018-12-31",
+      "value": 1.7,
+      "change": 0.1,
+      "changePercent": 6.06
+    },
+    {
+      "date": "2019-12-31",
+      "value": 2.2,
+      "change": 0.5,
+      "changePercent": 25.64
+    },
+    {
+      "date": "2020-12-31",
+      "value": -3.8,
+      "change": -6,
+      "changePercent": -200
+    },
+    {
+      "date": "2021-12-31",
+      "value": -3.9,
+      "change": -0.1,
+      "changePercent": -2.6
+    },
+    {
+      "date": "2022-12-31",
+      "value": -2.9,
+      "change": 1,
+      "changePercent": 29.41
+    },
+    {
+      "date": "2023-12-31",
+      "value": -2,
+      "change": 0.9,
+      "changePercent": 36.73
+    }
+  ]
+}

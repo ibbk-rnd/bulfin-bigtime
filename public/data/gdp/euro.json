@@ -1,0 +1,82 @@
+{
+  "id": "gdp-bgn",
+  "name": "БВП",
+  "description": "Брутен вътрешен продукт",
+  "sources": [
+    {
+      "name": "БВП",
+      "url": [
+        "https://www.nsi.bg/bg/content/11474/%D0%B1%D1%80%D1%83%D1%82%D0%B5%D0%BD-%D0%B2%D1%8A%D1%82%D1%80%D0%B5%D1%88%D0%B5%D0%BD-%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82-%D0%BF%D0%BE-%D0%BF%D0%B0%D0%B7%D0%B0%D1%80%D0%BD%D0%B8-%D1%86%D0%B5%D0%BD%D0%B8"
+      ]
+    }
+  ],
+  "unit": "EUR",
+  "data": [
+    {
+      "date": "2013-12-31",
+      "value": 42056200000,
+      "change": 0,
+      "changePercent": 0
+    },
+    {
+      "date": "2014-12-31",
+      "value": 43024700000,
+      "change": 968500000,
+      "changePercent": 2.3
+    },
+    {
+      "date": "2015-12-31",
+      "value": 45797800000,
+      "change": 2773100000,
+      "changePercent": 6.45
+    },
+    {
+      "date": "2016-12-31",
+      "value": 48752100000,
+      "change": 2954300000,
+      "changePercent": 6.45
+    },
+    {
+      "date": "2017-12-31",
+      "value": 52501800000,
+      "change": 3749700000,
+      "changePercent": 7.69
+    },
+    {
+      "date": "2018-12-31",
+      "value": 56131300000,
+      "change": 3629500000,
+      "changePercent": 6.91
+    },
+    {
+      "date": "2019-12-31",
+      "value": 61308200000,
+      "change": 5176900000,
+      "changePercent": 9.22
+    },
+    {
+      "date": "2020-12-31",
+      "value": 61912500000,
+      "change": 604300000,
+      "changePercent": 0.99
+    },
+    {
+      "date": "2021-12-31",
+      "value": 71378400000,
+      "change": 9465900000,
+      "changePercent": 15.29
+    },
+    {
+      "date": "2022-12-31",
+      "value": 86082400000,
+      "change": 14704000000,
+      "changePercent": 20.6
+    },
+    {
+      "date": "2023-12-31",
+      "value": 94709300000,
+      "change": 8626900000,
+      "changePercent": 10.02
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "government-deficit-and-surplus-bgn",
+  "knowledgeId": "government-deficit-and-surplus",
+  "name": "Държавен дефицит/излишък",
+  "sources": [
+    {
+      "name": "Общ държавен дефицит и излишък (Инфостат, лева)",
+      "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=699"]
+    },
+    {
+      "name": "Скрийншот (Инфостат, лева)",
+      "url": ["/data/government-deficit-and-surplus/raw/bgn_screenshot.png"]
+    },
+    {
+      "name": "CSV (Инфостат, лева)",
+      "url": ["/data/government-deficit-and-surplus/raw/bgn.csv"]
+    },
+    {
+      "name": "xlsx (Инфостат, лева)",
+      "url": ["/data/government-deficit-and-surplus/raw/bgn.xlsx"]
+    },
+    {
+      "name": "Общ държавен дефицит и излишък (НСИ, евро)",
+      "url": [
+        "https://www.nsi.bg/bg/content/11478/%D0%BE%D0%B1%D1%89-%D0%B4%D1%8A%D1%80%D0%B6%D0%B0%D0%B2%D0%B5%D0%BD-%D0%B4%D0%B5%D1%84%D0%B8%D1%86%D0%B8%D1%82-%D0%B8-%D0%B8%D0%B7%D0%BB%D0%B8%D1%88%D1%8A%D0%BA"
+      ]
+    },
+    {
+      "name": "Government deficit/surplus, debt and associated data (Евростат, евро)",
+      "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/b29dcc90-583f-4f5f-9065-d40f79ddfc33?lang=en"]
+    }
+  ],
+  "unit": "BGN",
+  "magnitude": 1000000,
+  "data": [
+    { "year": 1997, "value": 288 },
+    { "year": 1998, "value": 356 },
+    { "year": 1999, "value": 38 },
+    { "year": 2000, "value": 30 },
+    { "year": 2001, "value": 210 },
+    { "year": 2002, "value": -361 },
+    { "year": 2003, "value": -14 },
+    { "year": 2004, "value": 736 },
+    { "year": 2005, "value": 757 },
+    { "year": 2006, "value": 1430 },
+    { "year": 2007, "value": -7 },
+    { "year": 2008, "value": 1034 },
+    { "year": 2009, "value": -3249 },
+    { "year": 2010, "value": -2744 },
+    { "year": 2011, "value": -1417 },
+    { "year": 2012, "value": -666 },
+    { "year": 2013, "value": -598 },
+    { "year": 2014, "value": -4528 },
+    { "year": 2015, "value": -1665 },
+    { "year": 2016, "value": 303 },
+    { "year": 2017, "value": 1668 },
+    { "year": 2018, "value": 1898 },
+    { "year": 2019, "value": 2580 },
+    { "year": 2020, "value": -4590 },
+    { "year": 2021, "value": -5474 },
+    { "year": 2022, "value": -4856 },
+    { "year": 2023, "value": -3709 }
+  ]
+}

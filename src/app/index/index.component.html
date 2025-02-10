@@ -1,0 +1,143 @@
+<div class="container" *ngIf="chartInstance">
+  <div class="card mb-3">
+    <div class="card-body p-2">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <div class="btn-group me-3" role="group">
+              <a class="btn  btn-sm" href="/" ngbTooltip="Презареди"><i-feather name="refresh-cw" ></i-feather></a>
+              <button (click)="saveAsImage(chartInstance)" class="btn btn-sm" ngbTooltip="Запази като снимка"><i-feather name="download" ></i-feather></button>
+              <button class="btn  btn-sm" (click)="legendAllUnSelect(chartInstance)" ngbTooltip="Скрии всичко"><i-feather name="eye-off" ></i-feather></button>
+            </div>
+            <div class="btn-group me-3" role="group">
+              <input [(ngModel)]="switches['covid']" (change)="onChangePreset()" type="checkbox" class="btn-check" id="sw-covid"  >
+              <label class="btn btn-outline-secondary btn-sm" for="sw-covid">COVID</label>
+              <input [(ngModel)]="switches['war-russia-ukraine']" (change)="onChangePreset()" type="checkbox" class="btn-check" id="sw-war-russia-ukraine"  >
+              <label class="btn btn-outline-secondary btn-sm" for="sw-war-russia-ukraine">Войната в Украйна</label>
+              <input [(ngModel)]="switches['debt-events']" (change)="onChangePreset()" type="checkbox" class="btn-check" id="sw-debt-events"  >
+              <label class="btn btn-outline-secondary btn-sm" for="sw-debt-events">Поемане на дълг</label>
+              <input [(ngModel)]="switches['parliament-elections']" (change)="onChangePreset()" type="checkbox" class="btn-check" id="sw-parliament-elections"  >
+              <label class="btn btn-outline-secondary btn-sm" for="sw-parliament-elections">Парламентарни избори</label>
+              <input [(ngModel)]="switches['other-events']" (change)="onChangePreset()" type="checkbox" class="btn-check" id="sw-other-events"  >
+              <label class="btn btn-outline-secondary btn-sm" for="sw-other-events">Други</label>
+            </div>
+            <div>
+              <button class="btn btn-sm text-primary" (click)="onToggleGroupDeficitAndSurplus(); save()">Дефицит/излишък</button>
+              <button class="btn btn-sm text-primary" (click)="onToggleGroupDebt(); save()">Дълг</button>
+            </div>
+          </div>
+          <div>
+            <div class="btn-group me-3" role="group">
+              <input type="radio" class="btn-check" name="multi" value="1000000000" id="magnitude-1000000000" [(ngModel)]="convert.magnitude" (change)="convertChart()">
+              <label class="btn btn-outline-secondary btn-sm" for="magnitude-1000000000">млрд</label>
+              <input type="radio" class="btn-check" name="multi" value="1000000" id="magnitude-1000000" [(ngModel)]="convert.magnitude" (change)="convertChart()">
+              <label class="btn btn-outline-secondary btn-sm" for="magnitude-1000000">млн</label>
+              <input type="radio" class="btn-check" name="multi" value="1" id="magnitude-1" [(ngModel)]="convert.magnitude" (change)="convertChart()">
+              <label class="btn btn-outline-secondary btn-sm" for="magnitude-1">единици</label>
+            </div>
+            <div class="btn-group" role="group">
+              <input type="radio" class="btn-check" name="currency" value="EUR" id="btn-currency-eur" [(ngModel)]="convert.currency" (change)="convertChart()">
+              <label class="btn btn-outline-secondary btn-sm" for="btn-currency-eur">евро</label>
+              <input type="radio" class="btn-check" name="currency" value="BGN" id="btn-currency-bgn" [(ngModel)]="convert.currency" (change)="convertChart()">
+              <label class="btn btn-outline-secondary btn-sm" for="btn-currency-bgn">лева</label>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-between">
+    <div>
+      <button type="button" class="btn text-primary btn-sm" (click)="toggleRealityCheck()">Думи и данни</button>
+    </div>
+    <div class="d-flex justify-content-end mb-3">
+      <div class="form-check form-switch me-3">
+        <input class="form-check-input" [(ngModel)]="switches['labels']" (change)="toggleLabels()" type="checkbox" role="switch" id="sw-labels">
+        <label class="form-check-label" for="sw-labels">Покажи числата</label>
+      </div>
+      <div class="form-check form-switch ">
+        <input class="form-check-input" [(ngModel)]="switches['neighbors']" (change)="toggleNeighbors()" type="checkbox" role="switch" id="sw-neighbors">
+        <label class="form-check-label" for="sw-neighbors">Съседи и ЕС</label>
+      </div>
+    </div>
+  </div>
+  <div #collapse="ngbCollapse" [(ngbCollapse)]="isRealityCheckPanelCollapsed">
+    <div class="card mb-3">
+      <div class="card-body p-2">
+        @for (item of data.wordsAndData; track item) {
+          <div class="form-check form-switch ">
+            <input class="form-check-input" [(ngModel)]="realityCheck[item['id']]" (change)="talk(item['id'])" type="checkbox" role="switch" [id]="'rc' + item['id']">
+            <label class="form-check-label" [for]="'rc' + item['id']">{{ item['name'] }} (<a [href]="item['sources'][0]['url']" class="text-decoration-none" target="_blank">източник</a>)</label>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div
+       echarts
+       [options]="chart"
+       (chartInit)="onChartInit($event);"
+       (chartClick)="onChartClick($event)"
+       (chartLegendSelectChanged)="save()"
+       style="height: 70vh">
+  </div>
+</div>
+
+<div class="container mb-5" *ngIf="content && content.sources">
+  <div class="row mb-4">
+    <div class="col-10 offset-1 pt-4">
+      <h4 class="mb-1">{{ content.name }}</h4>
+
+      @if(content.from) {
+        <p class="h5">{{ content.from|humanDate }} - {{ content.to ? (content.to|humanDate) : 'днес' }} ({{ humanDateDiff(content.from, content.to) }})</p>
+      } @else if (content.date && content.value === undefined) {
+        <p class="h5">{{ content.date|humanDate }}</p>
+      }
+
+      @if(content.value) {
+        <span class="h5">{{ humanValue(content.value, content.unit, content.magnitude) }} / {{ content.date|humanDate }}</span>
+      }
+
+      <p>{{ content.description }}</p>
+
+      <div class="card">
+        <div class="card-body">
+          <table class="table table-sm mb-0">
+            <tbody>
+              @for (item of content.sources; track item; let  i = $index) {
+                <tr>
+                  <td style="width: 1%">{{ i + 1 }}.</td>
+                  <td>
+                    <a href="{{ item.url[0] }}" target="_blank" class="text-decoration-none">{{ item.name }}</a>
+                    @if(item.url.length > 1) {
+                      <div class="ms-2 d-inline">[
+                        @for (url of item.url; track url; let  i = $index; let last = $last) {
+                          @if(i > 0){
+                            <a href="{{ url }}" target="_blank" class="text-decoration-none">{{ i }}</a>@if(!last) {, }
+                          }
+                        }
+                        ]</div>
+                    }
+                  </td>
+                  <td class="text-end text-nowrap">{{ item.date|humanDate }}</td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  @for (item of knowledgeItems; track item) {
+    <div class="row mb-2">
+      <div class="col-10 offset-1">
+        <h4>{{item.title}}</h4>
+        <div class="markdown" [innerHTML]="toMarkdown(item.content)"></div>
+      </div>
+    </div>
+  }
+</div>
+
+<div class="container text-muted small mt-3 text-center">Тази графика показва публични данни, взети от <a href="https://www.nsi.bg/bg/content/766/%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8" class="text-decoration-none" target="_blank">НСИ</a>, <a href="https://infostat.nsi.bg/infostat/pages/module.jsf?x_2=1" class="text-decoration-none" target="_blank">Инфостат</a>, <a href="https://www.bnb.bg/Statistics/index.htm" class="text-decoration-none" target="_blank">БНБ</a>, <a href="https://ec.europa.eu/eurostat/web/main/data" class="text-decoration-none" target="_blank">Евростат</a> и други публични източници. Натиснете върху точка от графиката, за да научите повече за източниците. Конвертирането на евро в левове и обратно се извършва по фиксирания <a href="https://www.bnb.bg/Statistics/StExternalSector/StExchangeRates/StERFixed/index.htm" class="text-decoration-none" target="_blank">курс на БНБ</a>. Ако забележите неточности, моля, прочетете <a routerLink="/about" queryParamsHandling="preserve" class="text-decoration-none">тук</a>.</div>

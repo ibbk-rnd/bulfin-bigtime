@@ -1,0 +1,303 @@
+[
+  {
+    "id": "bulgaria-in-eu",
+    "meta": {
+      "style": {
+        "lineStyle": {
+          "color": "#0000FF",
+          "type": "solid",
+          "width": 2
+        }
+      }
+    },
+    "items": [
+      {
+        "name": "Присъединяване на България към Европейския съюз",
+        "date": "2007-01-01",
+        "sources": [
+          {
+            "name": "Присъединяване на България към ЕС",
+            "url": [
+              "https://bg.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D1%81%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5_%D0%BD%D0%B0_%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F_%D0%BA%D1%8A%D0%BC_%D0%95%D0%A1"
+            ]
+          },
+          {
+            "name": "Договор за присъединяване на България и Румъния към ЕС",
+            "url": [
+              "https://bg.wikipedia.org/wiki/%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80_%D0%B7%D0%B0_%D0%BF%D1%80%D0%B8%D1%81%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5_%D0%BD%D0%B0_%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F_%D0%B8_%D0%A0%D1%83%D0%BC%D1%8A%D0%BD%D0%B8%D1%8F_%D0%BA%D1%8A%D0%BC_%D0%95%D0%A1"
+            ]
+          },
+          {
+            "name": "Задължения на България към ЕС",
+            "url": ["https://www.minfin.bg/bg/157"]
+          },
+          {
+            "name": "България — профил на държава от ЕС",
+            "url": ["https://european-union.europa.eu/principles-countries-history/eu-countries/bulgaria_bg"]
+          },
+          {
+            "name": "Присъединяването на България към Европейския съюз: ролята на политическите партии",
+            "url": ["https://csd.eu/bg/publications/publication/the-role-of-political-parties-in-bulgarias-accession-to-the-eu/"],
+            "date": "1999-05-01"
+          },
+          {
+            "name": "Подготовка за преговори за членство на България в Европейския съюз",
+            "url": ["https://csd.eu/bg/publications/publication/preparing-for-eu-accession-negotiations/"],
+            "date": "1999-04-01"
+          },
+          {
+            "name": "Подписване на договора за присъединяване на България и Румъния към ЕС",
+            "url": [
+              "https://www.facebook.com/ECinBulgaria/videos/%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B0-%D0%B7%D0%B0-%D0%BF%D1%80%D0%B8%D1%81%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F-%D0%B8-%D1%80%D1%83%D0%BC%D1%8A%D0%BD%D0%B8%D1%8F-%D0%BA%D1%8A%D0%BC-%D0%B5%D1%81/935244364053170/"
+            ],
+            "date": "2005-04-13"
+          },
+          {
+            "name": "ЕС на 60. Присъединяването на България и Румъния",
+            "url": ["https://bnt.bg/bg/a/es-na-60-prisaedinyavane-na-balgariya-i-rumaniya"],
+            "date": "2017-03-23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "debt-events",
+    "meta": {
+      "style": {
+        "lineStyle": {
+          "color": "#990000",
+          "type": "solid",
+          "width": 2
+        }
+      }
+    },
+    "items": [
+      {
+        "name": "България пое рекорден дълг от 8.5 млрд. лв.",
+        "date": "2024-08-29",
+        "sources": [
+          {
+            "name": "България пое рекорден дълг от 8.5 млрд. лв.",
+            "date": "2024-08-29",
+            "url": [
+              "https://www.mediapool.bg/bulgaria-poe-rekorden-dalg-ot-85-mlrd-lv-news362582.html",
+              "https://www.economic.bg/bg/a/view/bylgarija-vze-blizo-8-5-mlrd-lv-zaem-ot-mejdunarodnite-pazari",
+              "https://www.bloombergtv.bg/a/17-v-razvitie/134413-balgariya-emitira-rekorden-vanshen-dalg-pri-ogromen-interes-i-oshte-poveche-vaprosi",
+              "https://www.capital.bg/politika_i_ikonomika/ikonomika/2024/08/28/4668811_bulgariia_dnes_plasira_rekorden_za_stranata_kato_obem/"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "other-events",
+    "meta": {
+      "style": {
+        "lineStyle": {
+          "color": "#660000",
+          "type": "solid",
+          "width": 2
+        }
+      }
+    },
+    "items": [
+      {
+        "name": "Фалит на КТБ",
+        "date": "2014-11-06",
+        "sources": [
+          {
+            "name": "Съдът: Корпоративна банка е във фалит от 6 ноември (обзор)",
+            "date": "2015-04-22",
+            "url": ["https://trud.bg/a/articles/article-4727678"]
+          }
+        ]
+      },
+      {
+        "name": "Слави Трифонов напуска коалицията заради Македния и защото в държавата няма пари",
+        "date": "2022-06-08",
+        "sources": [
+          {
+            "name": "\"Слагам край на тази коалиция\": Изявлението на Слави Трифонов",
+            "date": "2022-06-08",
+            "url": ["https://www.youtube.com/watch?v=53FfBPIugfA&t=32s"]
+          },
+          {
+            "name": "Извънредно издание на \"Седмицата\" - Слави Трифонов пред Константин Вълков",
+            "date": "2022-06-12",
+            "url": ["https://www.youtube.com/watch?v=Rpdz_TFD1mI"]
+          }
+        ]
+      },
+      {
+        "name": "Заседание на бюджетната комисия за бюджет 2023",
+        "date": "2023-07-25",
+        "sources": [
+          {
+            "name": "Заседание на бюджетната комисия за бюджет 2023",
+            "date": "2023-07-25",
+            "url": ["https://www.youtube.com/watch?v=vOjkzyDy5Mc"]
+          },
+          {
+            "name": "В последните два часа от заседанието ГЕРБ, ИТН и \"Възраждане\" отхвърлиха редица мерки за събираемостта на приходите, докато в предходните девет часа парламентарните групи дружно раздуваха разходите, увеличаваха заплати и щедро раздаваха помощи и субсидии.",
+            "date": "2023-07-25",
+            "url": ["https://offnews.bg/ikonomika/gerb-itn-i-vazrazhdane-osakatiha-biudzheta-asen-vasilev-se-otreche-o-805513.html"]
+          },
+          {
+            "name": "След 10 часа и половина заседание комисията по бюджет и финанси прие на второ четене бюджета за 2023 г. Повечето от предложените от Асен Василев мерки за събираемост бьха отхвърлени от ГЕРБ, ДПС, \"Възраждане\", БСП и \"Има такъв народ\".",
+            "date": "2023-07-25",
+            "url": ["https://m.dnevnik.bg/bulgaria/2023/07/25/4511260_video_na_jivo_razglejdane_na_bjudjeta_za_2023_g_na/"]
+          },
+          {
+            "name": "Поради отпадналите мерки за събираемост, Министерството на финансите не подкрепя бюджета в този му вид, заяви финансовият министър Асен Василев в края на заседанието на комисията тази сутрин.",
+            "date": "2023-07-25",
+            "url": [
+              "https://informiran.net/index.php/tehnologii/venko-sabrutev-vchera-na-byudzhetna-komisiya-se-sluchi-palna-ludost-ot-gerb-tryabva-da-dadat-obyasnenie",
+              "https://www.24chasa.bg/bulgaria/article/14985594"
+            ]
+          },
+          {
+            "name": "Венко Сабрутев: Вчера на бюджетна комисия се случи пълна лудост | \"Лице в лице\" (26.07.2023) | БТВ",
+            "date": "2023-07-26",
+            "url": ["https://www.youtube.com/watch?v=7lnMUiZeNlo"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "parliament-elections",
+    "meta": {
+      "style": {
+        "lineStyle": {
+          "color": "#000000",
+          "type": "solid",
+          "width": 1
+        }
+      }
+    },
+    "items": [
+      {
+        "name": "Парламентарни избори за 40 НС",
+        "date": "2005-07-05",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 40 Народно събрание",
+            "url": ["https://pi2009.cik.bg/results/proportional/index.html"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 41 НС",
+        "date": "2009-07-05",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 41 Народно събрание",
+            "url": ["https://pi2009.cik.bg/results/proportional/index.html"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 42 НС",
+        "date": "2013-05-12",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 42 Народно събрание",
+            "url": ["https://results.cik.bg/pi2013/rezultati/"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 43 НС",
+        "date": "2014-10-05",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 43 Народно събрание",
+            "url": ["https://results.cik.bg/pi2014/rezultati/"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 44 НС",
+        "date": "2017-03-26",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 44 Народно събрание",
+            "url": ["https://results.cik.bg/pi2017/rezultati/index.html"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 45 НС",
+        "date": "2021-04-04",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 45 Народно събрание",
+            "url": ["https://results.cik.bg/pi2021/rezultati/index.html"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 46 НС",
+        "date": "2021-07-11",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 46 Народно събрание",
+            "url": ["https://results.cik.bg/pi2021_07/rezultati/index.html"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 47 НС",
+        "date": "2021-11-14",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 47 Народно събрание",
+            "url": ["https://results.cik.bg/pvrns2021/tur1/rezultati/index.html"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 48 НС",
+        "date": "2022-10-02",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 48 Народно събрание",
+            "url": ["https://results.cik.bg/ns2022/rezultati/index.html"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 49 НС",
+        "date": "2023-04-02",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 49 Народно събрание",
+            "url": ["https://results.cik.bg/ns2023/rezultati/index.html"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 50 НС",
+        "date": "2024-06-09",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 50 Народно събрание",
+            "url": ["https://results.cik.bg/europe2024/rezultati/index.html"]
+          }
+        ]
+      },
+      {
+        "name": "Парламентарни избори за 51 НС",
+        "date": "2024-10-27",
+        "sources": [
+          {
+            "name": "Парламентарни избори за 51 Народно събрание",
+            "url": ["https://results.cik.bg/pe202410/rezultati/index.html"]
+          }
+        ]
+      }
+    ]
+  }
+]

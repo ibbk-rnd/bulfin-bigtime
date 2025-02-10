@@ -1,0 +1,55 @@
+{
+  "id": "gross-national-debt-gdp",
+  "knowledgeId": "gross-national-debt",
+  "name": "Брутен държавен дълг като процент от БВП",
+  "description": "Брутен държавен дълг като процент от брутния вътрешен продукт (БВП)",
+  "sources": [
+    {
+      "name": "Брутен държавен дълг в милиони евро (НСИ, евро)",
+      "url": [
+        "https://www.nsi.bg/bg/content/11476/%D0%B1%D1%80%D1%83%D1%82%D0%B5%D0%BD-%D0%B4%D1%8A%D1%80%D0%B6%D0%B0%D0%B2%D0%B5%D0%BD-%D0%B4%D1%8A%D0%BB%D0%B3"
+      ]
+    },
+    {
+      "name": "Брутен държавен дълг в милиони евро (уеб архив НСИ, евро)",
+      "url": [
+        "https://web.archive.org/web/20250130144746/https://www.nsi.bg/bg/content/11476/%D0%B1%D1%80%D1%83%D1%82%D0%B5%D0%BD-%D0%B4%D1%8A%D1%80%D0%B6%D0%B0%D0%B2%D0%B5%D0%BD-%D0%B4%D1%8A%D0%BB%D0%B3"
+      ]
+    },
+    {
+      "name": "Скрийншот (НСИ, евро)",
+      "url": ["/data/gross-national-debt/raw/screenshot.png"]
+    },
+    {
+      "name": "Текст (НСИ, евро)",
+      "url": ["/data/gross-national-debt/raw/gdp.txt"]
+    }
+  ],
+  "unit": "percent",
+  "data": [
+    { "year": 2000, "value": 70.7 },
+    { "year": 2001, "value": 64.5 },
+    { "year": 2002, "value": 51.0 },
+    { "year": 2003, "value": 43.4 },
+    { "year": 2004, "value": 35.7 },
+    { "year": 2005, "value": 26.6 },
+    { "year": 2006, "value": 20.9 },
+    { "year": 2007, "value": 16.3 },
+    { "year": 2008, "value": 13.0 },
+    { "year": 2009, "value": 13.7 },
+    { "year": 2010, "value": 15.3 },
+    { "year": 2011, "value": 15.2 },
+    { "year": 2012, "value": 16.6 },
+    { "year": 2013, "value": 17.0 },
+    { "year": 2014, "value": 27.0 },
+    { "year": 2015, "value": 25.9 },
+    { "year": 2016, "value": 29.1 },
+    { "year": 2017, "value": 25.1 },
+    { "year": 2018, "value": 22.1 },
+    { "year": 2019, "value": 20.1 },
+    { "year": 2020, "value": 24.4 },
+    { "year": 2021, "value": 23.8 },
+    { "year": 2022, "value": 22.5 },
+    { "year": 2023, "value": 22.9 }
+  ]
+}
