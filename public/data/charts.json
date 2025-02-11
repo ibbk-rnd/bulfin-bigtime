@@ -7,27 +7,19 @@
     "sources": [
       {
         "name": "Скрийншот (Инфостат, лева)",
-        "url": [
-          "/data/gdp/raw/bgn.png"
-        ]
+        "url": ["/data/gdp/raw/bgn.png"]
       },
       {
         "name": "CSV (Инфостат, лева)",
-        "url": [
-          "/data/gdp/raw/bgn.csv"
-        ]
+        "url": ["/data/gdp/raw/bgn.csv"]
       },
       {
         "name": "xlsx (Инфостат, лева)",
-        "url": [
-          "/data/gdp/raw/bgn.xlsx"
-        ]
+        "url": ["/data/gdp/raw/bgn.xlsx"]
       },
       {
         "name": "БВП - ПРОИЗВОДСТВЕН МЕТОД - НАЦИОНАЛНО НИВО (Инфостат, лева)",
-        "url": [
-          "https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=1169"
-        ],
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=1169"],
         "note": "Текущи цени, Брутен вътрешен продукт, Общо"
       },
       {
@@ -38,9 +30,7 @@
       },
       {
         "name": "Gross domestic product at market prices (Евростат, евро)",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/e1b994b7-f40f-4943-8269-6e7cd0b6e8d2?lang=en"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/e1b994b7-f40f-4943-8269-6e7cd0b6e8d2?lang=en"]
       }
     ],
     "unit": "BGN",
@@ -240,15 +230,11 @@
       },
       {
         "name": "Скрийншот (НСИ, евро)",
-        "url": [
-          "/data/gross-national-debt/raw/screenshot.png"
-        ]
+        "url": ["/data/gross-national-debt/raw/screenshot.png"]
       },
       {
         "name": "Текст (НСИ, евро)",
-        "url": [
-          "/data/gross-national-debt/raw/euro.txt"
-        ]
+        "url": ["/data/gross-national-debt/raw/euro.txt"]
       }
     ],
     "unit": "EUR",
@@ -419,15 +405,11 @@
       },
       {
         "name": "Скрийншот (НСИ, евро)",
-        "url": [
-          "/data/gross-national-debt/raw/screenshot.png"
-        ]
+        "url": ["/data/gross-national-debt/raw/screenshot.png"]
       },
       {
         "name": "Текст (НСИ, евро)",
-        "url": [
-          "/data/gross-national-debt/raw/gdp.txt"
-        ]
+        "url": ["/data/gross-national-debt/raw/gdp.txt"]
       }
     ],
     "unit": "percent",
@@ -585,16 +567,12 @@
     "sources": [
       {
         "name": "Брутен външен дълг (БНБ, евро)",
-        "url": [
-          "https://www.bnb.bg/Statistics/StExternalSector/StGrossExternalDebt/index.htm"
-        ],
+        "url": ["https://www.bnb.bg/Statistics/StExternalSector/StGrossExternalDebt/index.htm"],
         "note": "Размер на брутния външен дълг по инструменти, 2015 - 2024 г. (месечни данни в милиони евро)"
       },
       {
         "name": "Брутен външен дълг: размер по икономически дейности (БНБ, евро)",
-        "url": [
-          "/data/gross-external-debt/raw/s_ged_branchstr_m_n_bg.xlsx"
-        ]
+        "url": ["/data/gross-external-debt/raw/s_ged_branchstr_m_n_bg.xlsx"]
       }
     ],
     "unit": "EUR",
@@ -1322,27 +1300,19 @@
     "sources": [
       {
         "name": "Общ държавен дефицит и излишък (Инфостат, лева)",
-        "url": [
-          "https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=699"
-        ]
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=699"]
       },
       {
         "name": "Скрийншот (Инфостат, лева)",
-        "url": [
-          "/data/government-deficit-and-surplus/raw/bgn_screenshot.png"
-        ]
+        "url": ["/data/government-deficit-and-surplus/raw/bgn_screenshot.png"]
       },
       {
         "name": "CSV (Инфостат, лева)",
-        "url": [
-          "/data/government-deficit-and-surplus/raw/bgn.csv"
-        ]
+        "url": ["/data/government-deficit-and-surplus/raw/bgn.csv"]
       },
       {
         "name": "xlsx (Инфостат, лева)",
-        "url": [
-          "/data/government-deficit-and-surplus/raw/bgn.xlsx"
-        ]
+        "url": ["/data/government-deficit-and-surplus/raw/bgn.xlsx"]
       },
       {
         "name": "Общ държавен дефицит и излишък (НСИ, евро)",
@@ -1352,9 +1322,7 @@
       },
       {
         "name": "Government deficit/surplus, debt and associated data (Евростат, евро)",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/b29dcc90-583f-4f5f-9065-d40f79ddfc33?lang=en"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/b29dcc90-583f-4f5f-9065-d40f79ddfc33?lang=en"]
       }
     ],
     "unit": "BGN",
@@ -1531,9 +1499,7 @@
     "sources": [
       {
         "name": "Скрийншот (НСИ, проценти)",
-        "url": [
-          "/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"
-        ]
+        "url": ["/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"]
       },
       {
         "name": "Общ държавен дефицит и излишък (НСИ, проценти)",
@@ -1543,15 +1509,11 @@
       },
       {
         "name": "Government deficit/surplus, debt and associated data (Евростат, проценти)",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/404d218c-afc3-4215-a310-f295d847695c?lang=en"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/404d218c-afc3-4215-a310-f295d847695c?lang=en"]
       },
       {
         "name": "Текст (НСИ, проценти)",
-        "url": [
-          "/data/government-deficit-and-surplus/raw/gdp.txt"
-        ]
+        "url": ["/data/government-deficit-and-surplus/raw/gdp.txt"]
       }
     ],
     "unit": "percent",
@@ -1637,15 +1599,11 @@
     "sources": [
       {
         "name": "Gini coefficient of equivalised disposable income (Евростат)",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/5e19cecf-51e8-476f-90e2-08c9c0fdf87c?lang=en"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/5e19cecf-51e8-476f-90e2-08c9c0fdf87c?lang=en"]
       },
       {
         "name": "CSV (Евростат)",
-        "url": [
-          "/data/gini-coefficient/raw/gini-coefficient.csv"
-        ]
+        "url": ["/data/gini-coefficient/raw/gini-coefficient.csv"]
       }
     ],
     "unit": "percent",
@@ -1719,9 +1677,7 @@
     "sources": [
       {
         "name": "Gini coefficient of equivalised disposable income",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"]
       }
     ],
     "unit": "percent",
@@ -1795,9 +1751,7 @@
     "sources": [
       {
         "name": "Gini coefficient of equivalised disposable income",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"]
       }
     ],
     "unit": "percent",
@@ -1871,9 +1825,7 @@
     "sources": [
       {
         "name": "Gini coefficient of equivalised disposable income",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"]
       }
     ],
     "unit": "percent",
@@ -1947,9 +1899,7 @@
     "sources": [
       {
         "name": "Gini coefficient of equivalised disposable income",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"]
       }
     ],
     "unit": "percent",
@@ -2030,9 +1980,7 @@
     "sources": [
       {
         "name": "HICP - monthly data (annual rate of change)",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"]
       },
       {
         "name": "Хармонизирани индекси на потребителските цени (ХИПЦ)",
@@ -3991,9 +3939,7 @@
     "sources": [
       {
         "name": "HICP - monthly data (annual rate of change)",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"]
       },
       {
         "name": "Хармонизирани индекси на потребителските цени (ХИПЦ)",
@@ -6030,9 +5976,7 @@
     "sources": [
       {
         "name": "HICP - monthly data (annual rate of change)",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"]
       },
       {
         "name": "Хармонизирани индекси на потребителските цени (ХИПЦ)",
@@ -8069,9 +8013,7 @@
     "sources": [
       {
         "name": "HICP - monthly data (annual rate of change)",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"]
       },
       {
         "name": "Хармонизирани индекси на потребителските цени (ХИПЦ)",
@@ -10108,9 +10050,7 @@
     "sources": [
       {
         "name": "HICP - monthly data (annual rate of change)",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"]
       },
       {
         "name": "Хармонизирани индекси на потребителските цени (ХИПЦ)",

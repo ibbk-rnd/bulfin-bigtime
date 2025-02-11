@@ -4,7 +4,7 @@
         <div class="d-flex align-items-center justify-content-between">
           <div class="d-flex align-items-center">
             <div class="btn-group me-3" role="group">
-              <a class="btn  btn-sm" href="/bulfin-bigtime/" ngbTooltip="Презареди"><i-feather name="refresh-cw" ></i-feather></a>
+              <a class="btn  btn-sm" href="/" ngbTooltip="Презареди"><i-feather name="refresh-cw" ></i-feather></a>
               <button (click)="saveAsImage(chartInstance)" class="btn btn-sm" ngbTooltip="Запази като снимка"><i-feather name="download" ></i-feather></button>
               <button class="btn  btn-sm" (click)="legendAllUnSelect(chartInstance)" ngbTooltip="Скрии всичко"><i-feather name="eye-off" ></i-feather></button>
             </div>
@@ -16,7 +16,7 @@
               <input [(ngModel)]="switches['debt-events']" (change)="onChangePreset()" type="checkbox" class="btn-check" id="sw-debt-events"  >
               <label class="btn btn-outline-secondary btn-sm" for="sw-debt-events">Поемане на дълг</label>
               <input [(ngModel)]="switches['parliament-elections']" (change)="onChangePreset()" type="checkbox" class="btn-check" id="sw-parliament-elections"  >
-              <label class="btn btn-outline-secondary btn-sm" for="sw-parliament-elections">Парламентарни избори</label>
+              <label class="btn btn-outline-secondary btn-sm" for="sw-parliament-elections">Избори</label>
               <input [(ngModel)]="switches['other-events']" (change)="onChangePreset()" type="checkbox" class="btn-check" id="sw-other-events"  >
               <label class="btn btn-outline-secondary btn-sm" for="sw-other-events">Други</label>
             </div>

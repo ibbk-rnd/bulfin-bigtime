@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && ./docs.sh",
+    "build": "ng build",
+    "build-pages": "ng build  --configuration pages && rm -rf ./docs && cp -r ./dist/bulfin-bigtime/browser ./docs",
     "docs": "./docs.sh",
     "normdata": "./docs.sh",
     "watch": "ng build --watch --configuration development",

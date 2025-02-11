@@ -307,7 +307,7 @@ export function saveAsImage(chartInstance: ECharts): void {
 
   const link = document.createElement('a');
   link.href = dataURL;
-  link.download = `bulgaria-fin-charts-${moment().format('YYYY-MM-DD')}.png`;
+  link.download = `bulfin-bigtime-${moment().format('YYYY-MM-DD')}.png`;
   link.click();
 }
 

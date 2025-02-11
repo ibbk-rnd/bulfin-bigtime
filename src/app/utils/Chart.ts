@@ -2,12 +2,13 @@ import moment from 'moment';
 
 export function bigTimeChart(series: any, yAxisGantt: any, legend: { data: string[]; map: any; selected: {} }) {
   const fromYear = 1995;
-  const toYear = new Date().getFullYear();
+  const toYear = moment();
+  // const toYear = moment().add('4', 'years');
   const years = [];
   const min = `${fromYear}-01-01`;
-  const max = moment().format('YYYY-MM-DD');
+  const max = toYear.format('YYYY-MM-DD');
 
-  for (let year = fromYear; year <= toYear; year++) {
+  for (let year = fromYear; year <= parseInt(toYear.format('YYYY')); year++) {
     years.push(year.toString());
   }
 
@@ -70,8 +71,6 @@ export function bigTimeChart(series: any, yAxisGantt: any, legend: { data: strin
         },
         axisLabel: {
           show: false,
-          interval: 0,
-          customValues: years,
         },
         gridIndex: 0,
         min: min,
@@ -95,6 +94,9 @@ export function bigTimeChart(series: any, yAxisGantt: any, legend: { data: strin
           show: true,
           interval: 0,
           customValues: years,
+          formatter: function (value: any) {
+            return moment.unix(value / 1000).format('YY');
+          },
         },
       },
       {

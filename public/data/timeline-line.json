@@ -297,6 +297,34 @@
             "url": ["https://results.cik.bg/pe202410/rezultati/index.html"]
           }
         ]
+      },
+      {
+        "name": "Президентски избори",
+        "date": "2026-11-14",
+        "meta": {
+          "style": {
+            "lineStyle": {
+              "color": "#995900",
+              "type": "solid",
+              "width": 1
+            }
+          }
+        },
+        "sources": []
+      },
+      {
+        "name": "Местни избори",
+        "date": "2027-10-29",
+        "meta": {
+          "style": {
+            "lineStyle": {
+              "color": "#009900",
+              "type": "solid",
+              "width": 1
+            }
+          }
+        },
+        "sources": []
       }
     ]
   }

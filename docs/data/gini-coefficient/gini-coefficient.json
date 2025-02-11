@@ -6,15 +6,11 @@
     "sources": [
       {
         "name": "Gini coefficient of equivalised disposable income (Евростат)",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/5e19cecf-51e8-476f-90e2-08c9c0fdf87c?lang=en"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/5e19cecf-51e8-476f-90e2-08c9c0fdf87c?lang=en"]
       },
       {
         "name": "CSV (Евростат)",
-        "url": [
-          "/data/gini-coefficient/raw/gini-coefficient.csv"
-        ]
+        "url": ["/data/gini-coefficient/raw/gini-coefficient.csv"]
       }
     ],
     "unit": "percent",
@@ -88,9 +84,7 @@
     "sources": [
       {
         "name": "Gini coefficient of equivalised disposable income",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"]
       }
     ],
     "unit": "percent",
@@ -164,9 +158,7 @@
     "sources": [
       {
         "name": "Gini coefficient of equivalised disposable income",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"]
       }
     ],
     "unit": "percent",
@@ -240,9 +232,7 @@
     "sources": [
       {
         "name": "Gini coefficient of equivalised disposable income",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"]
       }
     ],
     "unit": "percent",
@@ -316,9 +306,7 @@
     "sources": [
       {
         "name": "Gini coefficient of equivalised disposable income",
-        "url": [
-          "https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"
-        ]
+        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/24862615-4903-4584-bc75-16edb5418773?lang=en/"]
       }
     ],
     "unit": "percent",
