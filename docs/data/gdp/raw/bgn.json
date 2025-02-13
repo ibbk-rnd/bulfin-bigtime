@@ -6,7 +6,7 @@
   "sources": [
     {
       "name": "Скрийншот (Инфостат, лева)",
-      "url": ["/data/gdp/raw/bgn.png"]
+      "url": ["data/gdp/raw/bgn.png"]
     },
     {
       "name": "CSV (Инфостат, лева)",
