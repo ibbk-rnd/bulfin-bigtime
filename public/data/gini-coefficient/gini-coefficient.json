@@ -13,7 +13,7 @@
       {
         "name": "CSV (Евростат)",
         "url": [
-          "/data/gini-coefficient/raw/gini-coefficient.csv"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gini-coefficient/raw/gini-coefficient.csv"
         ]
       }
     ],

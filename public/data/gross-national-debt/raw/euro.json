@@ -17,11 +17,11 @@
     },
     {
       "name": "Скрийншот (НСИ, евро)",
-      "url": ["/data/gross-national-debt/raw/screenshot.png"]
+      "url": ["https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gross-national-debt/raw/screenshot.png"]
     },
     {
       "name": "Текст (НСИ, евро)",
-      "url": ["/data/gross-national-debt/raw/euro.txt"]
+      "url": ["https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gross-national-debt/raw/euro.txt"]
     }
   ],
   "unit": "EUR",

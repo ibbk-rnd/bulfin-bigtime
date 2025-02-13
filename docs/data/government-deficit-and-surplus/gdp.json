@@ -7,7 +7,7 @@
     {
       "name": "Скрийншот (НСИ, проценти)",
       "url": [
-        "/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"
+        "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"
       ]
     },
     {
@@ -25,7 +25,7 @@
     {
       "name": "Текст (НСИ, проценти)",
       "url": [
-        "/data/government-deficit-and-surplus/raw/gdp.txt"
+        "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/government-deficit-and-surplus/raw/gdp.txt"
       ]
     }
   ],

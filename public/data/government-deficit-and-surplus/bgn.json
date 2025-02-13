@@ -12,19 +12,19 @@
     {
       "name": "Скрийншот (Инфостат, лева)",
       "url": [
-        "/data/government-deficit-and-surplus/raw/bgn_screenshot.png"
+        "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/government-deficit-and-surplus/raw/bgn_screenshot.png"
       ]
     },
     {
       "name": "CSV (Инфостат, лева)",
       "url": [
-        "/data/government-deficit-and-surplus/raw/bgn.csv"
+        "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/government-deficit-and-surplus/raw/bgn.csv"
       ]
     },
     {
       "name": "xlsx (Инфостат, лева)",
       "url": [
-        "/data/government-deficit-and-surplus/raw/bgn.xlsx"
+        "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/government-deficit-and-surplus/raw/bgn.xlsx"
       ]
     },
     {

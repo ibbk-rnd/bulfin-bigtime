@@ -8,19 +8,19 @@
       {
         "name": "Скрийншот (Инфостат, лева)",
         "url": [
-          "/data/gdp/raw/bgn.png"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gdp/raw/bgn.png"
         ]
       },
       {
         "name": "CSV (Инфостат, лева)",
         "url": [
-          "/data/gdp/raw/bgn.csv"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gdp/raw/bgn.csv"
         ]
       },
       {
         "name": "xlsx (Инфостат, лева)",
         "url": [
-          "/data/gdp/raw/bgn.xlsx"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gdp/raw/bgn.xlsx"
         ]
       },
       {
@@ -580,13 +580,13 @@
       {
         "name": "Скрийншот (НСИ, евро)",
         "url": [
-          "/data/gross-national-debt/raw/screenshot.png"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gross-national-debt/raw/screenshot.png"
         ]
       },
       {
         "name": "Текст (НСИ, евро)",
         "url": [
-          "/data/gross-national-debt/raw/euro.txt"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gross-national-debt/raw/euro.txt"
         ]
       }
     ],
@@ -759,13 +759,13 @@
       {
         "name": "Скрийншот (НСИ, евро)",
         "url": [
-          "/data/gross-national-debt/raw/screenshot.png"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gross-national-debt/raw/screenshot.png"
         ]
       },
       {
         "name": "Текст (НСИ, евро)",
         "url": [
-          "/data/gross-national-debt/raw/gdp.txt"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gross-national-debt/raw/gdp.txt"
         ]
       }
     ],
@@ -932,7 +932,7 @@
       {
         "name": "Брутен външен дълг: размер по икономически дейности (БНБ, евро)",
         "url": [
-          "/data/gross-external-debt/raw/s_ged_branchstr_m_n_bg.xlsx"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gross-external-debt/raw/s_ged_branchstr_m_n_bg.xlsx"
         ]
       }
     ],
@@ -1668,19 +1668,19 @@
       {
         "name": "Скрийншот (Инфостат, лева)",
         "url": [
-          "/data/government-deficit-and-surplus/raw/bgn_screenshot.png"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/government-deficit-and-surplus/raw/bgn_screenshot.png"
         ]
       },
       {
         "name": "CSV (Инфостат, лева)",
         "url": [
-          "/data/government-deficit-and-surplus/raw/bgn.csv"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/government-deficit-and-surplus/raw/bgn.csv"
         ]
       },
       {
         "name": "xlsx (Инфостат, лева)",
         "url": [
-          "/data/government-deficit-and-surplus/raw/bgn.xlsx"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/government-deficit-and-surplus/raw/bgn.xlsx"
         ]
       },
       {
@@ -1871,7 +1871,7 @@
       {
         "name": "Скрийншот (НСИ, проценти)",
         "url": [
-          "/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"
         ]
       },
       {
@@ -1889,7 +1889,7 @@
       {
         "name": "Текст (НСИ, проценти)",
         "url": [
-          "/data/government-deficit-and-surplus/raw/gdp.txt"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/government-deficit-and-surplus/raw/gdp.txt"
         ]
       }
     ],
@@ -2320,7 +2320,7 @@
       {
         "name": "CSV (Евростат)",
         "url": [
-          "/data/gini-coefficient/raw/gini-coefficient.csv"
+          "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gini-coefficient/raw/gini-coefficient.csv"
         ]
       }
     ],
