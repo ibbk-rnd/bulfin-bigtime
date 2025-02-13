@@ -5,19 +5,27 @@
   "sources": [
     {
       "name": "Общ държавен дефицит и излишък (Инфостат, лева)",
-      "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=699"]
+      "url": [
+        "https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=699"
+      ]
     },
     {
       "name": "Скрийншот (Инфостат, лева)",
-      "url": ["/data/government-deficit-and-surplus/raw/bgn_screenshot.png"]
+      "url": [
+        "/data/government-deficit-and-surplus/raw/bgn_screenshot.png"
+      ]
     },
     {
       "name": "CSV (Инфостат, лева)",
-      "url": ["/data/government-deficit-and-surplus/raw/bgn.csv"]
+      "url": [
+        "/data/government-deficit-and-surplus/raw/bgn.csv"
+      ]
     },
     {
       "name": "xlsx (Инфостат, лева)",
-      "url": ["/data/government-deficit-and-surplus/raw/bgn.xlsx"]
+      "url": [
+        "/data/government-deficit-and-surplus/raw/bgn.xlsx"
+      ]
     },
     {
       "name": "Общ държавен дефицит и излишък (НСИ, евро)",
@@ -27,7 +35,9 @@
     },
     {
       "name": "Government deficit/surplus, debt and associated data (Евростат, евро)",
-      "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/b29dcc90-583f-4f5f-9065-d40f79ddfc33?lang=en"]
+      "url": [
+        "https://ec.europa.eu/eurostat/databrowser/bookmark/b29dcc90-583f-4f5f-9065-d40f79ddfc33?lang=en"
+      ]
     }
   ],
   "unit": "BGN",

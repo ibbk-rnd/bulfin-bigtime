@@ -37,7 +37,7 @@ function normalizeFile(raw, output) {
 }
 
 function normalize(content) {
-  const magnitude = content.magnitude;
+  let magnitude;
   const result = { ...content };
   const data = [];
   let oldValue = null;
@@ -46,7 +46,14 @@ function normalize(content) {
   delete result.magnitude;
 
   content.data.forEach((item) => {
+    magnitude = null;
     let value = item.value;
+
+    if (item.magnitude) {
+      magnitude = item.magnitude;
+    } else if (content.magnitude) {
+      magnitude = content.magnitude;
+    }
 
     if (magnitude) {
       value = new Decimal(item.value).times(new Decimal(magnitude)).toNumber();
@@ -77,6 +84,7 @@ function normalize(content) {
       value: value,
       change: new Decimal(value).minus(new Decimal(oldValue)).toNumber(),
       changePercent: calculatePercentageDiff(oldValue, value),
+      sources: item.sources,
     });
 
     oldValue = value;

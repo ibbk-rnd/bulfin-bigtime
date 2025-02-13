@@ -1,0 +1,337 @@
+{
+  "id": "budget-nzok",
+  "knowledgeId": "nzok",
+  "name": "Бюджет на Националната здравноосигурителна каса",
+  "shortName": "Бюджет на НЗОК",
+  "unit": "BGN",
+  "data": [
+    {
+      "date": "2001-01-01",
+      "value": 628826100,
+      "change": 0,
+      "changePercent": 0,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2001 Г",
+          "url": [
+            "https://old.nhif.bg/get_file?section=document&pageId=11203&uuid=c0e3c500-97ff-449d-a690-234bf85a8d95",
+            "https://www.ciela.net/svobodna-zona-darjaven-vestnik/document/2134956546/issue/545/zakon-za-byudzheta-na-natsionalnata-zdravnoosiguritelna-kasa-za-2001-g"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2002-01-01",
+      "value": 686113000,
+      "change": 57286900,
+      "changePercent": 8.71,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2002 Г",
+          "url": [
+            "https://www.ciela.net/svobodna-zona-darjaven-vestnik/document/2135219712/issue/1960/zakon-za-byudzheta-na-natsionalnata-zdravnoosiguritelna-kasa-za-2002-g"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2003-01-01",
+      "value": 769921000,
+      "change": 83808000,
+      "changePercent": 11.51,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2003 Г.",
+          "url": [
+            "https://old.nhif.bg/get_file?section=document&pageId=11203&uuid=79fe6cac-5f82-4b45-bd1e-b15864960e88",
+            "https://www.ciela.net/svobodna-zona-darjaven-vestnik/document/2135462243/issue/2720/zakon-za-byudzheta-na-natsionalnata-zdravnoosiguritelna-kasa-za-2003-g"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2004-01-01",
+      "value": 795280000,
+      "change": 25359000,
+      "changePercent": 3.24,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2004 Г.",
+          "url": [
+            "https://old.nhif.bg/get_file?section=document&pageId=11203&uuid=c059d605-b8c5-4aba-8d71-9dec4d1d05ad"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2006-01-01",
+      "value": 1061805000,
+      "change": 266525000,
+      "changePercent": 28.7,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2006 Г.",
+          "url": [
+            "https://old.nhif.bg/get_file?section=document&pageId=11203&uuid=d31848cd-dc43-44ef-b214-ec76c55fe2a6"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2007-01-01",
+      "value": 1212316000,
+      "change": 150511000,
+      "changePercent": 13.24,
+      "sources": [
+        {
+          "name": "Закон за бюджета на Националната здравноосигурителна каса за 2007г.",
+          "url": [
+            "https://old.nhif.bg/get_file?section=document&pageId=11203&uuid=df11d679-e7d9-46e7-8af5-81a7e9d7da97"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2008-01-01",
+      "value": 1686117000,
+      "change": 473801000,
+      "changePercent": 32.69,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2008 Г.",
+          "url": [
+            "https://old.nhif.bg/get_file?section=document&pageId=11203&uuid=c1703283-ffa7-4de1-9294-b6af75a288da",
+            "https://old.parliament.bg/pub/cW/164702-01-50.rtf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2009-01-01",
+      "value": 2472943000,
+      "change": 786826000,
+      "changePercent": 37.84,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2009 Г.",
+          "url": [
+            "https://lex.bg/bg/laws/ldoc/2135610893"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2010-01-01",
+      "value": 2572211000,
+      "change": 99268000,
+      "changePercent": 3.94,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2010 Г.",
+          "url": [
+            "https://www.ciela.net/svobodna-zona-normativi/view/2135654578/zakon-za-byudzheta-na-natsionalnata-zdravnoosiguritelna-kasa-za-2010-g"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2011-01-01",
+      "value": 2633730000,
+      "change": 61519000,
+      "changePercent": 2.36,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2011 Г.",
+          "url": [
+            "https://www.ciela.net/svobodna-zona-normativi/view/2135708281/zakon-za-byudzheta-na-natsionalnata-zdravnoosiguritelna-kasa-za-2011-g",
+            "http://bphu.eu/uploads/files/2010/LAW/NZOK_zakon_za_budjeta_2011.doc"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2012-01-01",
+      "value": 2633730000,
+      "change": 0,
+      "changePercent": 0,
+      "sources": [
+        {
+          "name": "ЗАКОН за бюджета на Националната здравноосигурителна каса за 2012 г. Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.",
+          "url": [
+            "https://old.nhif.bg/get_file?section=document&pageId=11203&uuid=68a85e0c-125c-4922-af9c-da8cfcbb6a76",
+            "https://www.nsoplb.com/uploads/article_documents/nzok_variant_2_30102012_last.doc"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2013-01-01",
+      "value": 2710276000,
+      "change": 76546000,
+      "changePercent": 2.86,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2013 Г. Обн. ДВ. бр.101 от 18 Декември 2012г., изм. ДВ. бр.106 от 10 Декември 2013г.",
+          "url": [
+            "https://lex.bg/bg/laws/ldoc/2135828922"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2014-01-01",
+      "value": 2823110000,
+      "change": 112834000,
+      "changePercent": 4.08,
+      "sources": [
+        {
+          "name": "ЗАКОН за бюджета на Националната здравноосигурителна каса за 2014 г.",
+          "url": [
+            "https://www.nhif.bg/upload/1447/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%D0%B0%20%D0%BD%D0%B0%20%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B0%D1%82%D0%B0%20%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D0%BE%D1%81%D0%B8%D0%B3%D1%83%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%B0%20%D0%BA%D0%B0%D1%81%D0%B0%20%D0%B7%D0%B0%202014%D0%B3..doc"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2015-01-01",
+      "value": 3075534000,
+      "change": 252424000,
+      "changePercent": 8.56,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2015 Г. Обн. ДВ. бр.107 от 24 Декември 2014г.",
+          "url": [
+            "https://lex.bg/laws/ldoc/2136410754"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2016-01-01",
+      "value": 3204749000,
+      "change": 129215000,
+      "changePercent": 4.11,
+      "sources": [
+        {
+          "name": "ЗАКОН за бюджета на Националната здравноосигурителна каса за 2016 г. Обн. ДВ. бр.98 от 15 Декември 2015г.",
+          "url": [
+            "https://lex.bg/en/laws/ldoc/2136708847"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2017-01-01",
+      "value": 3452816000,
+      "change": 248067000,
+      "changePercent": 7.45,
+      "sources": [
+        {
+          "name": "ЗАКОН за бюджета на Националната здравноосигурителна каса за 2017 г.",
+          "url": [
+            "https://www.mh.government.bg/upload/60/zakon-budjet-nzok-2017.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2018-01-01",
+      "value": 3859978000,
+      "change": 407162000,
+      "changePercent": 11.14,
+      "sources": [
+        {
+          "name": "ЗАКОН за бюджета на Националната здравноосигурителна каса за 2018 г.",
+          "url": [
+            "https://www.mh.government.bg/upload/59/zakon_za_budjeta_na_nacionalnata_zdravnoosiguritelna_kasa_za_2018_g.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2019-01-01",
+      "value": 4299603000,
+      "change": 439625000,
+      "changePercent": 10.78,
+      "sources": [
+        {
+          "name": "ЗАКОН за бюджета на Националната здравноосигурителна каса за 2019 г.",
+          "url": [
+            "https://lex.bg/en/laws/ldoc/2137188958"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2020-01-01",
+      "value": 4744704900,
+      "change": 445101900,
+      "changePercent": 9.84,
+      "sources": [
+        {
+          "name": "ЗАКОН за бюджета на Националната здравноосигурителна каса за 2020 г.",
+          "url": [
+            "https://kik-info.com/normativna-baza/zakoni/0X2137198374/"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2021-01-01",
+      "value": 5341312900,
+      "change": 596608000,
+      "changePercent": 11.83,
+      "sources": [
+        {
+          "name": "ЗАКОН за бюджета на Националната здравноосигурителна каса за 2021 г.",
+          "url": [
+            "https://old.nra.bg/document?id=20623",
+            "https://www.nhif.bg/upload/457/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%97%D0%91%D0%9D%D0%97%D0%9E%D0%9A%202021.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-01-01",
+      "value": 6116304900,
+      "change": 774992000,
+      "changePercent": 13.53,
+      "sources": [
+        {
+          "name": "Закон за бюджета на Националната здравноосигурителна каса за 2022 г.",
+          "url": [
+            "https://www.mh.government.bg/upload/55/zakon_za_budjeta_na_nacionalnata_zdravnoosiguritelna_kasa_za_2022_g.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2023-01-01",
+      "value": 7027213600,
+      "change": 910908700,
+      "changePercent": 13.86,
+      "sources": [
+        {
+          "name": "Закон за бюджета на Националната здравноосигурителна каса за 2023 г.",
+          "url": [
+            "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=197925"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-01-01",
+      "value": 8168353100,
+      "change": 1141139500,
+      "changePercent": 15.02,
+      "sources": [
+        {
+          "name": "ЗАКОН ЗА БЮДЖЕТА НА НАЦИОНАЛНАТА ЗДРАВНООСИГУРИТЕЛНА КАСА ЗА 2024 Г.",
+          "url": [
+            "https://lex.bg/bg/laws/ldoc/2137238711"
+          ]
+        }
+      ]
+    }
+  ]
+}

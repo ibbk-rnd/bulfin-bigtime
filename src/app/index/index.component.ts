@@ -317,30 +317,30 @@ export class IndexComponent implements OnInit {
   }
 
   onChartClick(event: any): void {
-    const knowledgeId = event.data.content?.knowledgeId;
+    this.content = null;
+    this.knowledgeItems = event.data.content?.knowledgeId
+      ? this.data.knowledge.filter((item: any) => item.group?.includes(event.data.content?.knowledgeId))
+      : null;
 
-    if (knowledgeId) {
-      this.knowledgeItems = this.data.knowledge.filter((item: any) => item.group?.includes(knowledgeId));
-    } else {
-      this.knowledgeItems = null;
-    }
+    const chart: any = this.data.charts.find((item: any) => item.id === event.seriesName);
+    const itemSources = event.data.content?.sources ?? [];
+    const chartSources = chart?.sources ?? [];
 
-    const sources = event.data.content.sources;
+    if (itemSources) {
+      const content = { ...{ name: chart?.name }, ...event.data.content };
+      content.sources = [...chartSources, ...itemSources];
 
-    if (sources) {
-      if (event.data.content?.sources) {
-        event.data.content.sources.sort((a: any, b: any) => new Date(a.date).getTime() - new Date(b.date).getTime());
+      this.content = content;
+
+      if (this.content?.sources) {
+        this.content.sources.sort((a: any, b: any) => new Date(a.date).getTime() - new Date(b.date).getTime());
       }
-
-      this.content = event.data.content;
 
       return;
     }
 
-    let content: any = this.data.charts.find((item: any) => item.id === event.seriesName);
-
-    if (content) {
-      this.content = { ...event.data.content, ...{ sources: content.sources, name: content.name } };
+    if (chart) {
+      this.content = { ...event.data.content, ...{ sources: chartSources, name: chart.name } };
 
       return;
     }

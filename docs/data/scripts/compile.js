@@ -2,11 +2,13 @@ const { normalizeFile } = require('./normalizer');
 
 const files = [
   ['../gdp', 'bgn.json'],
+  ['../tax', 'tax.json'],
   ['../gross-national-debt', 'euro.json'],
   ['../gross-national-debt', 'gdp.json'],
   ['../gross-external-debt', 'euro.json'],
   ['../government-deficit-and-surplus', 'bgn.json'],
   ['../government-deficit-and-surplus', 'gdp.json'],
+  ['../budget-nzok', 'budget-nzok.json'],
   ['../gini-coefficient', 'gini-coefficient.json'],
   ['../hicp', 'HICP.json'],
 ];

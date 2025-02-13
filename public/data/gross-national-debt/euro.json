@@ -17,11 +17,15 @@
     },
     {
       "name": "Скрийншот (НСИ, евро)",
-      "url": ["/data/gross-national-debt/raw/screenshot.png"]
+      "url": [
+        "/data/gross-national-debt/raw/screenshot.png"
+      ]
     },
     {
       "name": "Текст (НСИ, евро)",
-      "url": ["/data/gross-national-debt/raw/euro.txt"]
+      "url": [
+        "/data/gross-national-debt/raw/euro.txt"
+      ]
     }
   ],
   "unit": "EUR",

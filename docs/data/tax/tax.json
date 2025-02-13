@@ -1,0 +1,339 @@
+{
+  "id": "tax-bgn",
+  "knowledgeId": "tax",
+  "name": "Данъчни приходи",
+  "note": "Данъчни приходи @ Консолидирана фискална програма",
+  "sources": [
+    {
+      "name": "Данни по консолидираната фискална програма (месечни)",
+      "url": [
+        "https://www.minfin.bg/bg/statistics/5"
+      ]
+    }
+  ],
+  "unit": "BGN",
+  "data": [
+    {
+      "date": "2002-12-31",
+      "value": 12406032700,
+      "change": 0,
+      "changePercent": 0,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2002 г.",
+          "url": [
+            "https://www.minfin.bg/upload/2082/Con+Fis+Pr+12-2002+BG.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2003-12-31",
+      "value": 11132260600,
+      "change": -1273772100,
+      "changePercent": -10.82,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2003 г.",
+          "url": [
+            "https://www.minfin.bg/upload/2094/Con_12-03-BG.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2004-12-31",
+      "value": 12774641500,
+      "change": 1642380900,
+      "changePercent": 13.74,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2004 г.",
+          "url": [
+            "https://www.minfin.bg/upload/2106/Con1_12-04_BG.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2005-12-31",
+      "value": 14483485400,
+      "change": 1708843900,
+      "changePercent": 12.54,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2005 г.",
+          "url": [
+            "https://www.minfin.bg/upload/2118/Con_12-05_BG.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2006-12-31",
+      "value": 16328655500,
+      "change": 1845170100,
+      "changePercent": 11.98,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2006 г.",
+          "url": [
+            "https://www.minfin.bg/upload/2130/Con_12-06_BG.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2007-12-31",
+      "value": 19323894200,
+      "change": 2995238700,
+      "changePercent": 16.8,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2007 г.",
+          "url": [
+            "https://www.minfin.bg/upload/4631/Con_12-07_BG_new.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2008-12-31",
+      "value": 22169200000,
+      "change": 2845305800,
+      "changePercent": 13.71,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2008 г.",
+          "url": [
+            "https://www.minfin.bg/upload/6209/2008-EU+funds_1208_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2009-12-31",
+      "value": 20171800000,
+      "change": -1997400000,
+      "changePercent": -9.43,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2009 г.",
+          "url": [
+            "https://www.minfin.bg/upload/7602/2009-EU+funds_1209_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2010-12-31",
+      "value": 19008800000,
+      "change": -1163000000,
+      "changePercent": -5.94,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2010 г.",
+          "url": [
+            "https://www.minfin.bg/upload/8866/2010-EU+funds_1210_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2011-12-31",
+      "value": 20591918961,
+      "change": 1583118961,
+      "changePercent": 8,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2011 г.",
+          "url": [
+            "https://www.minfin.bg/upload/10433/2011-EU+funds_1211_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2012-12-31",
+      "value": 21523363924,
+      "change": 931444963,
+      "changePercent": 4.42,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2012 г.",
+          "url": [
+            "https://www.minfin.bg/upload/11986/2012-EU+funds_1212_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2013-12-31",
+      "value": 22370221377,
+      "change": 846857453,
+      "changePercent": 3.86,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2013 г.",
+          "url": [
+            "https://www.minfin.bg/upload/13855/2013-EU+funds_1213_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2014-12-31",
+      "value": 23028219757,
+      "change": 657998380,
+      "changePercent": 2.9,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2014 г.",
+          "url": [
+            "https://www.minfin.bg/upload/15748/2014-EU+funds_1214_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2015-12-31",
+      "value": 24856420064,
+      "change": 1828200307,
+      "changePercent": 7.64,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2015 г.",
+          "url": [
+            "https://www.minfin.bg/upload/17593/2015-EU+funds_1215_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2016-12-31",
+      "value": 26902964381,
+      "change": 2046544317,
+      "changePercent": 7.91,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2016 г.",
+          "url": [
+            "https://www.minfin.bg/upload/19288/2016-EU+funds_1216_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2017-12-31",
+      "value": 29581309874,
+      "change": 2678345493,
+      "changePercent": 9.48,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2017 г.",
+          "url": [
+            "https://www.minfin.bg/upload/36420/2017-EU+funds_1217_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2018-12-31",
+      "value": 32235705771,
+      "change": 2654395897,
+      "changePercent": 8.59,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2018 г.",
+          "url": [
+            "https://www.minfin.bg/upload/39941/2018-EU+funds_1218_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2019-12-31",
+      "value": 35279827512,
+      "change": 3044121741,
+      "changePercent": 9.02,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2019 г.",
+          "url": [
+            "https://www.minfin.bg/upload/43471/2019-EU+funds_1219_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2020-12-31",
+      "value": 35848387548,
+      "change": 568560036,
+      "changePercent": 1.6,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2020 г.",
+          "url": [
+            "https://www.minfin.bg/upload/46767/2020-EU+funds_1220_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2021-12-31",
+      "value": 40876265093,
+      "change": 5027877545,
+      "changePercent": 13.11,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2021 г.",
+          "url": [
+            "https://www.minfin.bg/upload/50723/2021-EU+funds_1221_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-12-31",
+      "value": 46794600000,
+      "change": 5918334907,
+      "changePercent": 13.5,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2022 г.",
+          "url": [
+            "https://www.minfin.bg/upload/54044/2022-EU+funds_1222_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2023-12-31",
+      "value": 52324200000,
+      "change": 5529600000,
+      "changePercent": 11.16,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2023 г.",
+          "url": [
+            "https://www.minfin.bg/upload/57365/2023-EU+funds_1223_BG_WEB.xls"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-12-31",
+      "value": 58700200000,
+      "change": 6376000000,
+      "changePercent": 11.49,
+      "sources": [
+        {
+          "name": "Данни по консолидираната фискална програма - Декември 2024 г.",
+          "url": [
+            "https://www.minfin.bg/upload/60582/2024-EU+funds_1224_BG_WEB.xls"
+          ]
+        }
+      ]
+    }
+  ]
+}

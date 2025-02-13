@@ -447,6 +447,7 @@ function buildLine(chart: any, style: any = null, xAxisIndex: number, yAxisIndex
         changePercent: item?.changePercent,
         date: item.date,
         value: item.value,
+        sources: item.sources,
       },
       value: [item.date, item.value],
     });

@@ -7,7 +7,9 @@
     "sources": [
       {
         "name": "HICP - monthly data (annual rate of change)",
-        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"]
+        "url": [
+          "https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"
+        ]
       },
       {
         "name": "Хармонизирани индекси на потребителските цени (ХИПЦ)",
@@ -1966,7 +1968,9 @@
     "sources": [
       {
         "name": "HICP - monthly data (annual rate of change)",
-        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"]
+        "url": [
+          "https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"
+        ]
       },
       {
         "name": "Хармонизирани индекси на потребителските цени (ХИПЦ)",
@@ -4003,7 +4007,9 @@
     "sources": [
       {
         "name": "HICP - monthly data (annual rate of change)",
-        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"]
+        "url": [
+          "https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"
+        ]
       },
       {
         "name": "Хармонизирани индекси на потребителските цени (ХИПЦ)",
@@ -6040,7 +6046,9 @@
     "sources": [
       {
         "name": "HICP - monthly data (annual rate of change)",
-        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"]
+        "url": [
+          "https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"
+        ]
       },
       {
         "name": "Хармонизирани индекси на потребителските цени (ХИПЦ)",
@@ -8077,7 +8085,9 @@
     "sources": [
       {
         "name": "HICP - monthly data (annual rate of change)",
-        "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"]
+        "url": [
+          "https://ec.europa.eu/eurostat/databrowser/bookmark/94fcc74c-8dca-4eab-bead-b649fc9f2d54?lang=en"
+        ]
       },
       {
         "name": "Хармонизирани индекси на потребителските цени (ХИПЦ)",

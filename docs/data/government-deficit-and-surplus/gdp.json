@@ -6,7 +6,9 @@
   "sources": [
     {
       "name": "Скрийншот (НСИ, проценти)",
-      "url": ["/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"]
+      "url": [
+        "/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"
+      ]
     },
     {
       "name": "Общ държавен дефицит и излишък (НСИ, проценти)",
@@ -16,11 +18,15 @@
     },
     {
       "name": "Government deficit/surplus, debt and associated data (Евростат, проценти)",
-      "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/404d218c-afc3-4215-a310-f295d847695c?lang=en"]
+      "url": [
+        "https://ec.europa.eu/eurostat/databrowser/bookmark/404d218c-afc3-4215-a310-f295d847695c?lang=en"
+      ]
     },
     {
       "name": "Текст (НСИ, проценти)",
-      "url": ["/data/government-deficit-and-surplus/raw/gdp.txt"]
+      "url": [
+        "/data/government-deficit-and-surplus/raw/gdp.txt"
+      ]
     }
   ],
   "unit": "percent",
