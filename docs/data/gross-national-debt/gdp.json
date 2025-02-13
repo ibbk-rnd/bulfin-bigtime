@@ -19,13 +19,13 @@
     {
       "name": "Скрийншот (НСИ, евро)",
       "url": [
-        "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gross-national-debt/raw/screenshot.png"
+        "https://ibbk-rnd.github.io/bulfin-bigtime/data/gross-national-debt/raw/screenshot.png"
       ]
     },
     {
       "name": "Текст (НСИ, евро)",
       "url": [
-        "https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/gross-national-debt/raw/gdp.txt"
+        "https://ibbk-rnd.github.io/bulfin-bigtime/data/gross-national-debt/raw/gdp.txt"
       ]
     }
   ],

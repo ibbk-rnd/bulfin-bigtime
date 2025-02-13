@@ -57,7 +57,7 @@ npm run data
 ```
 или
 ```bash
-cd publichttps://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/scripts
+cd publichttps://ibbk-rnd.github.io/bulfin-bigtime/data/scripts
 node compile.js
 ```
 
@@ -65,7 +65,7 @@ node compile.js
 **Q: Как да добавя нова линейна графика?**  
 **A:**
 1. Създайте нова директория в `/data`.
-2. Създайте поддиректория `raw` - `https://github.com/ibbk-rnd/bulfin-bigtime/blob/master/public/data/my-new-chart/raw`.
+2. Създайте поддиректория `raw` - `https://ibbk-rnd.github.io/bulfin-bigtime/data/my-new-chart/raw`.
 3. В `raw` създайте .json файл с данните, които искате да визуализирате. Използвайте някой от наличните файлове за пример.
 4. Редактирайте `scripts/compile.js` и добавете името на директорията, която сте създали, и името на .json файла.
 5. Стартирайте нормализацията с по-горе описаните команди.
