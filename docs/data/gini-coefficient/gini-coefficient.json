@@ -10,7 +10,7 @@
       },
       {
         "name": "CSV (Евростат)",
-        "url": ["/data/gini-coefficient/raw/gini-coefficient.csv"]
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gini-coefficient/raw/gini-coefficient.csv"]
       }
     ],
     "unit": "percent",

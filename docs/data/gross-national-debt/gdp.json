@@ -18,11 +18,11 @@
     },
     {
       "name": "Скрийншот (НСИ, евро)",
-      "url": ["/data/gross-national-debt/raw/screenshot.png"]
+      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gross-national-debt/raw/screenshot.png"]
     },
     {
       "name": "Текст (НСИ, евро)",
-      "url": ["/data/gross-national-debt/raw/gdp.txt"]
+      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gross-national-debt/raw/gdp.txt"]
     }
   ],
   "unit": "percent",

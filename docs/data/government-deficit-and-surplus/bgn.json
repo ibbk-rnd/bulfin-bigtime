@@ -9,15 +9,15 @@
     },
     {
       "name": "Скрийншот (Инфостат, лева)",
-      "url": ["/data/government-deficit-and-surplus/raw/bgn_screenshot.png"]
+      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/government-deficit-and-surplus/raw/bgn_screenshot.png"]
     },
     {
       "name": "CSV (Инфостат, лева)",
-      "url": ["/data/government-deficit-and-surplus/raw/bgn.csv"]
+      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/government-deficit-and-surplus/raw/bgn.csv"]
     },
     {
       "name": "xlsx (Инфостат, лева)",
-      "url": ["/data/government-deficit-and-surplus/raw/bgn.xlsx"]
+      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/government-deficit-and-surplus/raw/bgn.xlsx"]
     },
     {
       "name": "Общ държавен дефицит и излишък (НСИ, евро)",
