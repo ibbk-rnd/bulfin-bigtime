@@ -6,7 +6,7 @@ module.exports = {
   normalizeFile,
 };
 
-function normalizeFile(raw, output) {
+function normalizeFile(raw, output, commonSources) {
   fs.readFile(raw, 'utf8', (err, fileContent) => {
     if (err) {
       console.error('Error reading the file:', err);
@@ -20,10 +20,10 @@ function normalizeFile(raw, output) {
     if (Array.isArray(content)) {
       result = [];
       content.forEach((item) => {
-        result.push(normalize(item));
+        result.push(normalize(item, commonSources));
       });
     } else {
-      result = normalize(content);
+      result = normalize(content, commonSources);
     }
 
     fs.writeFile(output, JSON.stringify(result, null, 2) + '\n', (err) => {
@@ -36,7 +36,7 @@ function normalizeFile(raw, output) {
   });
 }
 
-function normalize(content) {
+function normalize(content, commonSources) {
   let magnitude;
   const result = { ...content };
   const data = [];
@@ -84,7 +84,7 @@ function normalize(content) {
       value: value,
       change: new Decimal(value).minus(new Decimal(oldValue)).toNumber(),
       changePercent: calculatePercentageDiff(oldValue, value),
-      sources: item.sources,
+      sources: item.sources ? mergeSources(item.sources, commonSources) : undefined,
     });
 
     oldValue = value;
@@ -107,4 +107,20 @@ function calculatePercentageDiff(oldValue, newValue) {
   const averageValue = oldDecimal.abs().plus(newDecimal.abs()).dividedBy(2);
 
   return difference.dividedBy(averageValue).times(100).toDecimalPlaces(2).toNumber();
+}
+
+function mergeSources(itemSources, commonSources) {
+  let common = [];
+  let refs = [];
+
+  itemSources.forEach((source) => {
+    if (source.ref) {
+      refs.push(source.ref);
+      common.push(...commonSources.find((item) => item.id === source.ref).sources);
+    }
+  });
+
+  const current = itemSources.filter((item) => !refs.includes(item['ref']));
+
+  return [...current, ...common];
 }

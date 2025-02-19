@@ -11,7 +11,7 @@
     },
     {
       "name": "Снимка",
-      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"]
+      "url": ["/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"]
     }
   ],
   "unit": "EUR",

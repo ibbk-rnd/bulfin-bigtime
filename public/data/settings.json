@@ -10,7 +10,8 @@
       "other-events": false,
       "parliament-elections": false,
       "neighbors": false,
-      "labels": false
+      "labels": false,
+      "budget": false
     }
   }
 }

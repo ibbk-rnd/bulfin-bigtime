@@ -1,0 +1,2876 @@
+[
+  {
+    "id": "budget-judiciary",
+    "name": "Бюджет на съдебната власт",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 121900000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 138882800,
+        "change": 16982800,
+        "changePercent": 13.02,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 205220000,
+        "change": 66337200,
+        "changePercent": 38.56,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 230105300,
+        "change": 24885300,
+        "changePercent": 11.43,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 273500000,
+        "change": 43394700,
+        "changePercent": 17.23,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 313020000,
+        "change": 39520000,
+        "changePercent": 13.48,
+        "sources": [
+          {
+            "name": "Закон за Държавния бюджет на Република България за 2007 г.",
+            "url": ["https://www.minfin.bg/upload/2882/Zakon+2007+DV108.pdf"]
+          },
+          {
+            "name": "ПАРЛАМЕНТЪТ ПРИЕ НА ВТОРО ЧЕТЕНЕ БЮДЖЕТ 2007",
+            "date": "2006-12-20",
+            "url": ["https://www.minfin.bg/bg/news/948-8/2083"]
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 385300000,
+        "change": 72280000,
+        "changePercent": 20.7,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 438323000,
+        "change": 53023000,
+        "changePercent": 12.88,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 387705000,
+        "change": -50618000,
+        "changePercent": -12.26,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 387705000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 400000000,
+        "change": 12295000,
+        "changePercent": 3.12,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 404000000,
+        "change": 4000000,
+        "changePercent": 1,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 434000000,
+        "change": 30000000,
+        "changePercent": 7.16,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 473000000,
+        "change": 39000000,
+        "changePercent": 8.6,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 518000000,
+        "change": 45000000,
+        "changePercent": 9.08,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 565000000,
+        "change": 47000000,
+        "changePercent": 8.68,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 591120000,
+        "change": 26120000,
+        "changePercent": 4.52,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 704317000,
+        "change": 113197000,
+        "changePercent": 17.48,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 771317000,
+        "change": 67000000,
+        "changePercent": 9.08,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 880317000,
+        "change": 109000000,
+        "changePercent": 13.2,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 938729000,
+        "change": 58412000,
+        "changePercent": 6.42,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 1087529400,
+        "change": 148800400,
+        "changePercent": 14.69,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 1221324900,
+        "change": 133795500,
+        "changePercent": 11.59,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-vss",
+    "name": "Бюджет на Висш съдебен съвет",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 900000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 632500,
+        "change": -267500,
+        "changePercent": -34.91,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 1197100,
+        "change": 564600,
+        "changePercent": 61.72,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 2853800,
+        "change": 1656700,
+        "changePercent": 81.79,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 8010000,
+        "change": 5156200,
+        "changePercent": 94.92,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 3275000,
+        "change": -4735000,
+        "changePercent": -83.92,
+        "sources": [
+          {
+            "name": "Закон за Държавния бюджет на Република България за 2007 г.",
+            "url": ["https://www.minfin.bg/upload/2882/Zakon+2007+DV108.pdf"]
+          },
+          {
+            "name": "ПАРЛАМЕНТЪТ ПРИЕ НА ВТОРО ЧЕТЕНЕ БЮДЖЕТ 2007",
+            "date": "2006-12-20",
+            "url": ["https://www.minfin.bg/bg/news/948-8/2083"]
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 4776000,
+        "change": 1501000,
+        "changePercent": 37.29,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 10191400,
+        "change": 5415400,
+        "changePercent": 72.36,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 7711000,
+        "change": -2480400,
+        "changePercent": -27.71,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 7711000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 12506000,
+        "change": 4795000,
+        "changePercent": 47.44,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 11906000,
+        "change": -600000,
+        "changePercent": -4.92,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 11962000,
+        "change": 56000,
+        "changePercent": 0.47,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 12003900,
+        "change": 41900,
+        "changePercent": 0.35,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 12141000,
+        "change": 137100,
+        "changePercent": 1.14,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 21001400,
+        "change": 8860400,
+        "changePercent": 53.47,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 32487500,
+        "change": 11486100,
+        "changePercent": 42.95,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 51032900,
+        "change": 18545400,
+        "changePercent": 44.41,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 49575300,
+        "change": -1457600,
+        "changePercent": -2.9,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 52551200,
+        "change": 2975900,
+        "changePercent": 5.83,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 47341600,
+        "change": -5209600,
+        "changePercent": -10.43,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 56223300,
+        "change": 8881700,
+        "changePercent": 17.15,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 56584000,
+        "change": 360700,
+        "changePercent": 0.64,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-vks",
+    "name": "Бюджет на Върховен касационен съд",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 10000000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 7121300,
+        "change": -2878700,
+        "changePercent": -33.63,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 16034400,
+        "change": 8913100,
+        "changePercent": 76.98,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 17552800,
+        "change": 1518400,
+        "changePercent": 9.04,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 11220000,
+        "change": -6332800,
+        "changePercent": -44.02,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 12170000,
+        "change": 950000,
+        "changePercent": 8.12,
+        "sources": [
+          {
+            "name": "Закон за Държавния бюджет на Република България за 2007 г.",
+            "url": ["https://www.minfin.bg/upload/2882/Zakon+2007+DV108.pdf"]
+          },
+          {
+            "name": "ПАРЛАМЕНТЪТ ПРИЕ НА ВТОРО ЧЕТЕНЕ БЮДЖЕТ 2007",
+            "date": "2006-12-20",
+            "url": ["https://www.minfin.bg/bg/news/948-8/2083"]
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 13889000,
+        "change": 1719000,
+        "changePercent": 13.19,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 15585500,
+        "change": 1696500,
+        "changePercent": 11.51,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 13946000,
+        "change": -1639500,
+        "changePercent": -11.1,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 13946000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 13946000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 13946000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 14091000,
+        "change": 145000,
+        "changePercent": 1.03,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 14788200,
+        "change": 697200,
+        "changePercent": 4.83,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 16765300,
+        "change": 1977100,
+        "changePercent": 12.53,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 18168900,
+        "change": 1403600,
+        "changePercent": 8.04,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 17562700,
+        "change": -606200,
+        "changePercent": -3.39,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 19811600,
+        "change": 2248900,
+        "changePercent": 12.03,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 21815200,
+        "change": 2003600,
+        "changePercent": 9.63,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 22722400,
+        "change": 907200,
+        "changePercent": 4.07,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 24223200,
+        "change": 1500800,
+        "changePercent": 6.39,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 28406500,
+        "change": 4183300,
+        "changePercent": 15.9,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 30103400,
+        "change": 1696900,
+        "changePercent": 5.8,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-vas",
+    "name": "Бюджет на Върховен административен съд",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 4000000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 5006000,
+        "change": 1006000,
+        "changePercent": 22.34,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 6748000,
+        "change": 1742000,
+        "changePercent": 29.64,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 7158800,
+        "change": 410800,
+        "changePercent": 5.91,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 8939000,
+        "change": 1780200,
+        "changePercent": 22.12,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 8736000,
+        "change": -203000,
+        "changePercent": -2.3,
+        "sources": [
+          {
+            "name": "Закон за Държавния бюджет на Република България за 2007 г.",
+            "url": ["https://www.minfin.bg/upload/2882/Zakon+2007+DV108.pdf"]
+          },
+          {
+            "name": "ПАРЛАМЕНТЪТ ПРИЕ НА ВТОРО ЧЕТЕНЕ БЮДЖЕТ 2007",
+            "date": "2006-12-20",
+            "url": ["https://www.minfin.bg/bg/news/948-8/2083"]
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 9829000,
+        "change": 1093000,
+        "changePercent": 11.77,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 11135600,
+        "change": 1306600,
+        "changePercent": 12.46,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 10152000,
+        "change": -983600,
+        "changePercent": -9.24,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 10152000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 10152000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 10152000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 10270000,
+        "change": 118000,
+        "changePercent": 1.16,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 11330800,
+        "change": 1060800,
+        "changePercent": 9.82,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 12574000,
+        "change": 1243200,
+        "changePercent": 10.4,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 14482100,
+        "change": 1908100,
+        "changePercent": 14.1,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 14760500,
+        "change": 278400,
+        "changePercent": 1.9,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 17521800,
+        "change": 2761300,
+        "changePercent": 17.11,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 19471400,
+        "change": 1949600,
+        "changePercent": 10.54,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 25754200,
+        "change": 6282800,
+        "changePercent": 27.78,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 29139500,
+        "change": 3385300,
+        "changePercent": 12.33,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 34181700,
+        "change": 5042200,
+        "changePercent": 15.93,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 38562900,
+        "change": 4381200,
+        "changePercent": 12.05,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-prosecutor",
+    "name": "Бюджет на Прокуратура на Република България",
+    "shortName": "Бюджет на Прокуратура на РБ",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 30000000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 26792600,
+        "change": -3207400,
+        "changePercent": -11.3,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 44645000,
+        "change": 17852400,
+        "changePercent": 49.98,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 51000000,
+        "change": 6355000,
+        "changePercent": 13.29,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 58388000,
+        "change": 7388000,
+        "changePercent": 13.51,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 83622000,
+        "change": 25234000,
+        "changePercent": 35.54,
+        "sources": [
+          {
+            "name": "Закон за Държавния бюджет на Република България за 2007 г.",
+            "url": ["https://www.minfin.bg/upload/2882/Zakon+2007+DV108.pdf"]
+          },
+          {
+            "name": "ПАРЛАМЕНТЪТ ПРИЕ НА ВТОРО ЧЕТЕНЕ БЮДЖЕТ 2007",
+            "date": "2006-12-20",
+            "url": ["https://www.minfin.bg/bg/news/948-8/2083"]
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 104346000,
+        "change": 20724000,
+        "changePercent": 22.05,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 120981400,
+        "change": 16635400,
+        "changePercent": 14.77,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 154908000,
+        "change": 33926600,
+        "changePercent": 24.59,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 154908000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 158908000,
+        "change": 4000000,
+        "changePercent": 2.55,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 162708000,
+        "change": 3800000,
+        "changePercent": 2.36,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 169414000,
+        "change": 6706000,
+        "changePercent": 4.04,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 183325000,
+        "change": 13911000,
+        "changePercent": 7.89,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 200727900,
+        "change": 17402900,
+        "changePercent": 9.06,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 216780900,
+        "change": 16053000,
+        "changePercent": 7.69,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 221715500,
+        "change": 4934600,
+        "changePercent": 2.25,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 260000000,
+        "change": 38284500,
+        "changePercent": 15.9,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 289095700,
+        "change": 29095700,
+        "changePercent": 10.6,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 330268400,
+        "change": 41172700,
+        "changePercent": 13.3,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 332794000,
+        "change": 2525600,
+        "changePercent": 0.76,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 399172300,
+        "change": 66378300,
+        "changePercent": 18.14,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 445807800,
+        "change": 46635500,
+        "changePercent": 11.04,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-sudlishta",
+    "name": "Бюджет на Съдилища на Република България",
+    "shortName": "Бюджет на Съдилища на РБ",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 54000000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 71150000,
+        "change": 17150000,
+        "changePercent": 27.41,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 95640700,
+        "change": 24490700,
+        "changePercent": 29.37,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 101200500,
+        "change": 5559800,
+        "changePercent": 5.65,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 126215000,
+        "change": 25014500,
+        "changePercent": 22,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 161879000,
+        "change": 35664000,
+        "changePercent": 24.76,
+        "sources": [
+          {
+            "name": "Закон за Държавния бюджет на Република България за 2007 г.",
+            "url": ["https://www.minfin.bg/upload/2882/Zakon+2007+DV108.pdf"]
+          },
+          {
+            "name": "ПАРЛАМЕНТЪТ ПРИЕ НА ВТОРО ЧЕТЕНЕ БЮДЖЕТ 2007",
+            "date": "2006-12-20",
+            "url": ["https://www.minfin.bg/bg/news/948-8/2083"]
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 200107000,
+        "change": 38228000,
+        "changePercent": 21.12,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 221247000,
+        "change": 21140000,
+        "changePercent": 10.03,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 195368000,
+        "change": -25879000,
+        "changePercent": -12.42,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 195368000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 198868000,
+        "change": 3500000,
+        "changePercent": 1.78,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 199068000,
+        "change": 200000,
+        "changePercent": 0.1,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 221973000,
+        "change": 22905000,
+        "changePercent": 10.88,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 244455000,
+        "change": 22482000,
+        "changePercent": 9.64,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 268132700,
+        "change": 23677700,
+        "changePercent": 9.24,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 284223400,
+        "change": 16090700,
+        "changePercent": 5.83,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 294188500,
+        "change": 9965100,
+        "changePercent": 3.45,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 343842400,
+        "change": 49653900,
+        "changePercent": 15.56,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 378277800,
+        "change": 34435400,
+        "changePercent": 9.54,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 434162200,
+        "change": 55884400,
+        "changePercent": 13.76,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 488074900,
+        "change": 53912700,
+        "changePercent": 11.69,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 550340800,
+        "change": 62265900,
+        "changePercent": 11.99,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 628361700,
+        "change": 78020900,
+        "changePercent": 13.24,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-ks",
+    "name": "Бюджет на Конституционен съд",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2013-12-20",
+        "value": 2065000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 3240000,
+        "change": 1175000,
+        "changePercent": 44.3,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 2719000,
+        "change": -521000,
+        "changePercent": -17.49,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 2815000,
+        "change": 96000,
+        "changePercent": 3.47,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 4457000,
+        "change": 1642000,
+        "changePercent": 45.16,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 3317000,
+        "change": -1140000,
+        "changePercent": -29.33,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 3608700,
+        "change": 291700,
+        "changePercent": 8.42,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 5579600,
+        "change": 1970900,
+        "changePercent": 42.9,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 5503800,
+        "change": -75800,
+        "changePercent": -1.37,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 5663100,
+        "change": 159300,
+        "changePercent": 2.85,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 8858000,
+        "change": 3194900,
+        "changePercent": 44,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-mvr",
+    "shortName": "Бюджет на МВР",
+    "name": "Бюджет на Министерството на вътрешните работи",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 624770000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 693405000,
+        "change": 68635000,
+        "changePercent": 10.41,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 810082000,
+        "change": 116677000,
+        "changePercent": 15.52,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 779700000,
+        "change": -30382000,
+        "changePercent": -3.82,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 840590000,
+        "change": 60890000,
+        "changePercent": 7.52,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 997788000,
+        "change": 157198000,
+        "changePercent": 17.1,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 1032738000,
+        "change": 34950000,
+        "changePercent": 3.44,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 955521000,
+        "change": -77217000,
+        "changePercent": -7.77,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 1006000000,
+        "change": 50479000,
+        "changePercent": 5.15,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 999000000,
+        "change": -7000000,
+        "changePercent": -0.7,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 1131320000,
+        "change": 132320000,
+        "changePercent": 12.42,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 999556000,
+        "change": -131764000,
+        "changePercent": -12.37,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 1031760000,
+        "change": 32204000,
+        "changePercent": 3.17,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 1126977000,
+        "change": 95217000,
+        "changePercent": 8.82,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 1233600000,
+        "change": 106623000,
+        "changePercent": 9.03,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 1296400000,
+        "change": 62800000,
+        "changePercent": 4.96,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 1514790200,
+        "change": 218390200,
+        "changePercent": 15.54,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 1669575500,
+        "change": 154785300,
+        "changePercent": 9.72,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 1950273400,
+        "change": 280697900,
+        "changePercent": 15.51,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 2060180000,
+        "change": 109906600,
+        "changePercent": 5.48,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 2407158500,
+        "change": 346978500,
+        "changePercent": 15.53,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 2767327800,
+        "change": 360169300,
+        "changePercent": 13.92,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -6,11 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "build-pages": "ng build  --configuration pages && rm -rf ./docs && cp -r ./dist/bulfin-bigtime/browser ./docs",
-    "docs": "./docs.sh",
-    "normdata": "./docs.sh",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "data": "cd public/data/scripts && node compile.js"
+    "data": "cd public/data/scripts && node compile.js && npx prettier --write ../"
   },
   "private": true,
   "dependencies": {

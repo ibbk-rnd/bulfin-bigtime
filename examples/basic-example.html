@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Основен пример</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+  <style>
+    #main {
+      width: 80vw;
+      height: 30vh;
+    }
+  </style>
+</head>
+<body>
+
+<div id="main"></div>
+
+<script>
+  const data = [
+    {
+      value: [0, '2021-01-01', '2021-01-05', 'Период 1'],
+      itemStyle: {
+        color: '#e9dc91'
+      }
+    },
+    {
+      value: [1, '2021-01-06', '2021-01-09', 'Период 2'],
+      itemStyle: {
+        color: '#00FF00'
+      }
+    },
+    {
+      value: [1, '2021-01-09', '2021-01-14', 'Период 3'],
+      itemStyle: {
+        color: '#00FF00'
+      }
+    },
+    {
+      value: [2, '2021-01-09', '2021-01-14', 'Период 4'],
+      itemStyle: {
+        color: '#FF0000'
+      }
+    }
+  ];
+
+  const yAxis = [
+    'Ред 0',
+    'Ред 1',
+    'Ред 3'
+  ];
+
+  const markLines = [
+    {
+      xAxis: '2021-01-03',
+      lineStyle: {
+        color: 'red',
+        type: 'solid',
+        width: 2,
+      },
+      label: {
+        show: true,
+      },
+      tooltip: {
+        formatter: 'Линия 1',
+      },
+    },
+  ];
+
+
+  var myChart = echarts.init(document.getElementById('main'));
+
+  var option = {
+    tooltip: {
+      axisPointer: {
+        type: 'cross'
+      },
+    },
+    grid: [
+      {
+        top: '0%',
+        bottom: '8%',
+        right: '5%',
+        left: '5%'
+      }
+    ],
+    xAxis: [
+      {
+        show: true,
+        type: 'time',
+        splitLine: {
+          show: true
+        },
+        axisLabel: {
+          show: true
+        },
+      }
+    ],
+    yAxis: [
+      {
+        data: yAxis,
+      }
+    ],
+    animation: false,
+    series: [
+      {
+        type: 'custom',
+        tooltip: {},
+        renderItem: function (params, api) {
+          const categoryIndex = api.value(0);
+          const start = api.coord([api.value(1), categoryIndex]);
+          const end = api.coord([api.value(2), categoryIndex]);
+          const height = api.size([0, 1])[1] * 0.7;
+          const label = api.value(3);
+          const labelWidth = echarts.format.getTextRect(label).width;
+          const text =
+            end[0] - start[0] > labelWidth + 10 &&
+            start[0] + end[0] - start[0] >= 180
+              ? label
+              : '';
+
+          const rectShape = echarts.graphic.clipRectByRect(
+            {
+              x: start[0],
+              y: start[1] - height / 2,
+              width: end[0] - start[0],
+              height: height
+            },
+            {
+              x: params.coordSys.x,
+              y: params.coordSys.y,
+              width: params.coordSys.width,
+              height: params.coordSys.height
+            }
+          );
+          const rectText = echarts.graphic.clipRectByRect(
+            {
+              x: start[0],
+              y: start[1] - height / 2,
+              width: end[0] - start[0],
+              height: height
+            },
+            {
+              x: params.coordSys.x,
+              y: params.coordSys.y,
+              width: params.coordSys.width,
+              height: params.coordSys.height
+            }
+          );
+          return (
+            rectShape && {
+              type: 'group',
+              children: [
+                {
+                  type: 'rect',
+                  transition: ['shape'],
+                  shape: rectShape,
+                  style: {
+                    ...api.style(),
+                    stroke: 'black',
+                    lineWidth: 1,
+                    opacity: 0.8
+                  },
+                  emphasis: {
+                    style: {
+                      opacity: 1
+                    }
+                  }
+                },
+                {
+                  type: 'rect',
+                  ignore: !rectText,
+                  shape: rectText,
+                  style: api.style({
+                    text: text,
+                    textFill: '#FFF'
+                  })
+                }
+              ]
+            }
+          );
+        },
+        itemStyle: {
+          opacity: 0.8
+        },
+        encode: {
+          x: [1, 2],
+          y: 0
+        },
+        data: data,
+        markLine: {
+          data: markLines,
+          silent: false,
+          animation: false,
+          symbol: 'none',
+        },
+      },
+    ]
+  };
+
+  myChart.setOption(option);
+</script>
+</body>
+</html>

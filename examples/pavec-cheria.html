@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>История на ПАВЕЦ „Чаира“ - пример</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+  <style>
+    #main {
+      width: 95vw;
+      height: 30vh;
+    }
+  </style>
+</head>
+<body>
+
+<h1>История на ПАВЕЦ „Чаира“</h1>
+<div id="main"></div>
+
+<script>
+  // Източник: https://bg.wikipedia.org/wiki/%D0%9F%D0%90%D0%92%D0%95%D0%A6_%E2%80%9E%D0%A7%D0%B0%D0%B8%D1%80%D0%B0%E2%80%9C
+  // Източник: https://www.capital.bg/biznes/energetika/2022/03/23/4328061_tejka_avariia_v_pavec_chaira_blokira_centralata_za/
+  const data = [
+    {
+      value: [0, '1980-01-01', '1995-12-31', 'Строителство на първи етап'],
+      itemStyle: {
+        color: '#627fff'
+      }
+    },
+    {
+      value: [0, '1996-01-01', '1999-12-31', 'Строителство на втори етап'],
+      itemStyle: {
+        color: '#627fff'
+      }
+    },
+    {
+      value: [0, '2016-01-01', '2019-12-30', 'Експлоатиране в режим на свръхнатоварване'],
+      itemStyle: {
+        color: 'orange'
+      }
+    },
+    {
+      value: [0, '2022-03-23', new Date(), 'ПАВЕЦ „Чаира“ е изън строя'],
+      itemStyle: {
+        color: '#990000'
+      }
+    },
+  ];
+
+  const yAxis = [
+    'Хронология',
+  ];
+
+  const markLines = [
+    {
+      xAxis: '2022-03-23',
+      lineStyle: {
+        color: 'red',
+        type: 'solid',
+        width: 2,
+      },
+      label: {
+        show: true,
+      },
+      tooltip: {
+        formatter: 'Авария',
+      },
+    },
+    {
+      xAxis: '2024-09-05',
+      lineStyle: {
+        color: 'blue',
+        type: 'solid',
+        width: 2,
+      },
+      label: {
+        show: true,
+      },
+      tooltip: {
+        formatter: 'Подписване на меморандум между Р. България и Япони за възстановяване',
+      },
+    },
+  ];
+
+
+  var myChart = echarts.init(document.getElementById('main'));
+
+  var option = {
+    tooltip: {
+      axisPointer: {
+        type: 'cross'
+      },
+    },
+    grid: [
+      {
+        top: '0%',
+        bottom: '8%',
+        right: '0%',
+        left: '5%'
+      }
+    ],
+    xAxis: [
+      {
+        show: true,
+        type: 'time',
+        splitLine: {
+          show: true
+        },
+        axisLabel: {
+          show: true
+        },
+        max: '2025-01-01',
+      }
+    ],
+    yAxis: [
+      {
+        data: yAxis,
+      }
+    ],
+    dataZoom: [
+      {
+        type: 'inside',
+        filterMode: 'weakFilter',
+      },
+    ],
+    animation: false,
+    series: [
+      {
+        type: 'custom',
+        tooltip: {},
+        renderItem: function (params, api) {
+          const categoryIndex = api.value(0);
+          const start = api.coord([api.value(1), categoryIndex]);
+          const end = api.coord([api.value(2), categoryIndex]);
+          const height = api.size([0, 1])[1] * 0.7;
+          const label = api.value(3);
+          const labelWidth = echarts.format.getTextRect(label).width;
+          const text =
+            end[0] - start[0] > labelWidth + 10 &&
+            start[0] + end[0] - start[0] >= 180
+              ? label
+              : '';
+
+          const rectShape = echarts.graphic.clipRectByRect(
+            {
+              x: start[0],
+              y: start[1] - height / 2,
+              width: end[0] - start[0],
+              height: height
+            },
+            {
+              x: params.coordSys.x,
+              y: params.coordSys.y,
+              width: params.coordSys.width,
+              height: params.coordSys.height
+            }
+          );
+          const rectText = echarts.graphic.clipRectByRect(
+            {
+              x: start[0],
+              y: start[1] - height / 2,
+              width: end[0] - start[0],
+              height: height
+            },
+            {
+              x: params.coordSys.x,
+              y: params.coordSys.y,
+              width: params.coordSys.width,
+              height: params.coordSys.height
+            }
+          );
+          return (
+            rectShape && {
+              type: 'group',
+              children: [
+                {
+                  type: 'rect',
+                  transition: ['shape'],
+                  shape: rectShape,
+                  style: {
+                    ...api.style(),
+                    stroke: 'black',
+                    lineWidth: 1,
+                    opacity: 0.8
+                  },
+                  emphasis: {
+                    style: {
+                      opacity: 1
+                    }
+                  }
+                },
+                {
+                  type: 'rect',
+                  ignore: !rectText,
+                  shape: rectText,
+                  style: api.style({
+                    text: text,
+                    textFill: '#FFF'
+                  })
+                }
+              ]
+            }
+          );
+        },
+        itemStyle: {
+          opacity: 0.8
+        },
+        encode: {
+          x: [1, 2],
+          y: 0
+        },
+        data: data,
+        markLine: {
+          data: markLines,
+          silent: false,
+          animation: false,
+          symbol: 'none',
+        },
+      },
+    ]
+  };
+
+  myChart.setOption(option);
+</script>
+</body>
+</html>

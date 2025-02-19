@@ -14,7 +14,7 @@ import {
 import { ECharts } from 'echarts';
 import { DataService } from '../data.service';
 import { forkJoin } from 'rxjs';
-import { saveAsImage, convertMoneyCharts, combineSeries, legendAllUnSelect, toggleLegends, switchLegends } from '../utils/ChartUtils';
+import { saveAsImage, convertMoneyCharts, combineSeries, legendAllUnSelect, toggleLegends, switchLegends, sortArrayByOrder } from '../utils/ChartUtils';
 import { CommonModule } from '@angular/common';
 import { CanvasRenderer } from 'echarts/renderers';
 import { FormsModule } from '@angular/forms';
@@ -58,6 +58,7 @@ export class IndexComponent implements OnInit {
   public chartInstance!: ECharts;
   public isRealityCheckPanelCollapsed = true;
   public content: any = {};
+  public legends: string[] = [];
   public data = {
     timeline: [],
     verticalLine: [],
@@ -171,8 +172,16 @@ export class IndexComponent implements OnInit {
       legend.selected[item.id] = false;
     });
 
+    const series = combineSeries(area, gantt, [...charts, ...charts2], this.data.verticalLine, this.data.horizontalLine);
+
+    series.forEach((item: any) => {
+      if (item.name && !this.legends.includes(item.name)) {
+        this.legends.push(item.name);
+      }
+    });
+
     this.chart = bigTimeChart(
-      combineSeries(area, gantt, [...charts, ...charts2], this.data.verticalLine, this.data.horizontalLine),
+      series,
       gantt.map((group: any) => group.name),
       legend
     );
@@ -181,10 +190,10 @@ export class IndexComponent implements OnInit {
   onChartInit(chart: any): void {
     this.chartInstance = chart;
 
-    // Use a little bit of timeout to ensure the chart is initialised
     setTimeout(() => {
       this.toggleLabels(false);
       this.toggleNeighbors(false);
+      this.toggleBudget(false);
 
       const series = this.chartInstance.getOption()['series'];
 
@@ -263,20 +272,20 @@ export class IndexComponent implements OnInit {
     const cw = countries.filter((item: any) => !countryBg.includes(item));
 
     if (this.switches['neighbors']) {
-      this.chartInstance.setOption({
-        legend: {
-          data: options.legend[0].data.filter((item: any) => !countries.includes(item)),
-          selected: {
-            ...options.legend[0].selected,
-            ...Object.fromEntries(countries.map((key: any) => [key, false])),
-          },
-        },
-      });
+      // this.chartInstance.setOption({
+      //   legend: {
+      //     data: this.sortArrayByOrder(this.legends, options.legend[0].data.filter((item: any) => !countries.includes(item))),
+      //     selected: {
+      //       ...options.legend[0].selected,
+      //       ...Object.fromEntries(countries.map((key: any) => [key, false])),
+      //     },
+      //   },
+      // });
 
-      let options2: any = this.chartInstance.getOption();
+      // Add series to legend
       this.chartInstance.setOption({
         legend: {
-          data: [...options2.legend[0].data, ...countries],
+          data: sortArrayByOrder(this.legends, [...options.legend[0].data, ...countries]),
           selected: {
             ...Object.fromEntries(countries.map((key: any) => [key, false])),
             ...options.legend[0].selected,
@@ -284,12 +293,52 @@ export class IndexComponent implements OnInit {
         },
       });
     } else {
+      // Remove series to legend
       this.chartInstance.setOption({
         legend: {
-          data: options.legend[0].data.filter((item: any) => !cw.includes(item)),
+          data: sortArrayByOrder(
+            this.legends,
+            options.legend[0].data.filter((item: any) => !cw.includes(item))
+          ),
           selected: {
             ...options.legend[0].selected,
             ...Object.fromEntries(cw.map((key: any) => [key, false])),
+          },
+        },
+      });
+    }
+
+    if (save) {
+      this.save();
+    }
+  }
+
+  toggleBudget(save: boolean = true): void {
+    const options: any = this.chartInstance.getOption();
+    const series = options.series.filter((item: any) => item?.name?.startsWith('budget-')).map((item: any) => item.name);
+
+    if (this.switches['budget']) {
+      // Add series to legend
+      this.chartInstance.setOption({
+        legend: {
+          data: sortArrayByOrder(this.legends, [...options.legend[0].data, ...series]),
+          selected: {
+            ...Object.fromEntries(series.map((key: any) => [key, false])),
+            ...options.legend[0].selected,
+          },
+        },
+      });
+    } else {
+      // Remove series to legend
+      this.chartInstance.setOption({
+        legend: {
+          data: sortArrayByOrder(
+            this.legends,
+            options.legend[0].data.filter((item: any) => !series.includes(item))
+          ),
+          selected: {
+            ...options.legend[0].selected,
+            ...Object.fromEntries(series.map((key: any) => [key, false])),
           },
         },
       });

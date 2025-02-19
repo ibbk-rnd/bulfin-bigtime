@@ -108,6 +108,8 @@ export function loadData(input: any, defaults: { series: string[]; currency: str
       decoded.switches.forEach((key: any) => {
         if (switches.hasOwnProperty(key)) {
           switches[key] = key;
+        } else {
+          switches[key] = true;
         }
       });
     }

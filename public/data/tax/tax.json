@@ -6,9 +6,7 @@
   "sources": [
     {
       "name": "Данни по консолидираната фискална програма (месечни)",
-      "url": [
-        "https://www.minfin.bg/bg/statistics/5"
-      ]
+      "url": ["https://www.minfin.bg/bg/statistics/5"]
     }
   ],
   "unit": "BGN",
@@ -21,9 +19,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2002 г.",
-          "url": [
-            "https://www.minfin.bg/upload/2082/Con+Fis+Pr+12-2002+BG.pdf"
-          ]
+          "url": ["https://www.minfin.bg/upload/2082/Con+Fis+Pr+12-2002+BG.pdf"]
         }
       ]
     },
@@ -35,9 +31,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2003 г.",
-          "url": [
-            "https://www.minfin.bg/upload/2094/Con_12-03-BG.pdf"
-          ]
+          "url": ["https://www.minfin.bg/upload/2094/Con_12-03-BG.pdf"]
         }
       ]
     },
@@ -49,9 +43,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2004 г.",
-          "url": [
-            "https://www.minfin.bg/upload/2106/Con1_12-04_BG.pdf"
-          ]
+          "url": ["https://www.minfin.bg/upload/2106/Con1_12-04_BG.pdf"]
         }
       ]
     },
@@ -63,9 +55,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2005 г.",
-          "url": [
-            "https://www.minfin.bg/upload/2118/Con_12-05_BG.pdf"
-          ]
+          "url": ["https://www.minfin.bg/upload/2118/Con_12-05_BG.pdf"]
         }
       ]
     },
@@ -77,9 +67,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2006 г.",
-          "url": [
-            "https://www.minfin.bg/upload/2130/Con_12-06_BG.pdf"
-          ]
+          "url": ["https://www.minfin.bg/upload/2130/Con_12-06_BG.pdf"]
         }
       ]
     },
@@ -91,9 +79,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2007 г.",
-          "url": [
-            "https://www.minfin.bg/upload/4631/Con_12-07_BG_new.pdf"
-          ]
+          "url": ["https://www.minfin.bg/upload/4631/Con_12-07_BG_new.pdf"]
         }
       ]
     },
@@ -105,9 +91,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2008 г.",
-          "url": [
-            "https://www.minfin.bg/upload/6209/2008-EU+funds_1208_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/6209/2008-EU+funds_1208_BG_WEB.xls"]
         }
       ]
     },
@@ -119,9 +103,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2009 г.",
-          "url": [
-            "https://www.minfin.bg/upload/7602/2009-EU+funds_1209_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/7602/2009-EU+funds_1209_BG_WEB.xls"]
         }
       ]
     },
@@ -133,9 +115,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2010 г.",
-          "url": [
-            "https://www.minfin.bg/upload/8866/2010-EU+funds_1210_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/8866/2010-EU+funds_1210_BG_WEB.xls"]
         }
       ]
     },
@@ -147,9 +127,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2011 г.",
-          "url": [
-            "https://www.minfin.bg/upload/10433/2011-EU+funds_1211_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/10433/2011-EU+funds_1211_BG_WEB.xls"]
         }
       ]
     },
@@ -161,9 +139,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2012 г.",
-          "url": [
-            "https://www.minfin.bg/upload/11986/2012-EU+funds_1212_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/11986/2012-EU+funds_1212_BG_WEB.xls"]
         }
       ]
     },
@@ -175,9 +151,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2013 г.",
-          "url": [
-            "https://www.minfin.bg/upload/13855/2013-EU+funds_1213_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/13855/2013-EU+funds_1213_BG_WEB.xls"]
         }
       ]
     },
@@ -189,9 +163,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2014 г.",
-          "url": [
-            "https://www.minfin.bg/upload/15748/2014-EU+funds_1214_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/15748/2014-EU+funds_1214_BG_WEB.xls"]
         }
       ]
     },
@@ -203,9 +175,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2015 г.",
-          "url": [
-            "https://www.minfin.bg/upload/17593/2015-EU+funds_1215_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/17593/2015-EU+funds_1215_BG_WEB.xls"]
         }
       ]
     },
@@ -217,9 +187,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2016 г.",
-          "url": [
-            "https://www.minfin.bg/upload/19288/2016-EU+funds_1216_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/19288/2016-EU+funds_1216_BG_WEB.xls"]
         }
       ]
     },
@@ -231,9 +199,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2017 г.",
-          "url": [
-            "https://www.minfin.bg/upload/36420/2017-EU+funds_1217_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/36420/2017-EU+funds_1217_BG_WEB.xls"]
         }
       ]
     },
@@ -245,9 +211,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2018 г.",
-          "url": [
-            "https://www.minfin.bg/upload/39941/2018-EU+funds_1218_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/39941/2018-EU+funds_1218_BG_WEB.xls"]
         }
       ]
     },
@@ -259,9 +223,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2019 г.",
-          "url": [
-            "https://www.minfin.bg/upload/43471/2019-EU+funds_1219_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/43471/2019-EU+funds_1219_BG_WEB.xls"]
         }
       ]
     },
@@ -273,9 +235,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2020 г.",
-          "url": [
-            "https://www.minfin.bg/upload/46767/2020-EU+funds_1220_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/46767/2020-EU+funds_1220_BG_WEB.xls"]
         }
       ]
     },
@@ -287,9 +247,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2021 г.",
-          "url": [
-            "https://www.minfin.bg/upload/50723/2021-EU+funds_1221_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/50723/2021-EU+funds_1221_BG_WEB.xls"]
         }
       ]
     },
@@ -301,9 +259,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2022 г.",
-          "url": [
-            "https://www.minfin.bg/upload/54044/2022-EU+funds_1222_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/54044/2022-EU+funds_1222_BG_WEB.xls"]
         }
       ]
     },
@@ -315,9 +271,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2023 г.",
-          "url": [
-            "https://www.minfin.bg/upload/57365/2023-EU+funds_1223_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/57365/2023-EU+funds_1223_BG_WEB.xls"]
         }
       ]
     },
@@ -329,9 +283,7 @@
       "sources": [
         {
           "name": "Данни по консолидираната фискална програма - Декември 2024 г.",
-          "url": [
-            "https://www.minfin.bg/upload/60582/2024-EU+funds_1224_BG_WEB.xls"
-          ]
+          "url": ["https://www.minfin.bg/upload/60582/2024-EU+funds_1224_BG_WEB.xls"]
         }
       ]
     }

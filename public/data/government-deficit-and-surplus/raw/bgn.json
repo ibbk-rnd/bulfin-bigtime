@@ -9,15 +9,15 @@
     },
     {
       "name": "Скрийншот (Инфостат, лева)",
-      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/government-deficit-and-surplus/raw/bgn_screenshot.png"]
+      "url": ["/data/government-deficit-and-surplus/raw/bgn_screenshot.png"]
     },
     {
       "name": "CSV (Инфостат, лева)",
-      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/government-deficit-and-surplus/raw/bgn.csv"]
+      "url": ["/data/government-deficit-and-surplus/raw/bgn.csv"]
     },
     {
       "name": "xlsx (Инфостат, лева)",
-      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/government-deficit-and-surplus/raw/bgn.xlsx"]
+      "url": ["/data/government-deficit-and-surplus/raw/bgn.xlsx"]
     },
     {
       "name": "Общ държавен дефицит и излишък (НСИ, евро)",
@@ -32,6 +32,13 @@
   ],
   "unit": "BGN",
   "magnitude": 1000000,
+  "meta": {
+    "style": {
+      "areaStyle": {
+        "opacity": 0.07
+      }
+    }
+  },
   "data": [
     { "year": 1997, "value": 288 },
     { "year": 1998, "value": 356 },

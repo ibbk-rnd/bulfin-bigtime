@@ -6,27 +6,19 @@
   "sources": [
     {
       "name": "Скрийншот (Инфостат, лева)",
-      "url": [
-        "https://ibbk-rnd.github.io/bulfin-bigtime/data/gdp/raw/bgn.png"
-      ]
+      "url": ["/data/gdp/raw/bgn.png"]
     },
     {
       "name": "CSV (Инфостат, лева)",
-      "url": [
-        "https://ibbk-rnd.github.io/bulfin-bigtime/data/gdp/raw/bgn.csv"
-      ]
+      "url": ["/data/gdp/raw/bgn.csv"]
     },
     {
       "name": "xlsx (Инфостат, лева)",
-      "url": [
-        "https://ibbk-rnd.github.io/bulfin-bigtime/data/gdp/raw/bgn.xlsx"
-      ]
+      "url": ["/data/gdp/raw/bgn.xlsx"]
     },
     {
       "name": "БВП - ПРОИЗВОДСТВЕН МЕТОД - НАЦИОНАЛНО НИВО (Инфостат, лева)",
-      "url": [
-        "https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=1169"
-      ],
+      "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=1169"],
       "note": "Текущи цени, Брутен вътрешен продукт, Общо"
     },
     {
@@ -37,9 +29,7 @@
     },
     {
       "name": "Gross domestic product at market prices (Евростат, евро)",
-      "url": [
-        "https://ec.europa.eu/eurostat/databrowser/bookmark/e1b994b7-f40f-4943-8269-6e7cd0b6e8d2?lang=en"
-      ]
+      "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/e1b994b7-f40f-4943-8269-6e7cd0b6e8d2?lang=en"]
     }
   ],
   "unit": "BGN",

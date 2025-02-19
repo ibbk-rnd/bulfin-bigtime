@@ -31,6 +31,8 @@
               <label class="btn btn-outline-secondary btn-sm" for="magnitude-1000000000">млрд</label>
               <input type="radio" class="btn-check" name="multi" value="1000000" id="magnitude-1000000" [(ngModel)]="convert.magnitude" (change)="convertChart()">
               <label class="btn btn-outline-secondary btn-sm" for="magnitude-1000000">млн</label>
+              <input type="radio" class="btn-check" name="multi" value="1000" id="magnitude-1000" [(ngModel)]="convert.magnitude" (change)="convertChart()">
+              <label class="btn btn-outline-secondary btn-sm" for="magnitude-1000">хил</label>
               <input type="radio" class="btn-check" name="multi" value="1" id="magnitude-1" [(ngModel)]="convert.magnitude" (change)="convertChart()">
               <label class="btn btn-outline-secondary btn-sm" for="magnitude-1">единици</label>
             </div>
@@ -53,9 +55,13 @@
         <input class="form-check-input" [(ngModel)]="switches['labels']" (change)="toggleLabels()" type="checkbox" role="switch" id="sw-labels">
         <label class="form-check-label" for="sw-labels">Покажи числата</label>
       </div>
-      <div class="form-check form-switch ">
+      <div class="form-check form-switch me-3">
         <input class="form-check-input" [(ngModel)]="switches['neighbors']" (change)="toggleNeighbors()" type="checkbox" role="switch" id="sw-neighbors">
         <label class="form-check-label" for="sw-neighbors">Съседи и ЕС</label>
+      </div>
+      <div class="form-check form-switch ">
+        <input class="form-check-input" [(ngModel)]="switches['budget']" (change)="toggleBudget()" type="checkbox" role="switch" id="sw-budget">
+        <label class="form-check-label" for="sw-budget">Бюджет</label>
       </div>
     </div>
   </div>

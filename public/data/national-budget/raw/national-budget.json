@@ -1,0 +1,1614 @@
+[
+  {
+    "id": "budget-judiciary",
+    "name": "Бюджет на съдебната власт",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 121.9,
+        "magnitude": 1000000,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 138882.8,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 205220.0,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 230105.3,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 273500.0,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 313020.0,
+        "sources": [
+          {
+            "ref": "budget-2007"
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 385300.0,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 438323.0,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 387705.0,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 387705.0,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 400000.0,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 404000.0,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 434000.0,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 473000.0,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 518000.0,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 565000.0,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 591120.0,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 704317.0,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 771317.0,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 880317.0,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 938729.0,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 1087529.4,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 1221324.9,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-vss",
+    "name": "Бюджет на Висш съдебен съвет",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 0.9,
+        "magnitude": 1000000,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 632.5,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 1197.1,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 2853.8,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 8010.0,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 3275.0,
+        "sources": [
+          {
+            "ref": "budget-2007"
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 4776.0,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 10191.4,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 7711.0,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 7711.0,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 12506.0,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 11906.0,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 11962.0,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 12003.9,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 12141.0,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 21001.4,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 32487.5,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 51032.9,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 49575.3,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 52551.2,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 47341.6,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 56223.3,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 56584.0,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-vks",
+    "name": "Бюджет на Върховен касационен съд",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 10.0,
+        "magnitude": 1000000,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 7121.3,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 16034.4,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 17552.8,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 11220.0,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 12170.0,
+        "sources": [
+          {
+            "ref": "budget-2007"
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 13889.0,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 15585.5,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 13946.0,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 13946.0,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 13946.0,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 13946.0,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 14091.0,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 14788.2,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 16765.3,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 18168.9,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 17562.7,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 19811.6,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 21815.2,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 22722.4,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 24223.2,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 28406.5,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 30103.4,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-vas",
+    "name": "Бюджет на Върховен административен съд",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 4.0,
+        "magnitude": 1000000,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 5006.0,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 6748.0,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 7158.8,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 8939.0,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 8736.0,
+        "sources": [
+          {
+            "ref": "budget-2007"
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 9829.0,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 11135.6,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 10152.0,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 10152.0,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 10152.0,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 10152.0,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 10270.0,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 11330.8,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 12574.0,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 14482.1,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 14760.5,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 17521.8,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 19471.4,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 25754.2,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 29139.5,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 34181.7,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 38562.9,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-prosecutor",
+    "name": "Бюджет на Прокуратура на Република България",
+    "shortName": "Бюджет на Прокуратура на РБ",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 30,
+        "magnitude": 1000000,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 26792.6,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 44645.0,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 51000.0,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 58388.0,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 83622.0,
+        "sources": [
+          {
+            "ref": "budget-2007"
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 104346.0,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 120981.4,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 154908.0,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 154908.0,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 158908.0,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 162708.0,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 169414.0,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 183325.0,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 200727.9,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 216780.9,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 221715.5,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 260000.0,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 289095.7,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 330268.4,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 332794.0,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 399172.3,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 445807.8,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-sudlishta",
+    "name": "Бюджет на Съдилища на Република България",
+    "shortName": "Бюджет на Съдилища на РБ",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 54.0,
+        "magnitude": 1000000,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 71150.0,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 95640.7,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 101200.5,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 126215.0,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2006-12-29",
+        "value": 161879.0,
+        "sources": [
+          {
+            "ref": "budget-2007"
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 200107.0,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 221247.0,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 195368.0,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 195368.0,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 198868.0,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 199068.0,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 221973.0,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 244455.0,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 268132.7,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 284223.4,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 294188.5,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 343842.4,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 378277.8,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 434162.2,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 488074.9,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 550340.8,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 628361.7,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-ks",
+    "name": "Бюджет на Конституционен съд",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2013-12-20",
+        "value": 2065.0,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 3240.0,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 2719.0,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 2815.0,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 4457.0,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 3317.0,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 3608.7,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 5579.6,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 5503.8,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 5663.1,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 8858.0,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-mvr",
+    "shortName": "Бюджет на МВР",
+    "name": "Бюджет на Министерството на вътрешните работи",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2001-12-28",
+        "value": 624770.0,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2002-12-29",
+        "value": 693405.0,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2003-12-30",
+        "value": 810082.0,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2004-12-30",
+        "value": 779700.0,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2005-12-20",
+        "value": 840590.0,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2007-12-21",
+        "value": 997788.0,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2008-12-20",
+        "value": 1032738.0,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2009-12-15",
+        "value": 955521.0,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2010-12-17",
+        "value": 1006000.0,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2011-12-16",
+        "value": 999000.0,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2012-12-21",
+        "value": 1131320.0,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2013-12-20",
+        "value": 999556.0,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2014-12-24",
+        "value": 1031760.0,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2015-12-09",
+        "value": 1126977.0,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2016-12-09",
+        "value": 1233600.0,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2017-12-12",
+        "value": 1296400.0,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2018-12-13",
+        "value": 1514790.2,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "value": 1669575.5,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2020-12-08",
+        "value": 1950273.4,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-03-04",
+        "value": 2060180.0,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-08-01",
+        "value": 2407158.5,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-30",
+        "value": 2767327.8,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  }
+]

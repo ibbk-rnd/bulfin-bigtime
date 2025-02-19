@@ -6,15 +6,15 @@
   "sources": [
     {
       "name": "Скрийншот (Инфостат, лева)",
-      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gdp/raw/bgn.png"]
+      "url": ["/data/gdp/raw/bgn.png"]
     },
     {
       "name": "CSV (Инфостат, лева)",
-      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gdp/raw/bgn.csv"]
+      "url": ["/data/gdp/raw/bgn.csv"]
     },
     {
       "name": "xlsx (Инфостат, лева)",
-      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gdp/raw/bgn.xlsx"]
+      "url": ["/data/gdp/raw/bgn.xlsx"]
     },
     {
       "name": "БВП - ПРОИЗВОДСТВЕН МЕТОД - НАЦИОНАЛНО НИВО (Инфостат, лева)",

@@ -5,16 +5,12 @@
   "sources": [
     {
       "name": "Брутен външен дълг (БНБ, евро)",
-      "url": [
-        "https://www.bnb.bg/Statistics/StExternalSector/StGrossExternalDebt/index.htm"
-      ],
+      "url": ["https://www.bnb.bg/Statistics/StExternalSector/StGrossExternalDebt/index.htm"],
       "note": "Размер на брутния външен дълг по инструменти, 2015 - 2024 г. (месечни данни в милиони евро)"
     },
     {
       "name": "Брутен външен дълг: размер по икономически дейности (БНБ, евро)",
-      "url": [
-        "https://ibbk-rnd.github.io/bulfin-bigtime/data/gross-external-debt/raw/s_ged_branchstr_m_n_bg.xlsx"
-      ]
+      "url": ["/data/gross-external-debt/raw/s_ged_branchstr_m_n_bg.xlsx"]
     }
   ],
   "unit": "EUR",

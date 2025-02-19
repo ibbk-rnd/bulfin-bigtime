@@ -10,7 +10,7 @@
     },
     {
       "name": "Брутен външен дълг: размер по икономически дейности (БНБ, евро)",
-      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gross-external-debt/raw/s_ged_branchstr_m_n_bg.xlsx"]
+      "url": ["/data/gross-external-debt/raw/s_ged_branchstr_m_n_bg.xlsx"]
     }
   ],
   "unit": "EUR",

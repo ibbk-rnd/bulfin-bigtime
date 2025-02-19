@@ -429,7 +429,7 @@ function buildLine(chart: any, style: any = null, xAxisIndex: number, yAxisIndex
         show: false,
         position: 'top',
         formatter: (params: any) => {
-          return params.data.value[1].toFixed(1).toLocaleString('en-US');
+          return new Decimal(params.data.value[1]).toDecimalPlaces(1).toNumber().toLocaleString('en-US');
         },
       },
     },
@@ -612,4 +612,20 @@ function ganttLabel(params: any) {
   result += ` - <b>${date}</b><br><b>${value} ${diffText}</b><div class="mt-1">${diffToNow} до днес</div>`;
 
   return result;
+}
+
+export function sortArrayByOrder(referenceArray: any, targetArray: any) {
+  const sortedArray: any = [];
+  const referenceSet = new Set(referenceArray);
+
+  referenceArray.forEach((item: any) => {
+    if (referenceSet.has(item)) {
+      const index = targetArray.indexOf(item);
+      if (index !== -1) {
+        sortedArray.push(targetArray[index]);
+      }
+    }
+  });
+
+  return sortedArray;
 }
