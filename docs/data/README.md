@@ -10,7 +10,6 @@
 | [value-line.json](value-line.json)         | Данни които се изобразяват като хоризонтална линия               |
 | [settings.json](settings.json)             | Общи настройки                                                   |
 | [charts.json](charts.json)                 | Нормализиани и обединени статистически данни                     |
-| [knowledge.json](knowledge.json)           | Информация към за различните обекти от графиката                 |
 | [words-and-data.json](words-and-data.json) | Информация от за данни от публичното пространство                |
 
 ## Организация на статистическите данни

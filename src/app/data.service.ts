@@ -15,4 +15,8 @@ export class DataService {
   getPage(pageName: string): Observable<any> {
     return this.http.get(`pages/${pageName}.md`, { responseType: 'text' });
   }
+
+  getKnowledge(pageName: string): Observable<any> {
+    return this.http.get(`knowledge-base/${pageName}.md`, { responseType: 'text' });
+  }
 }

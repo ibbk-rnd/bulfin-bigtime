@@ -1,6 +1,15 @@
 {
   "default": {
-    "series": ["bulgaria-in-eu", "covid", "war-russia-ukraine", "gdp-bgn", "government-deficit-and-surplus-bgn", "government-deficit-and-surplus-gdp"],
+    "series": [
+      "bulgaria-in-eu",
+      "covid",
+      "war-russia-ukraine",
+      "gdp-bgn",
+      "government-deficit-and-surplus-bgn",
+      "government-deficit-and-surplus-gdp",
+      "government-prihodi",
+      "government-razhodi"
+    ],
     "currency": "EUR",
     "magnitude": "1000000000",
     "switches": {

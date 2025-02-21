@@ -34,7 +34,7 @@ echarts.use([
   MarkAreaComponent,
   MarkLineComponent,
 ]);
-import { marked } from 'marked';
+import { marked, RendererObject } from 'marked';
 import { IconsModule } from '../icons.module';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { bigTimeChart } from '../utils/Chart';
@@ -53,12 +53,12 @@ export class IndexComponent implements OnInit {
   public realityCheck: { [key: string]: boolean } = {};
   public switches: { [key: string]: boolean } = {};
   public chart!: any;
-  public knowledgeItems: any;
   public moneyCharts: string[] = [];
   public chartInstance!: ECharts;
   public isRealityCheckPanelCollapsed = true;
   public content: any = {};
   public legends: string[] = [];
+  public knowledge: { id: null | string; html: null | string } = { id: null, html: null };
   public data = {
     timeline: [],
     verticalLine: [],
@@ -66,7 +66,6 @@ export class IndexComponent implements OnInit {
     area: [],
     charts: [],
     wordsAndData: [],
-    knowledge: [{ content: '', title: '' }],
     settings: { style: {} },
   };
 
@@ -90,17 +89,15 @@ export class IndexComponent implements OnInit {
       this.dataService.getData('timeline-area.json'),
       this.dataService.getData('charts.json'),
       this.dataService.getData('words-and-data.json'),
-      this.dataService.getData('knowledge.json'),
       this.dataService.getData('settings.json'),
     ]).subscribe({
-      next: ([timeline, verticalLine, horizontalLine, area, charts, wordsAndData, knowledge, settings]) => {
+      next: ([timeline, verticalLine, horizontalLine, area, charts, wordsAndData, settings]) => {
         this.data.timeline = timeline;
         this.data.verticalLine = verticalLine;
         this.data.horizontalLine = horizontalLine;
         this.data.area = area;
         this.data.charts = charts;
         this.data.wordsAndData = wordsAndData;
-        this.data.knowledge = knowledge;
         this.data.settings = settings;
 
         const load = loadData(this.activatedRoute.snapshot.queryParamMap.get('story'), settings.default);
@@ -210,29 +207,20 @@ export class IndexComponent implements OnInit {
   onToggleGroupDeficitAndSurplus(): void {
     legendAllUnSelect(this.chartInstance);
     toggleLegends(['government-deficit-and-surplus-bgn', 'government-deficit-and-surplus-gdp', 'gdp-bgn'], 'legendSelect', this.chartInstance);
-    this.switchDebtEvents(false);
   }
 
   onToggleGroupDebt(): void {
     legendAllUnSelect(this.chartInstance);
     toggleLegends(['gross-national-debt-euro', 'gross-national-debt-gdp', 'gross-external-debt', 'gdp-bgn'], 'legendSelect', this.chartInstance);
-    this.switchDebtEvents(true);
   }
 
   onChangePreset() {
     switchLegends(['covid'], this.switches['covid'], this.chartInstance);
     switchLegends(['war-russia-ukraine'], this.switches['war-russia-ukraine'], this.chartInstance);
-    switchLegends(['debt-events'], this.switches['debt-events'], this.chartInstance);
     switchLegends(['other-events'], this.switches['other-events'], this.chartInstance);
     switchLegends(['parliament-elections'], this.switches['parliament-elections'], this.chartInstance);
-    this.switchDebtEvents(this.switches['debt-events']);
 
     this.save();
-  }
-
-  switchDebtEvents(state: boolean) {
-    switchLegends(['debt-events'], state, this.chartInstance);
-    this.switches['debtEvents'] = state;
   }
 
   convertChart() {
@@ -367,9 +355,9 @@ export class IndexComponent implements OnInit {
 
   onChartClick(event: any): void {
     this.content = null;
-    this.knowledgeItems = event.data.content?.knowledgeId
-      ? this.data.knowledge.filter((item: any) => item.group?.includes(event.data.content?.knowledgeId))
-      : null;
+
+    this.unsetKnowledge();
+    this.loadKnowledge(event.data.content?.knowledgeId);
 
     const chart: any = this.data.charts.find((item: any) => item.id === event.seriesName);
     const itemSources = event.data.content?.sources ?? [];
@@ -410,6 +398,10 @@ export class IndexComponent implements OnInit {
     });
   }
 
+  private unsetKnowledge(): void {
+    this.knowledge = { id: null, html: null };
+  }
+
   toggleRealityCheck(): void {
     this.collapse.toggle();
 
@@ -420,5 +412,23 @@ export class IndexComponent implements OnInit {
     }
 
     this.save();
+  }
+
+  private loadKnowledge(page: string) {
+    this.dataService.getKnowledge(page).subscribe((response: any) => {
+      const renderer = {
+        link(href: any, title: any, text: any) {
+          const link = marked.Renderer.prototype.link.call(this, href);
+          return link.replace('<a', "<a target='_blank' class='text-decoration-none' ");
+        },
+      } as RendererObject;
+
+      marked.use({ renderer });
+
+      this.knowledge = {
+        id: page,
+        html: marked.parse(response).toString(),
+      };
+    });
   }
 }

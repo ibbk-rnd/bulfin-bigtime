@@ -1,0 +1,134 @@
+[
+  {
+    "id": "government-prihodi",
+    "knowledgeId": "government-prihodi",
+    "name": "Приходи (общо)",
+    "sources": [
+      {
+        "name": "ОСНОВНИ НЕФИНАНСОВИ ИНДИКАТОРИ ЗА СЕКТОР \"ДЪРЖАВНО УПРАВЛЕНИЕ\"",
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=332"]
+      },
+      {
+        "name": "Скрийншот (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/prihod-razhod/raw/screenshot.png"]
+      },
+      {
+        "name": "CSV (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/prihod-razhod/raw/report.csv"]
+      },
+      {
+        "name": "Ексел (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/prihod-razhod/raw/report.xlsx"]
+      }
+    ],
+    "unit": "BGN",
+    "magnitude": 1000000,
+    "meta": {
+      "style": {
+        "lineStyle": {
+          "color": "green"
+        },
+        "itemStyle": {
+          "color": "green"
+        }
+      }
+    },
+    "data": [
+      { "year": 1995, "value": 335 },
+      { "year": 1996, "value": 626 },
+      { "year": 1997, "value": 6332 },
+      { "year": 1998, "value": 9336 },
+      { "year": 1999, "value": 10421 },
+      { "year": 2000, "value": 12119 },
+      { "year": 2001, "value": 12800 },
+      { "year": 2002, "value": 12963 },
+      { "year": 2003, "value": 14118 },
+      { "year": 2004, "value": 16319 },
+      { "year": 2005, "value": 18034 },
+      { "year": 2006, "value": 19475 },
+      { "year": 2007, "value": 23928 },
+      { "year": 2008, "value": 28028 },
+      { "year": 2009, "value": 25492 },
+      { "year": 2010, "value": 24306 },
+      { "year": 2011, "value": 25921 },
+      { "year": 2012, "value": 27646 },
+      { "year": 2013, "value": 30459 },
+      { "year": 2014, "value": 31802 },
+      { "year": 2015, "value": 34508 },
+      { "year": 2016, "value": 33459 },
+      { "year": 2017, "value": 37392 },
+      { "year": 2018, "value": 42521 },
+      { "year": 2019, "value": 46280 },
+      { "year": 2020, "value": 45429 },
+      { "year": 2021, "value": 52407 },
+      { "year": 2022, "value": 64545 },
+      { "year": 2023, "value": 68147 }
+    ]
+  },
+  {
+    "id": "government-razhodi",
+    "knowledgeId": "government-razhodi",
+    "name": "Разходи (общо)",
+    "sources": [
+      {
+        "name": "ОСНОВНИ НЕФИНАНСОВИ ИНДИКАТОРИ ЗА СЕКТОР \"ДЪРЖАВНО УПРАВЛЕНИЕ\"",
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=332"]
+      },
+      {
+        "name": "Скрийншот (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/prihod-razhod/raw/screenshot.png"]
+      },
+      {
+        "name": "CSV (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/prihod-razhod/raw/report.csv"]
+      },
+      {
+        "name": "Ексел (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/prihod-razhod/raw/report.xlsx"]
+      }
+    ],
+    "unit": "BGN",
+    "magnitude": 1000000,
+    "meta": {
+      "style": {
+        "lineStyle": {
+          "color": "red"
+        },
+        "itemStyle": {
+          "color": "red"
+        }
+      }
+    },
+    "data": [
+      { "year": 1995, "value": 405 },
+      { "year": 1996, "value": 804 },
+      { "year": 1997, "value": 6043 },
+      { "year": 1998, "value": 8980 },
+      { "year": 1999, "value": 10382 },
+      { "year": 2000, "value": 12089 },
+      { "year": 2001, "value": 12590 },
+      { "year": 2002, "value": 13324 },
+      { "year": 2003, "value": 14132 },
+      { "year": 2004, "value": 15583 },
+      { "year": 2005, "value": 17277 },
+      { "year": 2006, "value": 18045 },
+      { "year": 2007, "value": 23934 },
+      { "year": 2008, "value": 26994 },
+      { "year": 2009, "value": 28741 },
+      { "year": 2010, "value": 27050 },
+      { "year": 2011, "value": 27338 },
+      { "year": 2012, "value": 28312 },
+      { "year": 2013, "value": 31057 },
+      { "year": 2014, "value": 36329 },
+      { "year": 2015, "value": 36173 },
+      { "year": 2016, "value": 33155 },
+      { "year": 2017, "value": 35724 },
+      { "year": 2018, "value": 40623 },
+      { "year": 2019, "value": 43700 },
+      { "year": 2020, "value": 50018 },
+      { "year": 2021, "value": 57882 },
+      { "year": 2022, "value": 69401 },
+      { "year": 2023, "value": 71856 }
+    ]
+  }
+]

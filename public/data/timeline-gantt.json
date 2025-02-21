@@ -1465,6 +1465,7 @@
   },
   {
     "name": "Държавен бюджет",
+    "knowledgeId": "national-budget",
     "items": [
       {
         "name": "Бюджет 2001",

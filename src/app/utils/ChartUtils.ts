@@ -39,26 +39,26 @@ export function convertCurrency(value: number, from: string, to: string) {
 
   if (from === 'BGN' && to === 'EUR') {
     return new Decimal(value).mul(bgnToEur).toNumber();
-  } else if (from === 'EUR' && to === 'EUR') {
+  } else if (from === 'EUR' && to === 'BGN') {
     return new Decimal(value).mul(eurToBgn).toNumber();
   }
 
   return value;
 }
 
-export function convertMoneyCharts(series: any, moneyCharts: any, currency: any, magnitude: any) {
+export function convertMoneyCharts(series: any, moneyCharts: any, toCurrency: any, toMagnitude: any) {
   series.forEach((series: any) => {
     if (moneyCharts.includes(series.name)) {
       series.data = series.data.map((item: any) => {
-        const change = convertCurrency(item.content?.change ?? 0, item.content.unit, currency);
-        const value = convertCurrency(item.value[1], item.content.unit, currency);
+        const change = convertCurrency(item.content?.change ?? 0, item.content.unit, toCurrency);
+        const value = convertCurrency(item.value[1], item.content.unit, toCurrency);
 
         return {
           content: {
             ...item.content,
             ...{
               change: change,
-              unit: currency,
+              unit: toCurrency,
               value: value,
             },
           },
@@ -67,14 +67,14 @@ export function convertMoneyCharts(series: any, moneyCharts: any, currency: any,
       });
 
       series.data = series.data.map((item: any) => {
-        const value = new Decimal(item.value[1]).dividedBy(parseInt(magnitude)).toNumber();
+        const value = new Decimal(item.value[1]).dividedBy(parseInt(toMagnitude)).toNumber();
 
         return {
           content: {
             ...item.content,
             ...{
-              change: new Decimal(item.content.change).dividedBy(parseInt(magnitude)).toNumber(),
-              magnitude: parseInt(magnitude),
+              change: new Decimal(item.content.change).dividedBy(parseInt(toMagnitude)).toNumber(),
+              magnitude: parseInt(toMagnitude),
               value: value,
             },
           },
