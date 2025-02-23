@@ -1301,10 +1301,119 @@
   },
   {
     "id": "budget-ks",
+    "knowledgeId": "ks",
     "name": "Бюджет на Конституционен съд",
     "unit": "BGN",
     "magnitude": 1000,
     "data": [
+      {
+        "date": "2002-01-01",
+        "value": 1102.2,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2003-01-01",
+        "value": 1246.8,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2004-01-01",
+        "value": 1281.3,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2005-01-01",
+        "value": 1310.3,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2006-01-01",
+        "value": 2030.0,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2007-01-01",
+        "value": 1728.0,
+        "sources": [
+          {
+            "ref": "budget-2007"
+          }
+        ]
+      },
+      {
+        "date": "2008-01-01",
+        "value": 2445.0,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2009-01-01",
+        "value": 2392.0,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2010-01-01",
+        "value": 1892.0,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2011-01-01",
+        "value": 1992.0,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2012-01-01",
+        "value": 2792.0,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2013-01-01",
+        "value": 2065.0,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
       {
         "date": "2014-01-01",
         "value": 2065.0,
@@ -1606,6 +1715,657 @@
       {
         "date": "2024-01-01",
         "value": 2767327.8,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-mon",
+    "knowledgeId": "mon",
+    "name": "Бюджет на Министерството на образованието и науката",
+    "shortName": "Бюджет на МОН",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2002-01-01",
+        "value": 192583.9,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2003-01-01",
+        "value": 190159.8,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2004-01-01",
+        "value": 218823.9,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2005-01-01",
+        "value": 252833.5,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2006-01-01",
+        "value": 284791.0,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2007-01-01",
+        "value": 305427.0,
+        "sources": [
+          {
+            "ref": "budget-2007"
+          }
+        ]
+      },
+      {
+        "date": "2008-01-01",
+        "value": 357209.2,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2009-01-01",
+        "value": 441069.1,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2010-01-01",
+        "value": 388192.1,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2011-01-01",
+        "value": 422322.6,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2012-01-01",
+        "value": 460062.2,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2013-01-01",
+        "value": 433131.6,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2014-01-01",
+        "value": 420255.9,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2015-01-01",
+        "value": 417323.6,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2016-01-01",
+        "value": 445468.0,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-01",
+        "value": 486092.1,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-01",
+        "value": 584470.5,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2019-01-01",
+        "value": 664974.6,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-01",
+        "value": 750277.4,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2021-01-01",
+        "value": 808219.6,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-01-01",
+        "value": 861174.9,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-01-01",
+        "value": 1056662.3,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2024-01-01",
+        "value": 1133225.2,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-kzk",
+    "knowledgeId": "kzk",
+    "name": "Бюджет на Комисията за защита на конкуренцията",
+    "shortName": "Бюджет на КЗК",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2002-01-01",
+        "value": 988.3,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2003-01-01",
+        "value": 1214.7,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2004-01-01",
+        "value": 1377.7,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2005-01-01",
+        "value": 1508.5,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2006-01-01",
+        "value": 1854.6,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2007-01-01",
+        "value": 3799.5,
+        "sources": [
+          {
+            "ref": "budget-2007"
+          }
+        ]
+      },
+      {
+        "date": "2008-01-01",
+        "value": 4528.9,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2009-01-01",
+        "value": 5294.8,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2010-01-01",
+        "value": 4506.5,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2011-01-01",
+        "value": 3705.2,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2012-01-01",
+        "value": 3805.2,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2013-01-01",
+        "value": 3775.2,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2014-01-01",
+        "value": 3317.9,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2015-01-01",
+        "value": 3591.1,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2016-01-01",
+        "value": 3591.1,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-01",
+        "value": 3755.6,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-01",
+        "value": 4575.0,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2019-01-01",
+        "value": 4988.7,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-01",
+        "value": 5391.8,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2021-01-01",
+        "value": 5835.4,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-01-01",
+        "value": 5971.6,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-01-01",
+        "value": 7203.2,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2024-01-01",
+        "value": 6960.5,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-sem",
+    "knowledgeId": "sem",
+    "name": "Бюджет на Съвета за електронни медии",
+    "shortName": "Бюджет на СЕМ",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2002-01-01",
+        "value": 946.9,
+        "sources": [
+          {
+            "ref": "budget-2002"
+          }
+        ]
+      },
+      {
+        "date": "2003-01-01",
+        "value": 1078.0,
+        "sources": [
+          {
+            "ref": "budget-2003"
+          }
+        ]
+      },
+      {
+        "date": "2004-01-01",
+        "value": 1375.2,
+        "sources": [
+          {
+            "ref": "budget-2004"
+          }
+        ]
+      },
+      {
+        "date": "2005-01-01",
+        "value": 1412.1,
+        "sources": [
+          {
+            "ref": "budget-2005"
+          }
+        ]
+      },
+      {
+        "date": "2006-01-01",
+        "value": 1352.2,
+        "sources": [
+          {
+            "ref": "budget-2006"
+          }
+        ]
+      },
+      {
+        "date": "2007-01-01",
+        "value": 1564.8,
+        "sources": [
+          {
+            "ref": "budget-2007"
+          }
+        ]
+      },
+      {
+        "date": "2008-01-01",
+        "value": 1816.0,
+        "sources": [
+          {
+            "ref": "budget-2008"
+          }
+        ]
+      },
+      {
+        "date": "2009-01-01",
+        "value": 1906.8,
+        "sources": [
+          {
+            "ref": "budget-2009"
+          }
+        ]
+      },
+      {
+        "date": "2010-01-01",
+        "value": 1400.0,
+        "sources": [
+          {
+            "ref": "budget-2010"
+          }
+        ]
+      },
+      {
+        "date": "2011-01-01",
+        "value": 1420.0,
+        "sources": [
+          {
+            "ref": "budget-2011"
+          }
+        ]
+      },
+      {
+        "date": "2012-01-01",
+        "value": 1429.0,
+        "sources": [
+          {
+            "ref": "budget-2012"
+          }
+        ]
+      },
+      {
+        "date": "2013-01-01",
+        "value": 1470.0,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2014-01-01",
+        "value": 1307.5,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2015-01-01",
+        "value": 1229.5,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2016-01-01",
+        "value": 1235.0,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-01",
+        "value": 1310.3,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-01",
+        "value": 1542.6,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2019-01-01",
+        "value": 1669.7,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-01",
+        "value": 1792.7,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2021-01-01",
+        "value": 2916.0,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-01-01",
+        "value": 2533.9,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-01-01",
+        "value": 3043.8,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2024-01-01",
+        "value": 2909.7,
         "sources": [
           {
             "ref": "budget-2024"

@@ -212,300 +212,10 @@
     ]
   },
   {
-    "id": "tax-bgn",
-    "knowledgeId": "tax",
-    "name": "Данъчни приходи",
-    "note": "Данъчни приходи @ Консолидирана фискална програма",
-    "sources": [
-      {
-        "name": "Данни по консолидираната фискална програма (месечни)",
-        "url": ["https://www.minfin.bg/bg/statistics/5"]
-      }
-    ],
-    "unit": "BGN",
-    "data": [
-      {
-        "date": "2002-12-31",
-        "value": 12406032700,
-        "change": 0,
-        "changePercent": 0,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2002 г.",
-            "url": ["https://www.minfin.bg/upload/2082/Con+Fis+Pr+12-2002+BG.pdf"]
-          }
-        ]
-      },
-      {
-        "date": "2003-12-31",
-        "value": 11132260600,
-        "change": -1273772100,
-        "changePercent": -10.82,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2003 г.",
-            "url": ["https://www.minfin.bg/upload/2094/Con_12-03-BG.pdf"]
-          }
-        ]
-      },
-      {
-        "date": "2004-12-31",
-        "value": 12774641500,
-        "change": 1642380900,
-        "changePercent": 13.74,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2004 г.",
-            "url": ["https://www.minfin.bg/upload/2106/Con1_12-04_BG.pdf"]
-          }
-        ]
-      },
-      {
-        "date": "2005-12-31",
-        "value": 14483485400,
-        "change": 1708843900,
-        "changePercent": 12.54,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2005 г.",
-            "url": ["https://www.minfin.bg/upload/2118/Con_12-05_BG.pdf"]
-          }
-        ]
-      },
-      {
-        "date": "2006-12-31",
-        "value": 16328655500,
-        "change": 1845170100,
-        "changePercent": 11.98,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2006 г.",
-            "url": ["https://www.minfin.bg/upload/2130/Con_12-06_BG.pdf"]
-          }
-        ]
-      },
-      {
-        "date": "2007-12-31",
-        "value": 19323894200,
-        "change": 2995238700,
-        "changePercent": 16.8,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2007 г.",
-            "url": ["https://www.minfin.bg/upload/4631/Con_12-07_BG_new.pdf"]
-          }
-        ]
-      },
-      {
-        "date": "2008-12-31",
-        "value": 22169200000,
-        "change": 2845305800,
-        "changePercent": 13.71,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2008 г.",
-            "url": ["https://www.minfin.bg/upload/6209/2008-EU+funds_1208_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2009-12-31",
-        "value": 20171800000,
-        "change": -1997400000,
-        "changePercent": -9.43,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2009 г.",
-            "url": ["https://www.minfin.bg/upload/7602/2009-EU+funds_1209_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2010-12-31",
-        "value": 19008800000,
-        "change": -1163000000,
-        "changePercent": -5.94,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2010 г.",
-            "url": ["https://www.minfin.bg/upload/8866/2010-EU+funds_1210_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2011-12-31",
-        "value": 20591918961,
-        "change": 1583118961,
-        "changePercent": 8,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2011 г.",
-            "url": ["https://www.minfin.bg/upload/10433/2011-EU+funds_1211_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2012-12-31",
-        "value": 21523363924,
-        "change": 931444963,
-        "changePercent": 4.42,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2012 г.",
-            "url": ["https://www.minfin.bg/upload/11986/2012-EU+funds_1212_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2013-12-31",
-        "value": 22370221377,
-        "change": 846857453,
-        "changePercent": 3.86,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2013 г.",
-            "url": ["https://www.minfin.bg/upload/13855/2013-EU+funds_1213_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2014-12-31",
-        "value": 23028219757,
-        "change": 657998380,
-        "changePercent": 2.9,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2014 г.",
-            "url": ["https://www.minfin.bg/upload/15748/2014-EU+funds_1214_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2015-12-31",
-        "value": 24856420064,
-        "change": 1828200307,
-        "changePercent": 7.64,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2015 г.",
-            "url": ["https://www.minfin.bg/upload/17593/2015-EU+funds_1215_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2016-12-31",
-        "value": 26902964381,
-        "change": 2046544317,
-        "changePercent": 7.91,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2016 г.",
-            "url": ["https://www.minfin.bg/upload/19288/2016-EU+funds_1216_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2017-12-31",
-        "value": 29581309874,
-        "change": 2678345493,
-        "changePercent": 9.48,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2017 г.",
-            "url": ["https://www.minfin.bg/upload/36420/2017-EU+funds_1217_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2018-12-31",
-        "value": 32235705771,
-        "change": 2654395897,
-        "changePercent": 8.59,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2018 г.",
-            "url": ["https://www.minfin.bg/upload/39941/2018-EU+funds_1218_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2019-12-31",
-        "value": 35279827512,
-        "change": 3044121741,
-        "changePercent": 9.02,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2019 г.",
-            "url": ["https://www.minfin.bg/upload/43471/2019-EU+funds_1219_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2020-12-31",
-        "value": 35848387548,
-        "change": 568560036,
-        "changePercent": 1.6,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2020 г.",
-            "url": ["https://www.minfin.bg/upload/46767/2020-EU+funds_1220_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2021-12-31",
-        "value": 40876265093,
-        "change": 5027877545,
-        "changePercent": 13.11,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2021 г.",
-            "url": ["https://www.minfin.bg/upload/50723/2021-EU+funds_1221_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2022-12-31",
-        "value": 46794600000,
-        "change": 5918334907,
-        "changePercent": 13.5,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2022 г.",
-            "url": ["https://www.minfin.bg/upload/54044/2022-EU+funds_1222_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2023-12-31",
-        "value": 52324200000,
-        "change": 5529600000,
-        "changePercent": 11.16,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2023 г.",
-            "url": ["https://www.minfin.bg/upload/57365/2023-EU+funds_1223_BG_WEB.xls"]
-          }
-        ]
-      },
-      {
-        "date": "2024-12-31",
-        "value": 58700200000,
-        "change": 6376000000,
-        "changePercent": 11.49,
-        "sources": [
-          {
-            "name": "Данни по консолидираната фискална програма - Декември 2024 г.",
-            "url": ["https://www.minfin.bg/upload/60582/2024-EU+funds_1224_BG_WEB.xls"]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "government-prihodi",
     "knowledgeId": "government-prihodi",
     "name": "Приходи (общо)",
+    "shortName": "Приходи",
     "sources": [
       {
         "name": "ОСНОВНИ НЕФИНАНСОВИ ИНДИКАТОРИ ЗА СЕКТОР \"ДЪРЖАВНО УПРАВЛЕНИЕ\"",
@@ -716,6 +426,7 @@
     "id": "government-razhodi",
     "knowledgeId": "government-razhodi",
     "name": "Разходи (общо)",
+    "shortName": "Разходи",
     "sources": [
       {
         "name": "ОСНОВНИ НЕФИНАНСОВИ ИНДИКАТОРИ ЗА СЕКТОР \"ДЪРЖАВНО УПРАВЛЕНИЕ\"",
@@ -1585,6 +1296,878 @@
     ]
   },
   {
+    "id": "tax-bgn",
+    "knowledgeId": "tax",
+    "name": "Данъчни приходи (общо)",
+    "shortName": "Данъчни приходи",
+    "note": "Данъчни приходи @ Консолидирана фискална програма",
+    "sources": [
+      {
+        "name": "Данни по консолидираната фискална програма (месечни)",
+        "url": ["https://www.minfin.bg/bg/statistics/5"]
+      }
+    ],
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2002-12-31",
+        "value": 12406032700,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2082/Con+Fis+Pr+12-2002+BG.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-12-31",
+        "value": 11132260600,
+        "change": -1273772100,
+        "changePercent": -10.82,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2094/Con_12-03-BG.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-12-31",
+        "value": 12774641500,
+        "change": 1642380900,
+        "changePercent": 13.74,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2106/Con1_12-04_BG.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-12-31",
+        "value": 14483485400,
+        "change": 1708843900,
+        "changePercent": 12.54,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2118/Con_12-05_BG.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2006-12-31",
+        "value": 16328655500,
+        "change": 1845170100,
+        "changePercent": 11.98,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2130/Con_12-06_BG.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2007-12-31",
+        "value": 19323894200,
+        "change": 2995238700,
+        "changePercent": 16.8,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2007 г.",
+            "url": ["https://www.minfin.bg/upload/4631/Con_12-07_BG_new.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2008-12-31",
+        "value": 22169200000,
+        "change": 2845305800,
+        "changePercent": 13.71,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2008 г.",
+            "url": ["https://www.minfin.bg/upload/6209/2008-EU+funds_1208_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2009-12-31",
+        "value": 20171800000,
+        "change": -1997400000,
+        "changePercent": -9.43,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2009 г.",
+            "url": ["https://www.minfin.bg/upload/7602/2009-EU+funds_1209_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2010-12-31",
+        "value": 19008800000,
+        "change": -1163000000,
+        "changePercent": -5.94,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2010 г.",
+            "url": ["https://www.minfin.bg/upload/8866/2010-EU+funds_1210_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2011-12-31",
+        "value": 20591918961,
+        "change": 1583118961,
+        "changePercent": 8,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2011 г.",
+            "url": ["https://www.minfin.bg/upload/10433/2011-EU+funds_1211_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2012-12-31",
+        "value": 21523363924,
+        "change": 931444963,
+        "changePercent": 4.42,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2012 г.",
+            "url": ["https://www.minfin.bg/upload/11986/2012-EU+funds_1212_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2013-12-31",
+        "value": 22370221377,
+        "change": 846857453,
+        "changePercent": 3.86,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2013 г.",
+            "url": ["https://www.minfin.bg/upload/13855/2013-EU+funds_1213_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2014-12-31",
+        "value": 23028219757,
+        "change": 657998380,
+        "changePercent": 2.9,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2014 г.",
+            "url": ["https://www.minfin.bg/upload/15748/2014-EU+funds_1214_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2015-12-31",
+        "value": 24856420064,
+        "change": 1828200307,
+        "changePercent": 7.64,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2015 г.",
+            "url": ["https://www.minfin.bg/upload/17593/2015-EU+funds_1215_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2016-12-31",
+        "value": 26902964381,
+        "change": 2046544317,
+        "changePercent": 7.91,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2016 г.",
+            "url": ["https://www.minfin.bg/upload/19288/2016-EU+funds_1216_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2017-12-31",
+        "value": 29581309874,
+        "change": 2678345493,
+        "changePercent": 9.48,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2017 г.",
+            "url": ["https://www.minfin.bg/upload/36420/2017-EU+funds_1217_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2018-12-31",
+        "value": 32235705771,
+        "change": 2654395897,
+        "changePercent": 8.59,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2018 г.",
+            "url": ["https://www.minfin.bg/upload/39941/2018-EU+funds_1218_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2019-12-31",
+        "value": 35279827512,
+        "change": 3044121741,
+        "changePercent": 9.02,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2019 г.",
+            "url": ["https://www.minfin.bg/upload/43471/2019-EU+funds_1219_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2020-12-31",
+        "value": 35848387548,
+        "change": 568560036,
+        "changePercent": 1.6,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2020 г.",
+            "url": ["https://www.minfin.bg/upload/46767/2020-EU+funds_1220_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2021-12-31",
+        "value": 40876265093,
+        "change": 5027877545,
+        "changePercent": 13.11,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2021 г.",
+            "url": ["https://www.minfin.bg/upload/50723/2021-EU+funds_1221_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2022-12-31",
+        "value": 46794600000,
+        "change": 5918334907,
+        "changePercent": 13.5,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2022 г.",
+            "url": ["https://www.minfin.bg/upload/54044/2022-EU+funds_1222_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2023-12-31",
+        "value": 52324200000,
+        "change": 5529600000,
+        "changePercent": 11.16,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2023 г.",
+            "url": ["https://www.minfin.bg/upload/57365/2023-EU+funds_1223_BG_WEB.xls"]
+          }
+        ]
+      },
+      {
+        "date": "2024-12-31",
+        "value": 58700200000,
+        "change": 6376000000,
+        "changePercent": 11.49,
+        "sources": [
+          {
+            "name": "Данни по консолидираната фискална програма - Декември 2024 г.",
+            "url": ["https://www.minfin.bg/upload/60582/2024-EU+funds_1224_BG_WEB.xls"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tax-dds",
+    "name": "Приходи от ДДС",
+    "sources": [
+      {
+        "name": "ДАНЪЦИ ПО ВИДОВЕ И ПОДСЕКТОРИ НА \"ДЪРЖАВНО УПРАВЛЕНИЕ\"",
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=15"]
+      },
+      {
+        "name": "Скрийншот (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/tax/raw/dds.png"]
+      },
+      {
+        "name": "Ексел (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/tax/raw/dds.xlsx"]
+      },
+      {
+        "name": "CSV (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/tax/raw/dds.csv"]
+      }
+    ],
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "1995-12-31",
+        "value": 61100000,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "1996-12-31",
+        "value": 129000000,
+        "change": 67900000,
+        "changePercent": 71.44
+      },
+      {
+        "date": "1997-12-31",
+        "value": 1074000000,
+        "change": 945000000,
+        "changePercent": 157.11
+      },
+      {
+        "date": "1998-12-31",
+        "value": 1891300000,
+        "change": 817300000,
+        "changePercent": 55.12
+      },
+      {
+        "date": "1999-12-31",
+        "value": 1889000000,
+        "change": -2300000,
+        "changePercent": -0.12
+      },
+      {
+        "date": "2000-12-31",
+        "value": 2282100000,
+        "change": 393100000,
+        "changePercent": 18.85
+      },
+      {
+        "date": "2001-12-31",
+        "value": 2553000000,
+        "change": 270900000,
+        "changePercent": 11.21
+      },
+      {
+        "date": "2002-12-31",
+        "value": 2426100000,
+        "change": -126900000,
+        "changePercent": -5.1
+      },
+      {
+        "date": "2003-12-31",
+        "value": 3090200000,
+        "change": 664100000,
+        "changePercent": 24.08
+      },
+      {
+        "date": "2004-12-31",
+        "value": 3927400000,
+        "change": 837200000,
+        "changePercent": 23.86
+      },
+      {
+        "date": "2005-12-31",
+        "value": 4650000000,
+        "change": 722600000,
+        "changePercent": 16.85
+      },
+      {
+        "date": "2006-12-31",
+        "value": 5544300000,
+        "change": 894300000,
+        "changePercent": 17.55
+      },
+      {
+        "date": "2007-12-31",
+        "value": 6239500000,
+        "change": 695200000,
+        "changePercent": 11.8
+      },
+      {
+        "date": "2008-12-31",
+        "value": 7531900000,
+        "change": 1292400000,
+        "changePercent": 18.77
+      },
+      {
+        "date": "2009-12-31",
+        "value": 6107000000,
+        "change": -1424900000,
+        "changePercent": -20.89
+      },
+      {
+        "date": "2010-12-31",
+        "value": 6193200000,
+        "change": 86200000,
+        "changePercent": 1.4
+      },
+      {
+        "date": "2011-12-31",
+        "value": 6729700000,
+        "change": 536500000,
+        "changePercent": 8.3
+      },
+      {
+        "date": "2012-12-31",
+        "value": 7041800000,
+        "change": 312100000,
+        "changePercent": 4.53
+      },
+      {
+        "date": "2013-12-31",
+        "value": 7506500000,
+        "change": 464700000,
+        "changePercent": 6.39
+      },
+      {
+        "date": "2014-12-31",
+        "value": 7565000000,
+        "change": 58500000,
+        "changePercent": 0.78
+      },
+      {
+        "date": "2015-12-31",
+        "value": 7913700000,
+        "change": 348700000,
+        "changePercent": 4.51
+      },
+      {
+        "date": "2016-12-31",
+        "value": 8638100000,
+        "change": 724400000,
+        "changePercent": 8.75
+      },
+      {
+        "date": "2017-12-31",
+        "value": 9530500000,
+        "change": 892400000,
+        "changePercent": 9.82
+      },
+      {
+        "date": "2018-12-31",
+        "value": 10029900000,
+        "change": 499400000,
+        "changePercent": 5.11
+      },
+      {
+        "date": "2019-12-31",
+        "value": 11061200000,
+        "change": 1031300000,
+        "changePercent": 9.78
+      },
+      {
+        "date": "2020-12-31",
+        "value": 11020800000,
+        "change": -40400000,
+        "changePercent": -0.37
+      },
+      {
+        "date": "2021-12-31",
+        "value": 13047800000,
+        "change": 2027000000,
+        "changePercent": 16.84
+      },
+      {
+        "date": "2022-12-31",
+        "value": 15228400000,
+        "change": 2180600000,
+        "changePercent": 15.42
+      },
+      {
+        "date": "2023-12-31",
+        "value": 16280600000,
+        "change": 1052200000,
+        "changePercent": 6.68
+      }
+    ]
+  },
+  {
+    "id": "tax-varhu-dohoda",
+    "name": "Приходи от данъци върху дохода",
+    "sources": [
+      {
+        "name": "ДАНЪЦИ ПО ВИДОВЕ И ПОДСЕКТОРИ НА \"ДЪРЖАВНО УПРАВЛЕНИЕ\"",
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=15"]
+      },
+      {
+        "name": "Скрийншот (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/tax/raw/tax-varhu-dohoda.png"]
+      },
+      {
+        "name": "Ексел (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/tax/raw/tax-varhu-dohoda.xlsx"]
+      },
+      {
+        "name": "CSV (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/tax/raw/tax-varhu-dohoda.csv"]
+      }
+    ],
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "1995-12-31",
+        "value": 63400000,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "1996-12-31",
+        "value": 124900000,
+        "change": 61500000,
+        "changePercent": 65.32
+      },
+      {
+        "date": "1997-12-31",
+        "value": 2293500000,
+        "change": 2168600000,
+        "changePercent": 179.34
+      },
+      {
+        "date": "1998-12-31",
+        "value": 2612100000,
+        "change": 318600000,
+        "changePercent": 12.99
+      },
+      {
+        "date": "1999-12-31",
+        "value": 2547800000,
+        "change": -64300000,
+        "changePercent": -2.49
+      },
+      {
+        "date": "2000-12-31",
+        "value": 2721900000,
+        "change": 174100000,
+        "changePercent": 6.61
+      },
+      {
+        "date": "2001-12-31",
+        "value": 3017900000,
+        "change": 296000000,
+        "changePercent": 10.31
+      },
+      {
+        "date": "2002-12-31",
+        "value": 2951800000,
+        "change": -66100000,
+        "changePercent": -2.21
+      },
+      {
+        "date": "2003-12-31",
+        "value": 2272500000,
+        "change": -679300000,
+        "changePercent": -26.01
+      },
+      {
+        "date": "2004-12-31",
+        "value": 2276500000,
+        "change": 4000000,
+        "changePercent": 0.18
+      },
+      {
+        "date": "2005-12-31",
+        "value": 2369000000,
+        "change": 92500000,
+        "changePercent": 3.98
+      },
+      {
+        "date": "2006-12-31",
+        "value": 2919500000,
+        "change": 550500000,
+        "changePercent": 20.82
+      },
+      {
+        "date": "2007-12-31",
+        "value": 3877600000,
+        "change": 958100000,
+        "changePercent": 28.19
+      },
+      {
+        "date": "2008-12-31",
+        "value": 4105800000,
+        "change": 228200000,
+        "changePercent": 5.72
+      },
+      {
+        "date": "2009-12-31",
+        "value": 3572500000,
+        "change": -533300000,
+        "changePercent": -13.89
+      },
+      {
+        "date": "2010-12-31",
+        "value": 3405700000,
+        "change": -166800000,
+        "changePercent": -4.78
+      },
+      {
+        "date": "2011-12-31",
+        "value": 3645300000,
+        "change": 239600000,
+        "changePercent": 6.8
+      },
+      {
+        "date": "2012-12-31",
+        "value": 3706500000,
+        "change": 61200000,
+        "changePercent": 1.66
+      },
+      {
+        "date": "2013-12-31",
+        "value": 3996400000,
+        "change": 289900000,
+        "changePercent": 7.53
+      },
+      {
+        "date": "2014-12-31",
+        "value": 4282800000,
+        "change": 286400000,
+        "changePercent": 6.92
+      },
+      {
+        "date": "2015-12-31",
+        "value": 4714800000,
+        "change": 432000000,
+        "changePercent": 9.6
+      },
+      {
+        "date": "2016-12-31",
+        "value": 5148000000,
+        "change": 433200000,
+        "changePercent": 8.78
+      },
+      {
+        "date": "2017-12-31",
+        "value": 5834600000,
+        "change": 686600000,
+        "changePercent": 12.5
+      },
+      {
+        "date": "2018-12-31",
+        "value": 6178900000,
+        "change": 344300000,
+        "changePercent": 5.73
+      },
+      {
+        "date": "2019-12-31",
+        "value": 6800600000,
+        "change": 621700000,
+        "changePercent": 9.58
+      },
+      {
+        "date": "2020-12-31",
+        "value": 6815200000,
+        "change": 14600000,
+        "changePercent": 0.21
+      },
+      {
+        "date": "2021-12-31",
+        "value": 8673000000,
+        "change": 1857800000,
+        "changePercent": 23.99
+      },
+      {
+        "date": "2022-12-31",
+        "value": 10156100000,
+        "change": 1483100000,
+        "changePercent": 15.75
+      },
+      {
+        "date": "2023-12-31",
+        "value": 11535600000,
+        "change": 1379500000,
+        "changePercent": 12.72
+      }
+    ]
+  },
+  {
+    "id": "tax-gambling",
+    "shortName": "Приходи от данъци върху хазарт",
+    "name": "Данъци върху лотария, хазарт и залагания",
+    "sources": [
+      {
+        "name": "ДАНЪЦИ ПО ВИДОВЕ И ПОДСЕКТОРИ НА \"ДЪРЖАВНО УПРАВЛЕНИЕ\"",
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=15"]
+      },
+      {
+        "name": "Скрийншот",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/tax/raw/gambling.png"]
+      },
+      {
+        "name": "Ексел (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/tax/raw/gambling.xlsx"]
+      },
+      {
+        "name": "CSV (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/tax/raw/gambling.csv"]
+      }
+    ],
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "1998-12-31",
+        "value": 1600000,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "1999-12-31",
+        "value": 19700000,
+        "change": 18100000,
+        "changePercent": 169.95
+      },
+      {
+        "date": "2000-12-31",
+        "value": 20000000,
+        "change": 300000,
+        "changePercent": 1.51
+      },
+      {
+        "date": "2001-12-31",
+        "value": 21900000,
+        "change": 1900000,
+        "changePercent": 9.07
+      },
+      {
+        "date": "2002-12-31",
+        "value": 21500000,
+        "change": -400000,
+        "changePercent": -1.84
+      },
+      {
+        "date": "2003-12-31",
+        "value": 22400000,
+        "change": 900000,
+        "changePercent": 4.1
+      },
+      {
+        "date": "2004-12-31",
+        "value": 30300000,
+        "change": 7900000,
+        "changePercent": 29.98
+      },
+      {
+        "date": "2005-12-31",
+        "value": 36200000,
+        "change": 5900000,
+        "changePercent": 17.74
+      },
+      {
+        "date": "2006-12-31",
+        "value": 73700000,
+        "change": 37500000,
+        "changePercent": 68.24
+      },
+      {
+        "date": "2007-12-31",
+        "value": 88600000,
+        "change": 14900000,
+        "changePercent": 18.36
+      },
+      {
+        "date": "2008-12-31",
+        "value": 111000000,
+        "change": 22400000,
+        "changePercent": 22.44
+      },
+      {
+        "date": "2009-12-31",
+        "value": 101500000,
+        "change": -9500000,
+        "changePercent": -8.94
+      },
+      {
+        "date": "2010-12-31",
+        "value": 123100000,
+        "change": 21600000,
+        "changePercent": 19.23
+      },
+      {
+        "date": "2011-12-31",
+        "value": 120700000,
+        "change": -2400000,
+        "changePercent": -1.97
+      },
+      {
+        "date": "2012-12-31",
+        "value": 118800000,
+        "change": -1900000,
+        "changePercent": -1.59
+      },
+      {
+        "date": "2013-12-31",
+        "value": 136800000,
+        "change": 18000000,
+        "changePercent": 14.08
+      },
+      {
+        "date": "2014-12-31",
+        "value": 52400000,
+        "change": -84400000,
+        "changePercent": -89.22
+      },
+      {
+        "date": "2015-12-31",
+        "value": 57500000,
+        "change": 5100000,
+        "changePercent": 9.28
+      },
+      {
+        "date": "2016-12-31",
+        "value": 63300000,
+        "change": 5800000,
+        "changePercent": 9.6
+      },
+      {
+        "date": "2017-12-31",
+        "value": 65700000,
+        "change": 2400000,
+        "changePercent": 3.72
+      },
+      {
+        "date": "2018-12-31",
+        "value": 70600000,
+        "change": 4900000,
+        "changePercent": 7.19
+      },
+      {
+        "date": "2019-12-31",
+        "value": 69900000,
+        "change": -700000,
+        "changePercent": -1
+      },
+      {
+        "date": "2020-12-31",
+        "value": 55900000,
+        "change": -14000000,
+        "changePercent": -22.26
+      },
+      {
+        "date": "2021-12-31",
+        "value": 42900000,
+        "change": -13000000,
+        "changePercent": -26.32
+      },
+      {
+        "date": "2022-12-31",
+        "value": 74100000,
+        "change": 31200000,
+        "changePercent": 53.33
+      },
+      {
+        "date": "2023-12-31",
+        "value": 77800000,
+        "change": 3700000,
+        "changePercent": 4.87
+      }
+    ]
+  },
+  {
     "id": "gini-coefficient-bg-country",
     "knowledgeId": "gini-coefficient",
     "name": "Коефициент на Джини",
@@ -1659,6 +2242,12 @@
         "value": 37.2,
         "change": -1.2,
         "changePercent": -3.17
+      },
+      {
+        "date": "2024-12-31",
+        "value": 38.4,
+        "change": 1.2,
+        "changePercent": 3.17
       }
     ]
   },
@@ -14688,9 +15277,194 @@
   },
   {
     "id": "budget-ks",
+    "knowledgeId": "ks",
     "name": "Бюджет на Конституционен съд",
     "unit": "BGN",
     "data": [
+      {
+        "date": "2002-01-01",
+        "value": 1102200,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-01-01",
+        "value": 1246800,
+        "change": 144600,
+        "changePercent": 12.31,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-01-01",
+        "value": 1281300,
+        "change": 34500,
+        "changePercent": 2.73,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-01-01",
+        "value": 1310300,
+        "change": 29000,
+        "changePercent": 2.24,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2006-01-01",
+        "value": 2030000,
+        "change": 719700,
+        "changePercent": 43.09,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2007-01-01",
+        "value": 1728000,
+        "change": -302000,
+        "changePercent": -16.07,
+        "sources": [
+          {
+            "name": "Закон за Държавния бюджет на Република България за 2007 г.",
+            "url": ["https://www.minfin.bg/upload/2882/Zakon+2007+DV108.pdf"]
+          },
+          {
+            "name": "ПАРЛАМЕНТЪТ ПРИЕ НА ВТОРО ЧЕТЕНЕ БЮДЖЕТ 2007",
+            "date": "2006-12-20",
+            "url": ["https://www.minfin.bg/bg/news/948-8/2083"]
+          }
+        ]
+      },
+      {
+        "date": "2008-01-01",
+        "value": 2445000,
+        "change": 717000,
+        "changePercent": 34.36,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2009-01-01",
+        "value": 2392000,
+        "change": -53000,
+        "changePercent": -2.19,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2010-01-01",
+        "value": 1892000,
+        "change": -500000,
+        "changePercent": -23.34,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-01-01",
+        "value": 1992000,
+        "change": 100000,
+        "changePercent": 5.15,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2012-01-01",
+        "value": 2792000,
+        "change": 800000,
+        "changePercent": 33.44,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2013-01-01",
+        "value": 2065000,
+        "change": -727000,
+        "changePercent": -29.94,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
       {
         "date": "2014-01-01",
         "value": 2065000,
@@ -15241,6 +16015,1164 @@
         "value": 2767327800,
         "change": 360169300,
         "changePercent": 13.92,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-mon",
+    "knowledgeId": "mon",
+    "name": "Бюджет на Министерството на образованието и науката",
+    "shortName": "Бюджет на МОН",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2002-01-01",
+        "value": 192583900,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-01-01",
+        "value": 190159800,
+        "change": -2424100,
+        "changePercent": -1.27,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-01-01",
+        "value": 218823900,
+        "change": 28664100,
+        "changePercent": 14.02,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-01-01",
+        "value": 252833500,
+        "change": 34009600,
+        "changePercent": 14.42,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2006-01-01",
+        "value": 284791000,
+        "change": 31957500,
+        "changePercent": 11.89,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2007-01-01",
+        "value": 305427000,
+        "change": 20636000,
+        "changePercent": 6.99,
+        "sources": [
+          {
+            "name": "Закон за Държавния бюджет на Република България за 2007 г.",
+            "url": ["https://www.minfin.bg/upload/2882/Zakon+2007+DV108.pdf"]
+          },
+          {
+            "name": "ПАРЛАМЕНТЪТ ПРИЕ НА ВТОРО ЧЕТЕНЕ БЮДЖЕТ 2007",
+            "date": "2006-12-20",
+            "url": ["https://www.minfin.bg/bg/news/948-8/2083"]
+          }
+        ]
+      },
+      {
+        "date": "2008-01-01",
+        "value": 357209200,
+        "change": 51782200,
+        "changePercent": 15.63,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2009-01-01",
+        "value": 441069100,
+        "change": 83859900,
+        "changePercent": 21.01,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2010-01-01",
+        "value": 388192100,
+        "change": -52877000,
+        "changePercent": -12.75,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-01-01",
+        "value": 422322600,
+        "change": 34130500,
+        "changePercent": 8.42,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2012-01-01",
+        "value": 460062200,
+        "change": 37739600,
+        "changePercent": 8.55,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2013-01-01",
+        "value": 433131600,
+        "change": -26930600,
+        "changePercent": -6.03,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2014-01-01",
+        "value": 420255900,
+        "change": -12875700,
+        "changePercent": -3.02,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2015-01-01",
+        "value": 417323600,
+        "change": -2932300,
+        "changePercent": -0.7,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2016-01-01",
+        "value": 445468000,
+        "change": 28144400,
+        "changePercent": 6.52,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2017-01-01",
+        "value": 486092100,
+        "change": 40624100,
+        "changePercent": 8.72,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2018-01-01",
+        "value": 584470500,
+        "change": 98378400,
+        "changePercent": 18.38,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2019-01-01",
+        "value": 664974600,
+        "change": 80504100,
+        "changePercent": 12.89,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2020-01-01",
+        "value": 750277400,
+        "change": 85302800,
+        "changePercent": 12.05,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2021-01-01",
+        "value": 808219600,
+        "change": 57942200,
+        "changePercent": 7.44,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-01-01",
+        "value": 861174900,
+        "change": 52955300,
+        "changePercent": 6.34,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-01-01",
+        "value": 1056662300,
+        "change": 195487400,
+        "changePercent": 20.39,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2024-01-01",
+        "value": 1133225200,
+        "change": 76562900,
+        "changePercent": 6.99,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-kzk",
+    "knowledgeId": "kzk",
+    "name": "Бюджет на Комисията за защита на конкуренцията",
+    "shortName": "Бюджет на КЗК",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2002-01-01",
+        "value": 988300,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-01-01",
+        "value": 1214700,
+        "change": 226400,
+        "changePercent": 20.55,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-01-01",
+        "value": 1377700,
+        "change": 163000,
+        "changePercent": 12.58,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-01-01",
+        "value": 1508500,
+        "change": 130800,
+        "changePercent": 9.06,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2006-01-01",
+        "value": 1854600,
+        "change": 346100,
+        "changePercent": 20.58,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2007-01-01",
+        "value": 3799500,
+        "change": 1944900,
+        "changePercent": 68.8,
+        "sources": [
+          {
+            "name": "Закон за Държавния бюджет на Република България за 2007 г.",
+            "url": ["https://www.minfin.bg/upload/2882/Zakon+2007+DV108.pdf"]
+          },
+          {
+            "name": "ПАРЛАМЕНТЪТ ПРИЕ НА ВТОРО ЧЕТЕНЕ БЮДЖЕТ 2007",
+            "date": "2006-12-20",
+            "url": ["https://www.minfin.bg/bg/news/948-8/2083"]
+          }
+        ]
+      },
+      {
+        "date": "2008-01-01",
+        "value": 4528900,
+        "change": 729400,
+        "changePercent": 17.52,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2009-01-01",
+        "value": 5294800,
+        "change": 765900,
+        "changePercent": 15.59,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2010-01-01",
+        "value": 4506500,
+        "change": -788300,
+        "changePercent": -16.09,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-01-01",
+        "value": 3705200,
+        "change": -801300,
+        "changePercent": -19.52,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2012-01-01",
+        "value": 3805200,
+        "change": 100000,
+        "changePercent": 2.66,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2013-01-01",
+        "value": 3775200,
+        "change": -30000,
+        "changePercent": -0.79,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2014-01-01",
+        "value": 3317900,
+        "change": -457300,
+        "changePercent": -12.89,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2015-01-01",
+        "value": 3591100,
+        "change": 273200,
+        "changePercent": 7.91,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2016-01-01",
+        "value": 3591100,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2017-01-01",
+        "value": 3755600,
+        "change": 164500,
+        "changePercent": 4.48,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2018-01-01",
+        "value": 4575000,
+        "change": 819400,
+        "changePercent": 19.67,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2019-01-01",
+        "value": 4988700,
+        "change": 413700,
+        "changePercent": 8.65,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2020-01-01",
+        "value": 5391800,
+        "change": 403100,
+        "changePercent": 7.77,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2021-01-01",
+        "value": 5835400,
+        "change": 443600,
+        "changePercent": 7.9,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-01-01",
+        "value": 5971600,
+        "change": 136200,
+        "changePercent": 2.31,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-01-01",
+        "value": 7203200,
+        "change": 1231600,
+        "changePercent": 18.7,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2024-01-01",
+        "value": 6960500,
+        "change": -242700,
+        "changePercent": -3.43,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "budget-sem",
+    "knowledgeId": "sem",
+    "name": "Бюджет на Съвета за електронни медии",
+    "shortName": "Бюджет на СЕМ",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2002-01-01",
+        "value": 946900,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2002 г.",
+            "url": ["https://www.minfin.bg/upload/2877/zakon_za_budgeta_2002.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2003-01-01",
+        "value": 1078000,
+        "change": 131100,
+        "changePercent": 12.95,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2003 г.",
+            "url": ["https://www.minfin.bg/upload/2878/LBUDGET.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2004-01-01",
+        "value": 1375200,
+        "change": 297200,
+        "changePercent": 24.23,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2004 г.",
+            "url": ["https://www.minfin.bg/upload/2879/BUDGET20.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2005-01-01",
+        "value": 1412100,
+        "change": 36900,
+        "changePercent": 2.65,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2005 г.",
+            "url": ["https://www.minfin.bg/upload/2880/Budjet_zakon2005.pdf"]
+          }
+        ]
+      },
+      {
+        "date": "2006-01-01",
+        "value": 1352200,
+        "change": -59900,
+        "changePercent": -4.33,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2006 г.",
+            "url": ["https://www.minfin.bg/upload/2881/DB-2006+g+ot+NS-1.pdf"]
+          },
+          {
+            "name": "Бюджет’2006 е приет окончателно",
+            "date": "2005-12-20",
+            "url": ["https://www.mediapool.bg/byudzhet2006-e-priet-okonchatelno-news112468.html"]
+          }
+        ]
+      },
+      {
+        "date": "2007-01-01",
+        "value": 1564800,
+        "change": 212600,
+        "changePercent": 14.58,
+        "sources": [
+          {
+            "name": "Закон за Държавния бюджет на Република България за 2007 г.",
+            "url": ["https://www.minfin.bg/upload/2882/Zakon+2007+DV108.pdf"]
+          },
+          {
+            "name": "ПАРЛАМЕНТЪТ ПРИЕ НА ВТОРО ЧЕТЕНЕ БЮДЖЕТ 2007",
+            "date": "2006-12-20",
+            "url": ["https://www.minfin.bg/bg/news/948-8/2083"]
+          }
+        ]
+      },
+      {
+        "date": "2008-01-01",
+        "value": 1816000,
+        "change": 251200,
+        "changePercent": 14.86,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2008 г.",
+            "url": ["https://www.minfin.bg/upload/4424/%09%09ZDBudget+2008.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2008 г.",
+            "date": "2007-12-18",
+            "url": ["https://news.bg/politics/parlamentat-glasuva-okonchatelno-byudzhet-2008-g.html"]
+          }
+        ]
+      },
+      {
+        "date": "2009-01-01",
+        "value": 1906800,
+        "change": 90800,
+        "changePercent": 4.88,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2009 г.",
+            "url": ["https://www.minfin.bg/upload/6138/%09%09Darjaven+budget+2009.pdf%09%09"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет 2009",
+            "date": "2008-12-17",
+            "url": ["https://bntnews.bg/bg/a/1778-parlamentyt_prie_okonchatelno_budjet_2009"]
+          }
+        ]
+      },
+      {
+        "date": "2010-01-01",
+        "value": 1400000,
+        "change": -506800,
+        "changePercent": -30.65,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2010 г.",
+            "url": ["https://www.minfin.bg/upload/7558/ZDB+2010.pdf"]
+          },
+          {
+            "name": "Бюджет 2010 г. бе окончателно приет след 17-часови дебати",
+            "date": "2009-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2011-01-01",
+        "value": 1420000,
+        "change": 20000,
+        "changePercent": 1.42,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2011 г.",
+            "url": ["https://www.minfin.bg/upload/8842/2011.pdf"]
+          },
+          {
+            "name": "Парламентът одобри закона за държавния бюджет",
+            "date": "2010-12-03",
+            "url": ["https://www.minfin.bg/bg/news/963-9/4152"]
+          }
+        ]
+      },
+      {
+        "date": "2012-01-01",
+        "value": 1429000,
+        "change": 9000,
+        "changePercent": 0.63,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2012 г. (Обн., ДВ, бр. 99 от 16.12.2011 г., в сила от 1.01.2012 г.)",
+            "url": ["https://www.minfin.bg/upload/10270/ZDB+2012+-+DV99.pdf"]
+          },
+          {
+            "name": "Парламентът прие окончателно Бюджет' 2012",
+            "date": "2011-12-09",
+            "url": ["https://www.dnevnik.bg/bulgaria/2011/12/09/1356356_parlamentut_prie_okonchatelno_bjudjet_2012_v_2_chasa/a4135382f610460049e07343c37bed4d/"]
+          }
+        ]
+      },
+      {
+        "date": "2013-01-01",
+        "value": 1470000,
+        "change": 41000,
+        "changePercent": 2.83,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2014-01-01",
+        "value": 1307500,
+        "change": -162500,
+        "changePercent": -11.7,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2015-01-01",
+        "value": 1229500,
+        "change": -78000,
+        "changePercent": -6.15,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2016-01-01",
+        "value": 1235000,
+        "change": 5500,
+        "changePercent": 0.45,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2017-01-01",
+        "value": 1310300,
+        "change": 75300,
+        "changePercent": 5.92,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2018-01-01",
+        "value": 1542600,
+        "change": 232300,
+        "changePercent": 16.29,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2019-01-01",
+        "value": 1669700,
+        "change": 127100,
+        "changePercent": 7.91,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2020-01-01",
+        "value": 1792700,
+        "change": 123000,
+        "changePercent": 7.1,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2021-01-01",
+        "value": 2916000,
+        "change": 1123300,
+        "changePercent": 47.71,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-01-01",
+        "value": 2533900,
+        "change": -382100,
+        "changePercent": -14.02,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-01-01",
+        "value": 3043800,
+        "change": 509900,
+        "changePercent": 18.28,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2024-01-01",
+        "value": 2909700,
+        "change": -134100,
+        "changePercent": -4.5,
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",

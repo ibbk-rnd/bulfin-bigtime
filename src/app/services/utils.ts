@@ -1,7 +1,8 @@
 import moment from 'moment/moment';
+import Decimal from 'decimal.js';
 
-export function toHumanDate(date?: string | number) {
-  return moment(date).format('D MMMM YYYY');
+export function humanDate(date?: string | number) {
+  return moment(date).format('D MMMM YYYY г.');
 }
 
 export function humanDateDiff(from: string | number, to: string | number, inDays = false): string {
@@ -73,10 +74,45 @@ export function humanValue(value: number, unit?: string, magnitude?: number, onl
     return suffix;
   }
 
-  return value.toLocaleString('en-US') + ' ' + suffix;
+  return value.toLocaleString('en-US') + suffix;
 }
 
-export function buildPayload(options: any, realityCheck: any, switches: any, convert: any) {
+/**
+ * Currency exchange rate: https://www.bnb.bg/statistics/stexternalsector/stexchangerates/sterfixed/index.htm
+ */
+export function convertCurrency(value: number, from: string, to: string): number {
+  const euroToBgn = 1.95583;
+  const bgnToEuro = 0.511292;
+  let rate: number;
+
+  if (from === 'BGN' && to === 'EUR') {
+    rate = bgnToEuro;
+  } else if (from === 'EUR' && to === 'BGN') {
+    rate = euroToBgn;
+  } else {
+    return value;
+  }
+
+  return new Decimal(value).mul(rate).toNumber();
+}
+
+export function sortArrayByReference(referenceArray: any, targetArray: any) {
+  const sortedArray: any = [];
+  const referenceSet = new Set(referenceArray);
+
+  referenceArray.forEach((item: any) => {
+    if (referenceSet.has(item)) {
+      const index = targetArray.indexOf(item);
+      if (index !== -1) {
+        sortedArray.push(targetArray[index]);
+      }
+    }
+  });
+
+  return sortedArray;
+}
+
+export function buildSavePayload(options: any, realityCheck: any, switches: any, convert: any) {
   const selected = options.legend[0].selected;
 
   return encodeData({

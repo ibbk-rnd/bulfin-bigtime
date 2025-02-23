@@ -3,6 +3,7 @@
     "id": "government-prihodi",
     "knowledgeId": "government-prihodi",
     "name": "Приходи (общо)",
+    "shortName": "Приходи",
     "sources": [
       {
         "name": "ОСНОВНИ НЕФИНАНСОВИ ИНДИКАТОРИ ЗА СЕКТОР \"ДЪРЖАВНО УПРАВЛЕНИЕ\"",
@@ -69,6 +70,7 @@
     "id": "government-razhodi",
     "knowledgeId": "government-razhodi",
     "name": "Разходи (общо)",
+    "shortName": "Разходи",
     "sources": [
       {
         "name": "ОСНОВНИ НЕФИНАНСОВИ ИНДИКАТОРИ ЗА СЕКТОР \"ДЪРЖАВНО УПРАВЛЕНИЕ\"",

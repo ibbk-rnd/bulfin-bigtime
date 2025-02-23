@@ -12,15 +12,15 @@ import {
   TooltipComponent,
 } from 'echarts/components';
 import { ECharts } from 'echarts';
-import { DataService } from '../data.service';
+import { DataService } from '../services/data.service';
 import { forkJoin } from 'rxjs';
-import { saveAsImage, convertMoneyCharts, combineSeries, legendAllUnSelect, toggleLegends, switchLegends, sortArrayByOrder } from '../utils/ChartUtils';
+import { saveAsImage, convertMoneyCharts, buildSeries, legendAllUnSelect, switchLegends } from '../services/chart/utils';
 import { CommonModule } from '@angular/common';
 import { CanvasRenderer } from 'echarts/renderers';
 import { FormsModule } from '@angular/forms';
 import { NgbCollapse, NgbTooltip } from '@ng-bootstrap/ng-bootstrap';
-import { humanDateDiff, loadData, buildPayload, humanValue } from '../utils/Utils';
-import { HumanDatePipe } from '../human-date.pipe';
+import { humanDateDiff, loadData, buildSavePayload, humanValue, sortArrayByReference } from '../services/utils';
+import { HumanDatePipe } from '../pipes/human-date.pipe';
 echarts.use([
   BarChart,
   GridComponent,
@@ -34,10 +34,11 @@ echarts.use([
   MarkAreaComponent,
   MarkLineComponent,
 ]);
-import { marked, RendererObject } from 'marked';
+import { marked } from 'marked';
 import { IconsModule } from '../icons.module';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { bigTimeChart } from '../utils/Chart';
+import { bigTimeChart } from '../services/chart/chart';
+import { markedConfig } from '../services/markdown';
 
 @Component({
   selector: 'app-index',
@@ -137,11 +138,7 @@ export class IndexComponent implements OnInit {
     });
   }
 
-  toMarkdown(text: string) {
-    return marked.parse(text).toString();
-  }
-
-  loadChart(area: any, gantt: any, charts: any, defaultLegends: string[], charts2: any): void {
+  loadChart(area: any, gantt: any, charts: any, defaultLegends: string[], wordsAndData: any): void {
     let legend: any = { data: [], map: {}, selected: {} };
 
     area.forEach((item: any) => {
@@ -165,11 +162,11 @@ export class IndexComponent implements OnInit {
       }
     });
 
-    charts2.forEach((item: any) => {
+    wordsAndData.forEach((item: any) => {
       legend.selected[item.id] = false;
     });
 
-    const series = combineSeries(area, gantt, [...charts, ...charts2], this.data.verticalLine, this.data.horizontalLine);
+    const series = buildSeries(area, gantt, [...charts, ...wordsAndData], this.data.verticalLine, this.data.horizontalLine);
 
     series.forEach((item: any) => {
       if (item.name && !this.legends.includes(item.name)) {
@@ -206,12 +203,16 @@ export class IndexComponent implements OnInit {
 
   onToggleGroupDeficitAndSurplus(): void {
     legendAllUnSelect(this.chartInstance);
-    toggleLegends(['government-deficit-and-surplus-bgn', 'government-deficit-and-surplus-gdp', 'gdp-bgn'], 'legendSelect', this.chartInstance);
+    switchLegends(
+      ['government-deficit-and-surplus-bgn', 'government-deficit-and-surplus-gdp', 'gdp-bgn', 'government-prihodi', 'government-razhodi'],
+      true,
+      this.chartInstance
+    );
   }
 
   onToggleGroupDebt(): void {
     legendAllUnSelect(this.chartInstance);
-    toggleLegends(['gross-national-debt-euro', 'gross-national-debt-gdp', 'gross-external-debt', 'gdp-bgn'], 'legendSelect', this.chartInstance);
+    switchLegends(['gross-national-debt-euro', 'gross-national-debt-gdp', 'gross-external-debt', 'gdp-bgn'], true, this.chartInstance);
   }
 
   onChangePreset() {
@@ -226,7 +227,7 @@ export class IndexComponent implements OnInit {
   convertChart() {
     this.chartInstance.setOption({
       series: convertMoneyCharts(
-        combineSeries(this.data.area, this.data.timeline, [...this.data.charts, ...this.data.wordsAndData], this.data.verticalLine, this.data.horizontalLine),
+        buildSeries(this.data.area, this.data.timeline, [...this.data.charts, ...this.data.wordsAndData], this.data.verticalLine, this.data.horizontalLine),
         this.moneyCharts,
         this.convert.currency,
         this.convert.magnitude
@@ -260,20 +261,10 @@ export class IndexComponent implements OnInit {
     const cw = countries.filter((item: any) => !countryBg.includes(item));
 
     if (this.switches['neighbors']) {
-      // this.chartInstance.setOption({
-      //   legend: {
-      //     data: this.sortArrayByOrder(this.legends, options.legend[0].data.filter((item: any) => !countries.includes(item))),
-      //     selected: {
-      //       ...options.legend[0].selected,
-      //       ...Object.fromEntries(countries.map((key: any) => [key, false])),
-      //     },
-      //   },
-      // });
-
       // Add series to legend
       this.chartInstance.setOption({
         legend: {
-          data: sortArrayByOrder(this.legends, [...options.legend[0].data, ...countries]),
+          data: sortArrayByReference(this.legends, [...options.legend[0].data, ...countries]),
           selected: {
             ...Object.fromEntries(countries.map((key: any) => [key, false])),
             ...options.legend[0].selected,
@@ -284,7 +275,7 @@ export class IndexComponent implements OnInit {
       // Remove series to legend
       this.chartInstance.setOption({
         legend: {
-          data: sortArrayByOrder(
+          data: sortArrayByReference(
             this.legends,
             options.legend[0].data.filter((item: any) => !cw.includes(item))
           ),
@@ -309,7 +300,7 @@ export class IndexComponent implements OnInit {
       // Add series to legend
       this.chartInstance.setOption({
         legend: {
-          data: sortArrayByOrder(this.legends, [...options.legend[0].data, ...series]),
+          data: sortArrayByReference(this.legends, [...options.legend[0].data, ...series]),
           selected: {
             ...Object.fromEntries(series.map((key: any) => [key, false])),
             ...options.legend[0].selected,
@@ -320,7 +311,7 @@ export class IndexComponent implements OnInit {
       // Remove series to legend
       this.chartInstance.setOption({
         legend: {
-          data: sortArrayByOrder(
+          data: sortArrayByReference(
             this.legends,
             options.legend[0].data.filter((item: any) => !series.includes(item))
           ),
@@ -359,7 +350,7 @@ export class IndexComponent implements OnInit {
     this.unsetKnowledge();
     this.loadKnowledge(event.data.content?.knowledgeId);
 
-    const chart: any = this.data.charts.find((item: any) => item.id === event.seriesName);
+    const chart: any = [...this.data.charts, ...this.data.wordsAndData].find((item: any) => item.id === event.seriesName);
     const itemSources = event.data.content?.sources ?? [];
     const chartSources = chart?.sources ?? [];
 
@@ -393,7 +384,7 @@ export class IndexComponent implements OnInit {
     this.router.navigate([], {
       relativeTo: this.activatedRoute,
       queryParams: {
-        story: buildPayload(this.chartInstance.getOption(), this.realityCheck, this.switches, this.convert),
+        story: buildSavePayload(this.chartInstance.getOption(), this.realityCheck, this.switches, this.convert),
       },
     });
   }
@@ -415,15 +406,12 @@ export class IndexComponent implements OnInit {
   }
 
   private loadKnowledge(page: string) {
-    this.dataService.getKnowledge(page).subscribe((response: any) => {
-      const renderer = {
-        link(href: any, title: any, text: any) {
-          const link = marked.Renderer.prototype.link.call(this, href);
-          return link.replace('<a', "<a target='_blank' class='text-decoration-none' ");
-        },
-      } as RendererObject;
+    if (!page) {
+      return;
+    }
 
-      marked.use({ renderer });
+    this.dataService.getKnowledge(page).subscribe((response: any) => {
+      marked.use(markedConfig());
 
       this.knowledge = {
         id: page,

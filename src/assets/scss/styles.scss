@@ -1,5 +1,5 @@
-@import 'assets/scss/typography.scss';
-@import 'bootstrap/scss/bootstrap';
+@use '../../../node_modules/bootstrap/scss/bootstrap';
+@use 'typography';
 
 * {
   font-family: 'Sofia Sans';

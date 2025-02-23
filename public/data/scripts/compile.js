@@ -3,12 +3,12 @@ const fs = require('fs');
 
 const files = [
   ['../gdp', 'bgn.json'],
-  ['../tax', 'tax.json'],
   ['../prihod-razhod', 'prihod-razhod.json'],
   ['../government-deficit-and-surplus', 'bgn.json'],
   ['../government-deficit-and-surplus', 'gdp.json'],
   ['../gross-national-debt', 'euro.json'],
   ['../gross-national-debt', 'gdp.json'],
+  ['../tax', 'tax.json'],
   ['../gini-coefficient', 'gini-coefficient.json'],
   ['../hicp', 'HICP.json'],
   ['../budget-nzok', 'budget-nzok.json'],

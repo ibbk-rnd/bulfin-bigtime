@@ -12,11 +12,11 @@ export class DataService {
     return this.http.get<any>('data/' + path);
   }
 
-  getPage(pageName: string): Observable<any> {
-    return this.http.get(`pages/${pageName}.md`, { responseType: 'text' });
+  getPage(fileName: string): Observable<any> {
+    return this.http.get(`pages/${fileName}.md`, { responseType: 'text' });
   }
 
-  getKnowledge(pageName: string): Observable<any> {
-    return this.http.get(`knowledge-base/${pageName}.md`, { responseType: 'text' });
+  getKnowledge(fileName: string): Observable<any> {
+    return this.http.get(`knowledge-base/${fileName}.md`, { responseType: 'text' });
   }
 }

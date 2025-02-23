@@ -100,7 +100,7 @@
       }
 
       @if(content.value) {
-        <span class="h5">{{ humanValue(content.value, content.unit, content.magnitude) }} / {{ content.date|humanDate }}</span>
+        <span class="h4"><span class="text-info-emphasis">{{ humanValue(content.value, content.unit, content.magnitude) }}</span><span class="mx-2 text-secondary"><i-feather name="at-sign" style="width: 18px;"></i-feather></span><span class="text-info-emphasis">{{ content.date|humanDate }}</span></span>
       }
 
       <p>{{ content.description }}</p>
@@ -139,8 +139,8 @@
       <div class="card">
         <div class="card-body" [innerHTML]="knowledge.html"></div>
       </div>
-      <div class="mt-2 text-end align-middle">
-        <a href="https://github.com/ibbk-rnd/bulfin-bigtime/edit/master/public/knowledge-base/{{ knowledge.id }}.md" target="_blank" class="text-decoration-none "><i-feather name="edit" class="me-2 "></i-feather>Редактирай тази страница</a>
+      <div class="mt-3 text-end align-middle">
+        <a href="https://github.com/ibbk-rnd/bulfin-bigtime/tree/master/public/knowledge-base/{{ knowledge.id }}.md" target="_blank" class="text-decoration-none "><i-feather name="edit" class="me-2 "></i-feather>Редактирай тази страница</a>
       </div>
     </div>
   </div>
@@ -155,5 +155,3 @@
     </div>
   </div>
 </div>
-
-

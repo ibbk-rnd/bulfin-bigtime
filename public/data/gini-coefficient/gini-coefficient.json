@@ -74,6 +74,12 @@
         "value": 37.2,
         "change": -1.2,
         "changePercent": -3.17
+      },
+      {
+        "date": "2024-12-31",
+        "value": 38.4,
+        "change": 1.2,
+        "changePercent": 3.17
       }
     ]
   },

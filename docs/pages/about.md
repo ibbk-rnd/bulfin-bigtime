@@ -29,7 +29,7 @@
 
 Ако представеният начин на информация ви вдъхновява и искате да научите как да правите подобни визуализации, ето няколко примера, с които можете да започнете.
 
-- [Примери](https://github.com/ibbk-rnd/bulfin-bigtime)
+- [Примери](https://github.com/ibbk-rnd/bulfin-bigtime/tree/master/examples)
 - [Custom profile](https://echarts.apache.org/examples/en/editor.html?c=custom-profile)
 - [Custom gantt flight](https://echarts.apache.org/examples/en/editor.html?c=custom-gantt-flight)
 - [markArea](https://echarts.apache.org/en/option.html#series-line.markArea)
