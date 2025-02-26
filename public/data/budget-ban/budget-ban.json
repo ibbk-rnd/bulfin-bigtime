@@ -1,0 +1,108 @@
+{
+  "id": "budget-ban",
+  "knowledgeId": "ban",
+  "name": "Бюджет на БАН",
+  "shortName": "Бюджет на БАН",
+  "unit": "BGN",
+  "data": [
+    {
+      "date": "2017-01-01",
+      "value": 144500000,
+      "change": 0,
+      "changePercent": 0,
+      "sources": [
+        {
+          "name": "Бюджет и финансова информация > 2017",
+          "url": ["https://www.bas.bg/?page_id=297#1324-1574-%d0%b1%d1%8e%d0%b4%d0%b6%d0%b5%d1%82-%d0%bd%d0%b0-%d0%b1%d0%b0%d0%bd"]
+        }
+      ]
+    },
+    {
+      "date": "2018-01-01",
+      "value": 160078200,
+      "change": 15578200,
+      "changePercent": 10.23,
+      "sources": [
+        {
+          "name": "Бюджет и финансова информация > 2018",
+          "url": ["https://www.bas.bg/?page_id=297#1324-1573-%d0%b1%d1%8e%d0%b4%d0%b6%d0%b5%d1%82-%d0%bd%d0%b0-%d0%b1%d0%b0%d0%bd-1531220802"]
+        }
+      ]
+    },
+    {
+      "date": "2019-01-01",
+      "value": 147595800,
+      "change": -12482400,
+      "changePercent": -8.11,
+      "sources": [
+        {
+          "name": "Бюджет и финансова информация > 2019",
+          "url": ["https://www.bas.bg/?page_id=297#1324-1642-%d0%b1%d1%8e%d0%b4%d0%b6%d0%b5%d1%82-%d0%bd%d0%b0-%d0%b1%d0%b0%d0%bd-1546504365"]
+        }
+      ]
+    },
+    {
+      "date": "2020-01-01",
+      "value": 159245400,
+      "change": 11649600,
+      "changePercent": 7.59,
+      "sources": [
+        {
+          "name": "Бюджет и финансова информация > 2020",
+          "url": ["https://www.bas.bg/?page_id=297#1324-1916-%d0%b1%d1%8e%d0%b4%d0%b6%d0%b5%d1%82-%d0%bd%d0%b0-%d0%b1%d0%b0%d0%bd-1578037421"]
+        }
+      ]
+    },
+    {
+      "date": "2021-01-01",
+      "value": 176479600,
+      "change": 17234200,
+      "changePercent": 10.27,
+      "sources": [
+        {
+          "name": "Бюджет и финансова информация > 2021",
+          "url": ["https://www.bas.bg/?page_id=297#1324-1984-%d0%b1%d1%8e%d0%b4%d0%b6%d0%b5%d1%82-%d0%bd%d0%b0-%d0%b1%d0%b0%d0%bd-1609767362"]
+        }
+      ]
+    },
+    {
+      "date": "2022-01-01",
+      "value": 208166800,
+      "change": 31687200,
+      "changePercent": 16.48,
+      "sources": [
+        {
+          "name": "Бюджет и финансова информация > 2022",
+          "url": ["https://www.bas.bg/?page_id=297#1324-2066-%d0%b1%d1%8e%d0%b4%d0%b6%d0%b5%d1%82-%d0%bd%d0%b0-%d0%b1%d0%b0%d0%bd-1656407747"]
+        }
+      ]
+    },
+    {
+      "date": "2023-01-01",
+      "value": 217069695,
+      "change": 8902895,
+      "changePercent": 4.19,
+      "sources": [
+        {
+          "name": "Бюджет и финансова информация > 2023",
+          "url": [
+            "https://www.bas.bg/?page_id=297#1324-2155-%d0%be%d1%82%d1%87%d0%b5%d1%82%d0%b8-%d0%b7%d0%b0-%d0%ba%d0%b0%d1%81%d0%be%d0%b2%d0%be-%d0%b8%d0%b7%d0%bf%d1%8a%d0%bb%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-1677056630"
+          ],
+          "note": "Об.записка към Касов отчет на БАН към 31.12.2023г.pdf от Годишен финансов отчет на БАН - 2023г"
+        }
+      ]
+    },
+    {
+      "date": "2024-01-01",
+      "value": 254687900,
+      "change": 37618205,
+      "changePercent": 15.95,
+      "sources": [
+        {
+          "name": "Бюджет и финансова информация > 2024",
+          "url": ["https://www.bas.bg/?page_id=297#1324-2251-%d0%b1%d1%8e%d0%b4%d0%b6%d0%b5%d1%82-%d0%bd%d0%b0-%d0%b1%d0%b0%d0%bd-1718217497"]
+        }
+      ]
+    }
+  ]
+}

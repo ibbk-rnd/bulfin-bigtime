@@ -8,10 +8,12 @@ const files = [
   ['../government-deficit-and-surplus', 'gdp.json'],
   ['../gross-national-debt', 'euro.json'],
   ['../gross-national-debt', 'gdp.json'],
+  ['../tax', 'maximum-insurable-income.json'],
   ['../tax', 'tax.json'],
   ['../gini-coefficient', 'gini-coefficient.json'],
-  ['../hicp', 'HICP.json'],
+  ['../inflation', 'HICP.json'],
   ['../budget-nzok', 'budget-nzok.json'],
+  ['../budget-ban', 'budget-ban.json'],
   ['../national-budget', 'national-budget.json'],
   ['../other', 'other.json'],
 ];

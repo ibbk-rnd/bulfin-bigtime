@@ -1,0 +1,49 @@
+{
+  "id": "maximum-insurable-income",
+  "knowledgeId": "tax-mod",
+  "name": "Максимален осигурителен доход (МОД)",
+  "sources": [
+    {
+      "name": "Максимален осигурителен доход по години (2025)",
+      "url": [
+        "https://kik-info.com/spravochnik/maksimalen-osiguritelen-dohod.php",
+        "https://balans.bg/spravochnitsi/maxod",
+        "https://activity.bg/blog/spravochna-informatsia/maksimalen-osiguritelen-dohod/"
+      ]
+    }
+  ],
+  "unit": "BGN",
+  "data": [
+    { "date": "2025-01-01", "value": 3750.0 },
+    { "date": "2024-01-01", "value": 3750.0 },
+    { "date": "2023-01-01", "value": 3400.0 },
+    { "date": "2022-04-01", "value": 3400.0 },
+    { "date": "2022-01-01", "value": 3000.0 },
+    { "date": "2021-01-01", "value": 3000.0 },
+    { "date": "2020-01-01", "value": 3000.0 },
+    { "date": "2019-01-01", "value": 3000.0 },
+    { "date": "2018-01-01", "value": 2600.0 },
+    { "date": "2017-01-01", "value": 2600.0 },
+    { "date": "2016-01-01", "value": 2600.0 },
+    { "date": "2015-01-01", "value": 2600.0 },
+    { "date": "2014-01-01", "value": 2400.0 },
+    { "date": "2013-01-01", "value": 2200.0 },
+    { "date": "2012-01-01", "value": 2000.0 },
+    { "date": "2011-01-01", "value": 2000.0 },
+    { "date": "2010-01-01", "value": 2000.0 },
+    { "date": "2009-01-01", "value": 2000.0 },
+    { "date": "2008-01-01", "value": 2000.0 },
+    { "date": "2007-01-01", "value": 1400.0 },
+    { "date": "2006-01-01", "value": 1400.0 },
+    { "date": "2005-01-01", "value": 1300.0 },
+    { "date": "2004-01-01", "value": 1200.0 },
+    { "date": "2003-01-01", "value": 1000.0 },
+    { "date": "2002-01-01", "value": 850 },
+    { "date": "2001-10-01", "value": 1000.0 },
+    { "date": "2001-04-01", "value": 850 },
+    { "date": "2001-01-01", "value": 790 },
+    { "date": "2000-10-01", "value": 790 },
+    { "date": "2000-02-01", "value": 750 },
+    { "date": "2000-01-01", "value": 670 }
+  ]
+}

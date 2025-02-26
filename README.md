@@ -2,7 +2,7 @@
 
 Този проект визуализира различни финансови, икономически и други показатели на България, комбинирайки ги с контекстуално свързани събития.
 
-[Демо](https://ibbk-rnd.github.io/bulfin-bigtime/)
+[Демо](https://ibbk-rnd.github.io/bulfin-bigtime)
 
 ![Cover](public/images/cover.png)
 

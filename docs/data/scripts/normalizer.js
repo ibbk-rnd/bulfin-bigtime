@@ -90,7 +90,7 @@ function normalize(content, commonSources) {
     oldValue = value;
   });
 
-  result.data = data;
+  result.data = data.sort((a, b) => new Date(a.date) - new Date(b.date));
 
   return result;
 }

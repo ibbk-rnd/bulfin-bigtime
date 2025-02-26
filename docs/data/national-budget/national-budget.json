@@ -4218,5 +4218,224 @@
         ]
       }
     ]
+  },
+  {
+    "id": "budget-cik",
+    "knowledgeId": "cik",
+    "name": "Бюджет на Централната избирателна комисия",
+    "shortName": "Бюджет на ЦИК",
+    "unit": "BGN",
+    "data": [
+      {
+        "date": "2013-01-01",
+        "value": 1300000,
+        "change": 0,
+        "changePercent": 0,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2013 г. (Обн. ДВ, бр. 102 от 21 декември 2012 г., в сила от 1 януари 2013 г.)",
+            "url": ["https://www.minfin.bg/upload/11810/ZDB+2013-DV+102.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2013 след скандал - Новини",
+            "date": "2012-12-06",
+            "url": ["https://bnr.bg/sofia/post/100251007/deputatite-prieha-budjet-2013-sled-skandal"]
+          }
+        ]
+      },
+      {
+        "date": "2014-01-01",
+        "value": 1673000,
+        "change": 373000,
+        "changePercent": 25.09,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2014 г. (Обн. ДВ, бр. 109 от 20 декември 2013 г., в сила от 1 януари 2014 г.)",
+            "url": ["https://www.minfin.bg/upload/13667/ZAKON_za_dyrjavniq_budjet_na_Republika_Bylgariq_za_2014.pdf"]
+          },
+          {
+            "name": "Правителството гласува Бюджет 2014",
+            "date": "2013-10-30",
+            "url": ["https://offnews.bg/balgaria/pravitelstvoto-glasuva-biudzhet-2014-260395.html"]
+          }
+        ]
+      },
+      {
+        "date": "2015-01-01",
+        "value": 2911000,
+        "change": 1238000,
+        "changePercent": 54.01,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2015 г. (Обн., ДВ, бр. 107 от 24 декември 2014 г., в сила от 1 януари 2015 г.)",
+            "url": ["https://www.minfin.bg/upload/15568/Zakon+za+durjaven+budget+2015.pdf"]
+          },
+          {
+            "name": "Днес окончателно гласуват Бюджет 2015",
+            "date": "2014-12-19",
+            "url": ["https://www.24chasa.bg/amp/4496202"]
+          }
+        ]
+      },
+      {
+        "date": "2016-01-01",
+        "value": 3000000,
+        "change": 89000,
+        "changePercent": 3.01,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2016 г.",
+            "url": ["https://www.minfin.bg/upload/17315/ZDB2016.pdf"]
+          },
+          {
+            "name": "Парламентът гласува окончателно Бюджет 2016",
+            "date": "2015-12-01",
+            "url": [
+              "https://offnews.bg/politika/parlamentat-glasuva-okonchatelno-biudzhet-2016-599957.html",
+              "https://fakti.bg/bulgaria/164243-glasuvat-okonchatelno-budjet-2016-",
+              "https://www.investor.bg/a/333-byudzhet-i-finansi/207047-deputatite-prieha-ramkata-na-byudzhet-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2017-01-01",
+        "value": 3735000,
+        "change": 735000,
+        "changePercent": 21.83,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2017 г. (Обн., ДВ, бр. 98 от 9 декември 2016 г., в сила от 1 януари 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/19036/Zakon+DBRB+2017.pdf"]
+          },
+          {
+            "name": "Народното събрание прие окончателно Бюджет 2017",
+            "date": "2016-12-01",
+            "url": ["https://bntnews.bg/bg/a/narodnoto-sbranie-prie-okonchatelno-byudzhet-2017"]
+          }
+        ]
+      },
+      {
+        "date": "2018-01-01",
+        "value": 4380000,
+        "change": 645000,
+        "changePercent": 15.9,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2018 г. (Обн, ДВ, бр. 99 от 12 декември 2017 г.)",
+            "url": ["https://www.minfin.bg/upload/35940/ZDB2018.pdf"]
+          },
+          {
+            "name": "Депутатите гласуват окончателно Бюджет 2018",
+            "date": "2017-11-29",
+            "url": ["https://eurocom.bg/2017/11/29/deputatite-glasuvat-okonchatelno-biudjet-2018/"]
+          }
+        ]
+      },
+      {
+        "date": "2019-01-01",
+        "value": 4993000,
+        "change": 613000,
+        "changePercent": 13.08,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2019 г., Обн., ДВ, извънреден бр. 103 от 13.12.2018 г., в сила от 1 януари 2019 г.",
+            "url": ["https://www.minfin.bg/upload/39412/ZDBRB+2019.pdf"]
+          },
+          {
+            "name": "Бюджет 2019: Депутатите гласуваха окончателно бюджетната рамка",
+            "date": "2018-11-28",
+            "url": ["https://bntnews.bg/bg/a/byudzhet-2019-deputatite-glasuvakha-okonchatelno-byudzhetnata-ramka"]
+          }
+        ]
+      },
+      {
+        "date": "2020-01-01",
+        "value": 5373000,
+        "change": 380000,
+        "changePercent": 7.33,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2020 г.",
+            "url": ["https://www.minfin.bg/upload/45899/Zakon+Budget+2020.pdf"]
+          },
+          {
+            "name": "Бюджет 2020 беше приет на второ четене от ресорната комисия",
+            "date": "2019-11-28",
+            "url": ["https://btvnovinite.bg/bulgaria/bjudzhet-2020-beshe-priet-na-vtoro-chetene-ot-resornata-komisija.html"]
+          }
+        ]
+      },
+      {
+        "date": "2021-01-01",
+        "value": 5791000,
+        "change": 418000,
+        "changePercent": 7.49,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2021 г.",
+            "url": ["https://www.minfin.bg/upload/46095/ZDB+2021.pdf"]
+          },
+          {
+            "name": "Окончателно: Депутатите приеха рамката на Бюджет 2021",
+            "date": "2020-11-25",
+            "url": ["https://dariknews.bg/novini/bylgariia/okonchatelno-deputatite-prieha-ramkata-na-biudzhet-2021-2249933"]
+          }
+        ]
+      },
+      {
+        "date": "2022-01-01",
+        "value": 8132000,
+        "change": 2341000,
+        "changePercent": 33.63,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2022 г. (обн., ДВ, бр. 18 от 04.03.2022 г., в сила от 1.01.2022 г.)",
+            "url": ["https://www.minfin.bg/upload/51091/18_22-ZDBRB-2022.pdf"]
+          },
+          {
+            "name": "Депутатите приеха Бюджет 2022",
+            "date": "2022-02-25",
+            "url": [
+              "https://nova.bg/news/view/2022/02/25/358716/%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D1%85%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82-2022/"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2023-01-01",
+        "value": 7134100,
+        "change": -997900,
+        "changePercent": -13.07,
+        "sources": [
+          {
+            "name": "Постановление № 108 на Министерския съвет от 10 август 2023 г. за изпълнението на държавния бюджет на Република България за 2023 г. (обн., ДВ, бр. 69 от 11.08.2023)",
+            "url": ["https://www.minfin.bg/upload/55751/108-69_23.pdf"]
+          },
+          {
+            "name": "НС прие Бюджет 2023 г. след 20-часов маратон",
+            "date": "2023-07-28",
+            "url": ["https://news.bg/politics/ns-prie-byudzhet-2023-g-sled-20-chasov-maraton.html"]
+          }
+        ]
+      },
+      {
+        "date": "2024-01-01",
+        "value": 7360800,
+        "change": 226700,
+        "changePercent": 3.13,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
+            "url": ["https://www.minfin.bg/upload/57073/ZDB2024.pdf"]
+          },
+          {
+            "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
+            "date": "2023-12-21",
+            "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      }
+    ]
   }
 ]

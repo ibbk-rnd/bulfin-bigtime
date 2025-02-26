@@ -2373,5 +2373,123 @@
         ]
       }
     ]
+  },
+  {
+    "id": "budget-cik",
+    "knowledgeId": "cik",
+    "name": "Бюджет на Централната избирателна комисия",
+    "shortName": "Бюджет на ЦИК",
+    "unit": "BGN",
+    "magnitude": 1000,
+    "data": [
+      {
+        "date": "2013-01-01",
+        "value": 1300.0,
+        "sources": [
+          {
+            "ref": "budget-2013"
+          }
+        ]
+      },
+      {
+        "date": "2014-01-01",
+        "value": 1673.0,
+        "sources": [
+          {
+            "ref": "budget-2014"
+          }
+        ]
+      },
+      {
+        "date": "2015-01-01",
+        "value": 2911.0,
+        "sources": [
+          {
+            "ref": "budget-2015"
+          }
+        ]
+      },
+      {
+        "date": "2016-01-01",
+        "value": 3000.0,
+        "sources": [
+          {
+            "ref": "budget-2016"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-01",
+        "value": 3735.0,
+        "sources": [
+          {
+            "ref": "budget-2017"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-01",
+        "value": 4380.0,
+        "sources": [
+          {
+            "ref": "budget-2018"
+          }
+        ]
+      },
+      {
+        "date": "2019-01-01",
+        "value": 4993.0,
+        "sources": [
+          {
+            "ref": "budget-2019"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-01",
+        "value": 5373.0,
+        "sources": [
+          {
+            "ref": "budget-2020"
+          }
+        ]
+      },
+      {
+        "date": "2021-01-01",
+        "value": 5791.0,
+        "sources": [
+          {
+            "ref": "budget-2021"
+          }
+        ]
+      },
+      {
+        "date": "2022-01-01",
+        "value": 8132.0,
+        "sources": [
+          {
+            "ref": "budget-2022"
+          }
+        ]
+      },
+      {
+        "date": "2023-01-01",
+        "value": 7134.1,
+        "sources": [
+          {
+            "ref": "budget-2023"
+          }
+        ]
+      },
+      {
+        "date": "2024-01-01",
+        "value": 7360.8,
+        "sources": [
+          {
+            "ref": "budget-2024"
+          }
+        ]
+      }
+    ]
   }
 ]

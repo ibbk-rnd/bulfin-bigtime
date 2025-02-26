@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import * as moment from 'moment';
+import moment from 'moment';
 import 'moment/locale/bg';
 import { FooterComponent } from './footer/footer.component';
 

@@ -61,11 +61,11 @@ export function humanValue(value: number, unit?: string, magnitude?: number, onl
   if (unit === 'percent') {
     suffix = '%';
   } else {
-    if (magnitude) {
+    if (magnitude && magnitudes[magnitude]) {
       suffix += ' ' + magnitudes[magnitude];
     }
 
-    if (unit) {
+    if (unit && units[unit]) {
       suffix += ' ' + units[unit];
     }
   }
