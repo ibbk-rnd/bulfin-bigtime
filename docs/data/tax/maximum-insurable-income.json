@@ -12,6 +12,9 @@
       ]
     }
   ],
+  "meta": {
+    "step": "end"
+  },
   "unit": "BGN",
   "data": [
     {

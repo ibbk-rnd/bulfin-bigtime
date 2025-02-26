@@ -80,6 +80,10 @@ export function buildLineChart(chart: any, style: any = null, xAxisIndex: number
     });
   });
 
+  if (chart?.meta?.step) {
+    result['step'] = chart.meta.step;
+  }
+
   return result;
 }
 

@@ -12,6 +12,9 @@
       ]
     }
   ],
+  "meta": {
+    "step": "end"
+  },
   "unit": "BGN",
   "data": [
     { "date": "2025-01-01", "value": 3750.0 },
