@@ -1,0 +1,161 @@
+[
+  {
+    "id": "average-annual-gross-salary-total",
+    "knowledgeId": "average-annual-gross-salary",
+    "name": "Средна годишна заплата - общо",
+    "unit": "BGN",
+    "sources": [
+      {
+        "name": "Средна годишна заплата на наетите лица по трудово и служебно правоотношение по икономически дейности и сектори",
+        "url": [
+          "https://www.nsi.bg/bg/content/3958/%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%BE-%D0%BD%D0%B8%D0%B2%D0%BE-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B4%D0%B5%D0%B9%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D1%84%D0%BE%D1%80%D0%BC%D0%B0-%D0%BD%D0%B0-%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BE%D1%81%D1%82-%D0%BF%D0%BE%D0%BB"
+        ]
+      },
+      {
+        "name": "Средна брутна заплата на наетите лица по трудово и служебно правоотношение по пол и форма на собственост",
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=1650"]
+      },
+      {
+        "name": "CSV (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/dohod/raw/average-annual-gross-salary.csv"]
+      },
+      {
+        "name": "Ексел (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/dohod/raw/average-annual-gross-salary.xlsx"]
+      }
+    ],
+    "data": [
+      { "year": 2000, "value": 2694 },
+      { "year": 2001, "value": 2880 },
+      { "year": 2002, "value": 3091 },
+      { "year": 2003, "value": 3280 },
+      { "year": 2004, "value": 3509 },
+      { "year": 2005, "value": 3885 },
+      { "year": 2006, "value": 4324 },
+      { "year": 2007, "value": 5167 },
+      { "year": 2008, "value": 6538 },
+      { "year": 2009, "value": 7309 },
+      { "year": 2010, "value": 7777 },
+      { "year": 2011, "value": 8230 },
+      { "year": 2012, "value": 8773 },
+      { "year": 2013, "value": 9301 },
+      { "year": 2014, "value": 9860 },
+      { "year": 2015, "value": 10535 },
+      { "year": 2016, "value": 11379 },
+      { "year": 2017, "value": 12448 },
+      { "year": 2018, "value": 13755 },
+      { "year": 2019, "value": 15209 },
+      { "year": 2020, "value": 16687 },
+      { "year": 2021, "value": 18733 },
+      { "year": 2022, "value": 21242 },
+      { "year": 2023, "value": 24485 },
+      { "year": 2024, "value": 27881 }
+    ]
+  },
+  {
+    "id": "average-annual-gross-salary-public",
+    "knowledgeId": "average-annual-gross-salary",
+    "name": "Средна годишна заплата - обществен сектор",
+    "unit": "BGN",
+    "sources": [
+      {
+        "name": "Средна годишна заплата на наетите лица по трудово и служебно правоотношение по икономически дейности и сектори",
+        "url": [
+          "https://www.nsi.bg/bg/content/3958/%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%BE-%D0%BD%D0%B8%D0%B2%D0%BE-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B4%D0%B5%D0%B9%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D1%84%D0%BE%D1%80%D0%BC%D0%B0-%D0%BD%D0%B0-%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BE%D1%81%D1%82-%D0%BF%D0%BE%D0%BB"
+        ]
+      },
+      {
+        "name": "Средна брутна заплата на наетите лица по трудово и служебно правоотношение по пол и форма на собственост",
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=1650"]
+      },
+      {
+        "name": "CSV (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/dohod/raw/average-annual-gross-salary.csv"]
+      },
+      {
+        "name": "Ексел (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/dohod/raw/average-annual-gross-salary.xlsx"]
+      }
+    ],
+    "data": [
+      { "year": 2000, "value": 3159 },
+      { "year": 2001, "value": 3491 },
+      { "year": 2002, "value": 3871 },
+      { "year": 2003, "value": 4118 },
+      { "year": 2004, "value": 4400 },
+      { "year": 2005, "value": 4811 },
+      { "year": 2006, "value": 5292 },
+      { "year": 2007, "value": 6256 },
+      { "year": 2008, "value": 7811 },
+      { "year": 2009, "value": 8563 },
+      { "year": 2010, "value": 8983 },
+      { "year": 2011, "value": 9133 },
+      { "year": 2012, "value": 9496 },
+      { "year": 2013, "value": 10027 },
+      { "year": 2014, "value": 10654 },
+      { "year": 2015, "value": 11109 },
+      { "year": 2016, "value": 11772 },
+      { "year": 2017, "value": 12789 },
+      { "year": 2018, "value": 13884 },
+      { "year": 2019, "value": 15522 },
+      { "year": 2020, "value": 17239 },
+      { "year": 2021, "value": 19920 },
+      { "year": 2022, "value": 21700 },
+      { "year": 2023, "value": 25083 },
+      { "year": 2024, "value": 28805 }
+    ]
+  },
+  {
+    "id": "average-annual-gross-salary-private",
+    "knowledgeId": "average-annual-gross-salary",
+    "name": "Средна годишна заплата - частен сектор",
+    "unit": "BGN",
+    "sources": [
+      {
+        "name": "Средна годишна заплата на наетите лица по трудово и служебно правоотношение по икономически дейности и сектори",
+        "url": [
+          "https://www.nsi.bg/bg/content/3958/%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%BE-%D0%BD%D0%B8%D0%B2%D0%BE-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B4%D0%B5%D0%B9%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D1%84%D0%BE%D1%80%D0%BC%D0%B0-%D0%BD%D0%B0-%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BE%D1%81%D1%82-%D0%BF%D0%BE%D0%BB"
+        ]
+      },
+      {
+        "name": "Средна брутна заплата на наетите лица по трудово и служебно правоотношение по пол и форма на собственост",
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=1650"]
+      },
+      {
+        "name": "CSV (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/dohod/raw/average-annual-gross-salary.csv"]
+      },
+      {
+        "name": "Ексел (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/dohod/raw/average-annual-gross-salary.xlsx"]
+      }
+    ],
+    "data": [
+      { "year": 2000, "value": 2310 },
+      { "year": 2001, "value": 2452 },
+      { "year": 2002, "value": 2613 },
+      { "year": 2003, "value": 2790 },
+      { "year": 2004, "value": 3049 },
+      { "year": 2005, "value": 3461 },
+      { "year": 2006, "value": 3917 },
+      { "year": 2007, "value": 4760 },
+      { "year": 2008, "value": 6114 },
+      { "year": 2009, "value": 6886 },
+      { "year": 2010, "value": 7366 },
+      { "year": 2011, "value": 7926 },
+      { "year": 2012, "value": 8528 },
+      { "year": 2013, "value": 9054 },
+      { "year": 2014, "value": 9602 },
+      { "year": 2015, "value": 10355 },
+      { "year": 2016, "value": 11257 },
+      { "year": 2017, "value": 12344 },
+      { "year": 2018, "value": 13717 },
+      { "year": 2019, "value": 15114 },
+      { "year": 2020, "value": 16508 },
+      { "year": 2021, "value": 18353 },
+      { "year": 2022, "value": 21096 },
+      { "year": 2023, "value": 24295 },
+      { "year": 2024, "value": 27569 }
+    ]
+  }
+]

@@ -29,8 +29,6 @@ function normalizeFile(raw, output, commonSources) {
     fs.writeFile(output, JSON.stringify(result, null, 2) + '\n', (err) => {
       if (err) {
         console.error('Error writing file:', err);
-      } else {
-        console.log('File written successfully!');
       }
     });
   });
@@ -45,7 +43,9 @@ function normalize(content, commonSources) {
 
   delete result.magnitude;
 
-  content.data.forEach((item) => {
+  const items = content.data.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  items.forEach((item) => {
     magnitude = null;
     let value = item.value;
 
@@ -77,8 +77,6 @@ function normalize(content, commonSources) {
       date = item.date;
     }
 
-    // changePercent = new Decimal(value).minus(new Decimal(oldValue)).dividedBy(new Decimal(oldValue).abs()).times(100).toDecimalPlaces(2).toNumber();
-
     data.push({
       date: date,
       value: value,
@@ -90,7 +88,7 @@ function normalize(content, commonSources) {
     oldValue = value;
   });
 
-  result.data = data.sort((a, b) => new Date(a.date) - new Date(b.date));
+  result['data'] = data;
 
   return result;
 }

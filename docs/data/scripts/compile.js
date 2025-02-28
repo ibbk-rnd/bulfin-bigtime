@@ -8,6 +8,7 @@ const files = [
   ['../government-deficit-and-surplus', 'gdp.json'],
   ['../gross-national-debt', 'euro.json'],
   ['../gross-national-debt', 'gdp.json'],
+  ['../dohod', 'average-annual-gross-salary.json'],
   ['../tax', 'maximum-insurable-income.json'],
   ['../tax', 'tax.json'],
   ['../gini-coefficient', 'gini-coefficient.json'],

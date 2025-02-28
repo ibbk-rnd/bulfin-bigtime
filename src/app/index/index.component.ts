@@ -256,32 +256,30 @@ export class IndexComponent implements OnInit {
 
   toggleNeighbors(save: boolean = true): void {
     const options: any = this.chartInstance.getOption();
-    const countryBg = options.series.filter((item: any) => item?.name?.endsWith('bg-country')).map((item: any) => item.name);
-    const countries = options.series.filter((item: any) => item?.name?.endsWith('-country')).map((item: any) => item.name);
-    const cw = countries.filter((item: any) => !countryBg.includes(item));
+    const series = options.series.filter((item: any) => item?.name?.endsWith('-country')).map((item: any) => item.name);
 
     if (this.switches['neighbors']) {
-      // Add series to legend
+      // Add to legend.
       this.chartInstance.setOption({
         legend: {
-          data: sortArrayByReference(this.legends, [...options.legend[0].data, ...countries]),
+          data: sortArrayByReference(this.legends, [...options.legend[0].data, ...series]),
           selected: {
-            ...Object.fromEntries(countries.map((key: any) => [key, false])),
+            ...Object.fromEntries(series.map((key: any) => [key, false])),
             ...options.legend[0].selected,
           },
         },
       });
     } else {
-      // Remove series to legend
+      // Remove from legend.
       this.chartInstance.setOption({
         legend: {
           data: sortArrayByReference(
             this.legends,
-            options.legend[0].data.filter((item: any) => !cw.includes(item))
+            options.legend[0].data.filter((item: any) => !series.includes(item))
           ),
           selected: {
             ...options.legend[0].selected,
-            ...Object.fromEntries(cw.map((key: any) => [key, false])),
+            ...Object.fromEntries(series.map((key: any) => [key, false])),
           },
         },
       });

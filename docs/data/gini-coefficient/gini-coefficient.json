@@ -1,20 +1,68 @@
 [
   {
-    "id": "gini-coefficient-bg-country",
+    "id": "gini-coefficient",
     "knowledgeId": "gini-coefficient",
     "name": "Коефициент на Джини",
     "sources": [
+      {
+        "name": "НЕРАВЕНСТВО В РАЗПРЕДЕЛЕНИЕТО НА ДОХОДА - КОЕФИЦИЕНТ НА ДЖИНИ",
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=259"]
+      },
       {
         "name": "Gini coefficient of equivalised disposable income (Евростат)",
         "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/5e19cecf-51e8-476f-90e2-08c9c0fdf87c?lang=en"]
       },
       {
+        "name": "CSV (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gini-coefficient/raw/gini-coefficient_infostat.csv"]
+      },
+      {
+        "name": "Ексел (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gini-coefficient/raw/gini-coefficient_infostat.xlsx"]
+      },
+      {
         "name": "CSV (Евростат)",
-        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gini-coefficient/raw/gini-coefficient.csv"]
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gini-coefficient/raw/gini-coefficient_eurostat.csv"]
       }
     ],
     "unit": "percent",
     "data": [
+      {
+        "date": "2008-12-31",
+        "value": 35.9,
+        "change": 0,
+        "changePercent": 0
+      },
+      {
+        "date": "2009-12-31",
+        "value": 33.4,
+        "change": -2.5,
+        "changePercent": -7.22
+      },
+      {
+        "date": "2010-12-31",
+        "value": 33.2,
+        "change": -0.2,
+        "changePercent": -0.6
+      },
+      {
+        "date": "2011-12-31",
+        "value": 35,
+        "change": 1.8,
+        "changePercent": 5.28
+      },
+      {
+        "date": "2012-12-31",
+        "value": 33.6,
+        "change": -1.4,
+        "changePercent": -4.08
+      },
+      {
+        "date": "2013-12-31",
+        "value": 35.4,
+        "change": 1.8,
+        "changePercent": 5.22
+      },
       {
         "date": "2014-12-31",
         "value": 35.4,
@@ -35,15 +83,15 @@
       },
       {
         "date": "2017-12-31",
-        "value": 40.2,
-        "change": 2.5,
-        "changePercent": 6.42
+        "value": 40.1,
+        "change": 2.4,
+        "changePercent": 6.17
       },
       {
         "date": "2018-12-31",
         "value": 39.6,
-        "change": -0.6,
-        "changePercent": -1.5
+        "change": -0.5,
+        "changePercent": -1.25
       },
       {
         "date": "2019-12-31",

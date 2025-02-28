@@ -1,27 +1,45 @@
 [
   {
-    "id": "gini-coefficient-bg-country",
+    "id": "gini-coefficient",
     "knowledgeId": "gini-coefficient",
     "name": "Коефициент на Джини",
     "sources": [
+      {
+        "name": "НЕРАВЕНСТВО В РАЗПРЕДЕЛЕНИЕТО НА ДОХОДА - КОЕФИЦИЕНТ НА ДЖИНИ",
+        "url": ["https://infostat.nsi.bg/infostat/pages/reports/query.jsf?x_2=259"]
+      },
       {
         "name": "Gini coefficient of equivalised disposable income (Евростат)",
         "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/5e19cecf-51e8-476f-90e2-08c9c0fdf87c?lang=en"]
       },
       {
+        "name": "CSV (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gini-coefficient/raw/gini-coefficient_infostat.csv"]
+      },
+      {
+        "name": "Ексел (Инфостат)",
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gini-coefficient/raw/gini-coefficient_infostat.xlsx"]
+      },
+      {
         "name": "CSV (Евростат)",
-        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gini-coefficient/raw/gini-coefficient.csv"]
+        "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/gini-coefficient/raw/gini-coefficient_eurostat.csv"]
       }
     ],
     "unit": "percent",
     "data": [
+      { "year": 2008, "value": 35.9 },
+      { "year": 2009, "value": 33.4 },
+      { "year": 2010, "value": 33.2 },
+      { "year": 2011, "value": 35.0 },
+      { "year": 2012, "value": 33.6 },
+      { "year": 2013, "value": 35.4 },
       { "year": 2014, "value": 35.4 },
-      { "year": 2015, "value": 37 },
+      { "year": 2015, "value": 37.0 },
       { "year": 2016, "value": 37.7 },
-      { "year": 2017, "value": 40.2 },
+      { "year": 2017, "value": 40.1 },
       { "year": 2018, "value": 39.6 },
       { "year": 2019, "value": 40.8 },
-      { "year": 2020, "value": 40 },
+      { "year": 2020, "value": 40.0 },
       { "year": 2021, "value": 39.7 },
       { "year": 2022, "value": 38.4 },
       { "year": 2023, "value": 37.2 },

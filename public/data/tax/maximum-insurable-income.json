@@ -20,32 +20,32 @@
     {
       "date": "2000-01-01",
       "value": 670,
-      "change": -80,
-      "changePercent": -11.27
+      "change": 0,
+      "changePercent": 0
     },
     {
       "date": "2000-02-01",
       "value": 750,
-      "change": -40,
-      "changePercent": -5.19
+      "change": 80,
+      "changePercent": 11.27
     },
     {
       "date": "2000-10-01",
+      "value": 790,
+      "change": 40,
+      "changePercent": 5.19
+    },
+    {
+      "date": "2001-01-01",
       "value": 790,
       "change": 0,
       "changePercent": 0
     },
     {
-      "date": "2001-01-01",
-      "value": 790,
-      "change": -60,
-      "changePercent": -7.32
-    },
-    {
       "date": "2001-04-01",
       "value": 850,
-      "change": -150,
-      "changePercent": -16.22
+      "change": 60,
+      "changePercent": 7.32
     },
     {
       "date": "2001-10-01",
@@ -62,38 +62,38 @@
     {
       "date": "2003-01-01",
       "value": 1000,
-      "change": -200,
-      "changePercent": -18.18
+      "change": 150,
+      "changePercent": 16.22
     },
     {
       "date": "2004-01-01",
       "value": 1200,
-      "change": -100,
-      "changePercent": -8
+      "change": 200,
+      "changePercent": 18.18
     },
     {
       "date": "2005-01-01",
       "value": 1300,
-      "change": -100,
-      "changePercent": -7.41
+      "change": 100,
+      "changePercent": 8
     },
     {
       "date": "2006-01-01",
       "value": 1400,
-      "change": 0,
-      "changePercent": 0
+      "change": 100,
+      "changePercent": 7.41
     },
     {
       "date": "2007-01-01",
       "value": 1400,
-      "change": -600,
-      "changePercent": -35.29
+      "change": 0,
+      "changePercent": 0
     },
     {
       "date": "2008-01-01",
       "value": 2000,
-      "change": 0,
-      "changePercent": 0
+      "change": 600,
+      "changePercent": 35.29
     },
     {
       "date": "2009-01-01",
@@ -116,26 +116,26 @@
     {
       "date": "2012-01-01",
       "value": 2000,
-      "change": -200,
-      "changePercent": -9.52
+      "change": 0,
+      "changePercent": 0
     },
     {
       "date": "2013-01-01",
       "value": 2200,
-      "change": -200,
-      "changePercent": -8.7
+      "change": 200,
+      "changePercent": 9.52
     },
     {
       "date": "2014-01-01",
       "value": 2400,
-      "change": -200,
-      "changePercent": -8
+      "change": 200,
+      "changePercent": 8.7
     },
     {
       "date": "2015-01-01",
       "value": 2600,
-      "change": 0,
-      "changePercent": 0
+      "change": 200,
+      "changePercent": 8
     },
     {
       "date": "2016-01-01",
@@ -152,14 +152,14 @@
     {
       "date": "2018-01-01",
       "value": 2600,
-      "change": -400,
-      "changePercent": -14.29
+      "change": 0,
+      "changePercent": 0
     },
     {
       "date": "2019-01-01",
       "value": 3000,
-      "change": 0,
-      "changePercent": 0
+      "change": 400,
+      "changePercent": 14.29
     },
     {
       "date": "2020-01-01",
@@ -176,26 +176,26 @@
     {
       "date": "2022-01-01",
       "value": 3000,
-      "change": -400,
-      "changePercent": -12.5
+      "change": 0,
+      "changePercent": 0
     },
     {
       "date": "2022-04-01",
       "value": 3400,
-      "change": 0,
-      "changePercent": 0
+      "change": 400,
+      "changePercent": 12.5
     },
     {
       "date": "2023-01-01",
       "value": 3400,
-      "change": -350,
-      "changePercent": -9.79
+      "change": 0,
+      "changePercent": 0
     },
     {
       "date": "2024-01-01",
       "value": 3750,
-      "change": 0,
-      "changePercent": 0
+      "change": 350,
+      "changePercent": 9.79
     },
     {
       "date": "2025-01-01",

@@ -5,21 +5,21 @@
   "description": "Държавен дефицит/излишък като процент от брутния вътрешен продукт (БВП)",
   "sources": [
     {
-      "name": "Скрийншот (НСИ, проценти)",
-      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/government-deficit-and-surplus/raw/euro_gdp_screenshot.png"]
+      "name": "Government deficit/surplus, debt and associated data (Евростат)",
+      "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/15350210-9229-4939-b8d6-2668d2bc16f8?lang=en"]
     },
     {
-      "name": "Общ държавен дефицит и излишък (НСИ, проценти)",
+      "name": "Общ държавен дефицит и излишък (НСИ)",
       "url": [
         "https://www.nsi.bg/bg/content/11478/%D0%BE%D0%B1%D1%89-%D0%B4%D1%8A%D1%80%D0%B6%D0%B0%D0%B2%D0%B5%D0%BD-%D0%B4%D0%B5%D1%84%D0%B8%D1%86%D0%B8%D1%82-%D0%B8-%D0%B8%D0%B7%D0%BB%D0%B8%D1%88%D1%8A%D0%BA"
       ]
     },
     {
-      "name": "Government deficit/surplus, debt and associated data (Евростат, проценти)",
-      "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/404d218c-afc3-4215-a310-f295d847695c?lang=en"]
+      "name": "CSV (Евростат)",
+      "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/government-deficit-and-surplus/raw/gdp.csv"]
     },
     {
-      "name": "Текст (НСИ, проценти)",
+      "name": "Текст (НСИ)",
       "url": ["https://ibbk-rnd.github.io/bulfin-bigtime/data/government-deficit-and-surplus/raw/gdp.txt"]
     }
   ],
@@ -32,6 +32,21 @@
     }
   },
   "data": [
+    { "year": 1997, "value": 1.5 },
+    { "year": 1998, "value": 1.3 },
+    { "year": 1999, "value": 0.2 },
+    { "year": 2000, "value": 0.1 },
+    { "year": 2001, "value": 0.7 },
+    { "year": 2002, "value": -1.1 },
+    { "year": 2003, "value": 0.0 },
+    { "year": 2004, "value": 1.8 },
+    { "year": 2005, "value": 1.6 },
+    { "year": 2006, "value": 2.7 },
+    { "year": 2007, "value": 0.0 },
+    { "year": 2008, "value": 1.4 },
+    { "year": 2009, "value": -4.4 },
+    { "year": 2010, "value": -3.7 },
+    { "year": 2011, "value": -1.7 },
     { "year": 2012, "value": -0.8 },
     { "year": 2013, "value": -0.7 },
     { "year": 2014, "value": -5.4 },
