@@ -224,7 +224,7 @@ export class IndexComponent implements OnInit {
     this.save();
   }
 
-  convertChart() {
+  convertChart(): void {
     this.chartInstance.setOption({
       series: convertMoneyCharts(
         buildSeries(this.data.area, this.data.timeline, [...this.data.charts, ...this.data.wordsAndData], this.data.verticalLine, this.data.horizontalLine),
