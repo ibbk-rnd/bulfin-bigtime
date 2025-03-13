@@ -2,7 +2,7 @@ import { ECharts } from 'echarts';
 import moment from 'moment';
 import { convertCurrency } from '../utils';
 import Decimal from 'decimal.js';
-import { buildGanttChart, buildLineChart, buildMarkArea, buildMarkLine, buildCurrentDateLine } from './series';
+import { buildGanttChart, buildLineChart, buildMarkArea, buildMarkLine, buildCurrentDateLine, buildMediaChart } from './series';
 
 export function switchLegends(legends: string[], show: boolean, chartInstance: ECharts) {
   legends.forEach((legend) => {
@@ -64,7 +64,7 @@ export function convertMoneyCharts(series: any, moneyCharts: any, toCurrency: an
   return series;
 }
 
-export function buildSeries(area: any, gantt: any, charts: any, verticalLine: any, horizontalLine: any) {
+export function buildSeries(area: any, gantt: any, charts: any, verticalLine: any, horizontalLine: any, media: any) {
   const series: any = [];
   series.push(buildCurrentDateLine());
   series.push(buildCurrentDateLine(1));
@@ -91,6 +91,7 @@ export function buildSeries(area: any, gantt: any, charts: any, verticalLine: an
     }
   });
 
+  series.push(buildMediaChart(media));
   series.push(buildGanttChart(gantt, 0));
 
   return series;

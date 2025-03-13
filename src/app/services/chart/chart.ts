@@ -2,8 +2,8 @@ import moment from 'moment';
 
 export function bigTimeChart(series: any, yAxisGantt: any, legend: { data: string[]; map: any; selected: {} }) {
   const fromYear = 1995;
-  const toYear = moment();
-  // const toYear = moment().add('4', 'years');
+  // const toYear = moment();
+  const toYear = moment().add('4', 'years');
   const years = [];
   const min = `${fromYear}-01-01`;
   const max = toYear.format('YYYY-MM-DD');
@@ -24,12 +24,18 @@ export function bigTimeChart(series: any, yAxisGantt: any, legend: { data: strin
     grid: [
       {
         top: '0%',
-        bottom: '70%',
+        bottom: '72%',
         right: '21%',
         left: '18%',
       },
       {
-        top: '31%',
+        top: '28.6%',
+        bottom: '15%',
+        right: '21%',
+        left: '18%',
+      },
+      {
+        top: '85.5%',
         bottom: '5%',
         right: '21%',
         left: '18%',
@@ -53,7 +59,7 @@ export function bigTimeChart(series: any, yAxisGantt: any, legend: { data: strin
     dataZoom: [
       {
         type: 'inside',
-        xAxisIndex: [0, 1],
+        xAxisIndex: [0, 1, 3],
         filterMode: 'weakFilter',
       },
     ],
@@ -91,6 +97,27 @@ export function bigTimeChart(series: any, yAxisGantt: any, legend: { data: strin
         min: min,
         max: max,
         axisLabel: {
+          show: false,
+        },
+      },
+      {
+        show: true,
+        gridIndex: 1,
+      },
+      {
+        type: 'time',
+        gridIndex: 2,
+        splitLine: {
+          show: true,
+        },
+        axisTick: {
+          show: false,
+          alignWithLabel: false,
+          customValues: years,
+        },
+        min: min,
+        max: max,
+        axisLabel: {
           show: true,
           interval: 0,
           customValues: years,
@@ -98,10 +125,6 @@ export function bigTimeChart(series: any, yAxisGantt: any, legend: { data: strin
             return moment.unix(value / 1000).format('YY');
           },
         },
-      },
-      {
-        show: true,
-        gridIndex: 1,
       },
     ],
     yAxis: [
@@ -152,6 +175,22 @@ export function bigTimeChart(series: any, yAxisGantt: any, legend: { data: strin
             width: 2,
             type: 'solid',
           },
+        },
+      },
+      {
+        type: 'value',
+        gridIndex: 2,
+        splitLine: {
+          show: false,
+        },
+        axisLabel: {
+          show: false,
+        },
+        max: function (value: any) {
+          return value.max + 0.5;
+        },
+        axisPointer: {
+          type: 'none',
         },
       },
     ],

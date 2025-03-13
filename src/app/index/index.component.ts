@@ -67,6 +67,7 @@ export class IndexComponent implements OnInit {
     area: [],
     charts: [],
     wordsAndData: [],
+    media: [],
     settings: { style: {} },
   };
 
@@ -91,14 +92,16 @@ export class IndexComponent implements OnInit {
       this.dataService.getData('charts.json'),
       this.dataService.getData('words-and-data.json'),
       this.dataService.getData('settings.json'),
+      this.dataService.getData('media.json'),
     ]).subscribe({
-      next: ([timeline, verticalLine, horizontalLine, area, charts, wordsAndData, settings]) => {
+      next: ([timeline, verticalLine, horizontalLine, area, charts, wordsAndData, settings, media]) => {
         this.data.timeline = timeline;
         this.data.verticalLine = verticalLine;
         this.data.horizontalLine = horizontalLine;
         this.data.area = area;
         this.data.charts = charts;
         this.data.wordsAndData = wordsAndData;
+        this.data.media = media;
         this.data.settings = settings;
 
         const load = loadData(this.activatedRoute.snapshot.queryParamMap.get('story'), settings.default);
@@ -166,7 +169,7 @@ export class IndexComponent implements OnInit {
       legend.selected[item.id] = false;
     });
 
-    const series = buildSeries(area, gantt, [...charts, ...wordsAndData], this.data.verticalLine, this.data.horizontalLine);
+    const series = buildSeries(area, gantt, [...charts, ...wordsAndData], this.data.verticalLine, this.data.horizontalLine, this.data.media);
 
     series.forEach((item: any) => {
       if (item.name && !this.legends.includes(item.name)) {
@@ -227,7 +230,14 @@ export class IndexComponent implements OnInit {
   convertChart(): void {
     this.chartInstance.setOption({
       series: convertMoneyCharts(
-        buildSeries(this.data.area, this.data.timeline, [...this.data.charts, ...this.data.wordsAndData], this.data.verticalLine, this.data.horizontalLine),
+        buildSeries(
+          this.data.area,
+          this.data.timeline,
+          [...this.data.charts, ...this.data.wordsAndData],
+          this.data.verticalLine,
+          this.data.horizontalLine,
+          this.data.media
+        ),
         this.moneyCharts,
         this.convert.currency,
         this.convert.magnitude

@@ -3,6 +3,129 @@ import { humanDateDiff, humanValue, humanDate } from '../utils';
 import moment from 'moment/moment';
 import Decimal from 'decimal.js';
 
+export function buildMediaChart(media: any) {
+  const result: any = {
+    name: 'media',
+    type: 'line',
+    tooltip: {
+      formatter: (params: any) => {
+        const date = humanDate(params.data.value[0]);
+        let result = `${params.marker} ${date}<ul class="mb-0">`;
+
+        params.data.content.topics.forEach((element: any) => {
+          result += `<li>${element.name}</li>`;
+        });
+
+        result += '</ul>';
+
+        return result
+      }
+    },
+    data: [],
+    xAxisIndex: 3,
+    yAxisIndex: 3,
+    lineStyle: {
+      width: 0,
+    },
+    itemStyle: {
+      borderColor: '#000',
+      borderWidth: 1,
+      borderType: 'solid',
+    },
+    symbolSize: function (value: any, index: any) {
+      return value[2];
+    },
+    symbol: 'circle',
+  };
+
+  const agg: any = {};
+
+  media.forEach((item: any) => {
+    if(!agg[item.date]) {
+      agg[item.date] = [];
+    }
+
+    agg[item.date].push(item);
+  });
+
+  for (const key in agg) {
+    let size = 10;
+
+    if (agg[key].length > 1) {
+      size += agg[key].length * 3;
+    }
+
+    if (agg.hasOwnProperty(key)) {
+      result.data.push({
+        content: {
+          color: 'gold',
+          topics: agg[key],
+          sources: agg[key],
+        },
+        value: [key, 0.5, size],
+        itemStyle: {
+          normal: {
+            color: 'gold',
+          },
+          emphasis: {
+            color: 'skyblue',
+          },
+          opacity: 1,
+        },
+      });
+    }
+  }
+
+  // media.forEach((item: any) => {
+  //
+  //   result.data.push({
+  //     content: {
+  //       color: 'gold',
+  //       topic: item.topic,
+  //     },
+  //     value: [item.date, 0.5],
+  //     itemStyle: {
+  //       color: 'gold',
+  //       opacity: 1,
+  //     },
+  //   });
+  // });
+
+  return result;
+}
+
+function getColor(topic: string): string {
+  if (topic === 'demography') {
+    return '#9370DB';
+  }
+
+  if (topic === 'building') {
+    return '#CCC';
+  }
+
+  if (topic === 'balloon') {
+    return '#000';
+  }
+
+  return 'black';
+}
+
+function getInc(topic: string): number {
+  if (topic === 'demography') {
+    return 1;
+  }
+
+  if (topic === 'building') {
+    return 1.5;
+  }
+
+  if (topic === 'balloon') {
+    return 2;
+  }
+
+  return 0.5;
+}
+
 export function buildLineChart(chart: any, style: any = null, xAxisIndex: number, yAxisIndex: number) {
   const result: any = {
     ...{
