@@ -4,6 +4,9 @@
     "name": "Бюджет на съдебната власт",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -212,6 +215,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 1384306.6,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -221,6 +233,9 @@
     "knowledgeId": "vss",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -429,6 +444,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 84532.5,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -438,6 +462,9 @@
     "name": "Бюджет на Върховен касационен съд",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -646,6 +673,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 34560.0,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -654,6 +690,9 @@
     "name": "Бюджет на Върховен административен съд",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -862,6 +901,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 42937.1,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -871,6 +919,9 @@
     "shortName": "Бюджет на Прокуратура на РБ",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -1079,6 +1130,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 492157.5,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -1088,6 +1148,9 @@
     "shortName": "Бюджет на Съдилища на РБ",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -1296,6 +1359,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 705848.4,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -1305,6 +1377,9 @@
     "name": "Бюджет на Конституционен съд",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -1512,6 +1587,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 14018.2,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -1522,6 +1606,9 @@
     "knowledgeId": "mvr",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -1720,6 +1807,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 4135659.7,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -1730,6 +1826,9 @@
     "shortName": "Бюджет на МОН",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -1937,6 +2036,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 1333961.0,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -1947,6 +2055,9 @@
     "shortName": "Бюджет на КЗК",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -2154,6 +2265,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 7724.9,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -2164,6 +2284,9 @@
     "shortName": "Бюджет на СЕМ",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -2371,6 +2494,15 @@
             "ref": "budget-2024"
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 3445.8,
+        "sources": [
+          {
+            "ref": "budget-2025"
+          }
+        ]
       }
     ]
   },
@@ -2381,6 +2513,9 @@
     "shortName": "Бюджет на ЦИК",
     "unit": "BGN",
     "magnitude": 1000,
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2013-01-01",
@@ -2487,6 +2622,15 @@
         "sources": [
           {
             "ref": "budget-2024"
+          }
+        ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 7929.2,
+        "sources": [
+          {
+            "ref": "budget-2025"
           }
         ]
       }

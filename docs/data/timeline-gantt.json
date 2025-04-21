@@ -1820,7 +1820,7 @@
       {
         "name": "Бюджет 2024",
         "label": "2024",
-        "value": ["2023-12-30", null],
+        "value": ["2023-12-30", "2025-03-21"],
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2024 г. (обн., ДВ, бр. 108 от 30.12.2023 г.)",
@@ -1830,6 +1830,17 @@
             "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
             "date": "2023-12-21",
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      },
+      {
+        "name": "Бюджет 2025",
+        "label": "2025",
+        "value": ["2025-03-21", null],
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
           }
         ]
       }

@@ -3,6 +3,9 @@
     "id": "budget-judiciary",
     "name": "Бюджет на съдебната власт",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -380,6 +383,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 1384306600,
+        "change": 162981700,
+        "changePercent": 12.51,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -388,6 +403,9 @@
     "name": "Бюджет на Висш съдебен съвет",
     "knowledgeId": "vss",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -765,6 +783,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 84532500,
+        "change": 27948500,
+        "changePercent": 39.61,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -773,6 +803,9 @@
     "knowledgeId": "vks",
     "name": "Бюджет на Върховен касационен съд",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -1150,6 +1183,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 34560000,
+        "change": 4456600,
+        "changePercent": 13.78,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -1157,6 +1202,9 @@
     "id": "budget-vas",
     "name": "Бюджет на Върховен административен съд",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -1534,6 +1582,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 42937100,
+        "change": 4374200,
+        "changePercent": 10.73,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -1542,6 +1602,9 @@
     "name": "Бюджет на Прокуратура на Република България",
     "shortName": "Бюджет на Прокуратура на РБ",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -1919,6 +1982,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 492157500,
+        "change": 46349700,
+        "changePercent": 9.88,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -1927,6 +2002,9 @@
     "name": "Бюджет на Съдилища на Република България",
     "shortName": "Бюджет на Съдилища на РБ",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -2304,6 +2382,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 705848400,
+        "change": 77486700,
+        "changePercent": 11.62,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -2312,6 +2402,9 @@
     "knowledgeId": "ks",
     "name": "Бюджет на Конституционен съд",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -2689,6 +2782,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 14018200,
+        "change": 5160200,
+        "changePercent": 45.11,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -2698,6 +2803,9 @@
     "name": "Бюджет на Министерството на вътрешните работи",
     "knowledgeId": "mvr",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -3058,6 +3166,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 4135659700,
+        "change": 1368331900,
+        "changePercent": 39.64,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -3067,6 +3187,9 @@
     "name": "Бюджет на Министерството на образованието и науката",
     "shortName": "Бюджет на МОН",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -3444,6 +3567,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 1333961000,
+        "change": 200735800,
+        "changePercent": 16.27,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -3453,6 +3588,9 @@
     "name": "Бюджет на Комисията за защита на конкуренцията",
     "shortName": "Бюджет на КЗК",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -3830,6 +3968,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 7724900,
+        "change": 764400,
+        "changePercent": 10.41,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -3839,6 +3989,9 @@
     "name": "Бюджет на Съвета за електронни медии",
     "shortName": "Бюджет на СЕМ",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2002-01-01",
@@ -4216,6 +4369,18 @@
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
           }
         ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 3445800,
+        "change": 536100,
+        "changePercent": 16.87,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+          }
+        ]
       }
     ]
   },
@@ -4225,6 +4390,9 @@
     "name": "Бюджет на Централната избирателна комисия",
     "shortName": "Бюджет на ЦИК",
     "unit": "BGN",
+    "meta": {
+      "step": "end"
+    },
     "data": [
       {
         "date": "2013-01-01",
@@ -4433,6 +4601,18 @@
             "name": "Депутатите окончателно приеха „историческия“ бюджет за 2024 г.",
             "date": "2023-12-21",
             "url": ["https://www.bloombergtv.bg/a/2-novini/125116-deputatite-okonchatelno-prieha-istoricheskiya-byudzhet-za-2024-g"]
+          }
+        ]
+      },
+      {
+        "date": "2025-01-01",
+        "value": 7929200,
+        "change": 568400,
+        "changePercent": 7.43,
+        "sources": [
+          {
+            "name": "Закон за държавния бюджет на Република България за 2025 г.",
+            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
           }
         ]
       }

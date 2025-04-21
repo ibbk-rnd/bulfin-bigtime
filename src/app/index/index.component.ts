@@ -44,7 +44,6 @@ import { markedConfig } from '../services/markdown';
   selector: 'app-index',
   imports: [CommonModule, NgxEchartsDirective, FormsModule, NgbTooltip, HumanDatePipe, IconsModule, NgbCollapse, RouterLink],
   templateUrl: './index.component.html',
-  styleUrl: './index.component.scss',
   providers: [provideEchartsCore({ echarts })],
 })
 export class IndexComponent implements OnInit {

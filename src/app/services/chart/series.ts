@@ -18,8 +18,8 @@ export function buildMediaChart(media: any) {
 
         result += '</ul>';
 
-        return result
-      }
+        return result;
+      },
     },
     data: [],
     xAxisIndex: 3,
@@ -41,7 +41,7 @@ export function buildMediaChart(media: any) {
   const agg: any = {};
 
   media.forEach((item: any) => {
-    if(!agg[item.date]) {
+    if (!agg[item.date]) {
       agg[item.date] = [];
     }
 
