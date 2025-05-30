@@ -207,6 +207,12 @@
         "value": 68147000000,
         "change": 3602000000,
         "changePercent": 5.43
+      },
+      {
+        "date": "2024-12-31",
+        "value": 74513000000,
+        "change": 6366000000,
+        "changePercent": 8.92
       }
     ]
   },
@@ -397,27 +403,33 @@
       },
       {
         "date": "2020-12-31",
-        "value": 50018000000,
-        "change": 6318000000,
-        "changePercent": 13.48
+        "value": 50060000000,
+        "change": 6360000000,
+        "changePercent": 13.57
       },
       {
         "date": "2021-12-31",
-        "value": 57882000000,
-        "change": 7864000000,
-        "changePercent": 14.58
+        "value": 57943000000,
+        "change": 7883000000,
+        "changePercent": 14.6
       },
       {
         "date": "2022-12-31",
-        "value": 69401000000,
-        "change": 11519000000,
-        "changePercent": 18.1
+        "value": 69513000000,
+        "change": 11570000000,
+        "changePercent": 18.16
       },
       {
         "date": "2023-12-31",
-        "value": 71856000000,
-        "change": 2455000000,
-        "changePercent": 3.48
+        "value": 71826000000,
+        "change": 2313000000,
+        "changePercent": 3.27
+      },
+      {
+        "date": "2024-12-31",
+        "value": 80671000000,
+        "change": 8845000000,
+        "changePercent": 11.6
       }
     ]
   }

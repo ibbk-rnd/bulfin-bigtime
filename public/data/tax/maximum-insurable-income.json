@@ -202,6 +202,12 @@
       "value": 3750,
       "change": 0,
       "changePercent": 0
+    },
+    {
+      "date": "2025-04-01",
+      "value": 4130,
+      "change": 380,
+      "changePercent": 9.64
     }
   ]
 }

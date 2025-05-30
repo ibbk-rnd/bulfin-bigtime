@@ -21,13 +21,11 @@
     },
     {
       "name": "Общ държавен дефицит и излишък (НСИ, евро)",
-      "url": [
-        "https://www.nsi.bg/bg/content/11478/%D0%BE%D0%B1%D1%89-%D0%B4%D1%8A%D1%80%D0%B6%D0%B0%D0%B2%D0%B5%D0%BD-%D0%B4%D0%B5%D1%84%D0%B8%D1%86%D0%B8%D1%82-%D0%B8-%D0%B8%D0%B7%D0%BB%D0%B8%D1%88%D1%8A%D0%BA"
-      ]
+      "url": ["https://www.nsi.bg/statistical-data/130/407"]
     },
     {
       "name": "Government deficit/surplus, debt and associated data (Евростат, евро)",
-      "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/b29dcc90-583f-4f5f-9065-d40f79ddfc33?lang=en"]
+      "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/5d79d05c-639f-4fd4-ae6e-3c198a4b8536?lang=en"]
     }
   ],
   "unit": "BGN",
@@ -200,6 +198,12 @@
       "value": -3709000000,
       "change": 1147000000,
       "changePercent": 26.78
+    },
+    {
+      "date": "2024-12-31",
+      "value": -6158000000,
+      "change": -2449000000,
+      "changePercent": -49.64
     }
   ]
 }

@@ -19,7 +19,14 @@ import { CommonModule } from '@angular/common';
 import { CanvasRenderer } from 'echarts/renderers';
 import { FormsModule } from '@angular/forms';
 import { NgbCollapse, NgbTooltip } from '@ng-bootstrap/ng-bootstrap';
-import { humanDateDiff, loadData, buildSavePayload, humanValue, sortArrayByReference } from '../services/utils';
+import {
+  humanDateDiff,
+  loadData,
+  buildSavePayload,
+  humanValue,
+  sortArrayByReference,
+  convertCurrency
+} from '../services/utils';
 import { HumanDatePipe } from '../pipes/human-date.pipe';
 echarts.use([
   BarChart,
@@ -39,6 +46,7 @@ import { IconsModule } from '../icons.module';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { bigTimeChart } from '../services/chart/chart';
 import { markedConfig } from '../services/markdown';
+import Decimal from 'decimal.js';
 
 @Component({
   selector: 'app-index',
@@ -58,6 +66,7 @@ export class IndexComponent implements OnInit {
   public isRealityCheckPanelCollapsed = true;
   public content: any = {};
   public legends: string[] = [];
+  public highlight: any = [];
   public knowledge: { id: null | string; html: null | string } = { id: null, html: null };
   public data = {
     timeline: [],
@@ -133,11 +142,28 @@ export class IndexComponent implements OnInit {
 
         this.loadChart(area, timeline, charts, load.legends, wordsAndData);
 
+        // this.highlight.push(this.findLastItem(charts, 'gdp-bgn', 'wip'));
+        // this.highlight.push(this.findLastItem(charts, 'government-deficit-and-surplus-bgn', 'wip'));
+
         this.cdr.detectChanges();
       },
       error: () => {},
       complete: () => {},
     });
+  }
+
+  findLastItem(charts: any, chart: string, asd: string) {
+    let d = charts.find((item: any) => {
+      return item.id === chart;
+    });
+
+    const sortedData: any = d.data.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+    return {
+      name: asd,
+      sourceCurrency: d.unit,
+      data: sortedData[0]
+    };
   }
 
   loadChart(area: any, gantt: any, charts: any, defaultLegends: string[], wordsAndData: any): void {
@@ -242,6 +268,17 @@ export class IndexComponent implements OnInit {
         this.convert.magnitude
       ),
     });
+
+    this.highlight = this.highlight.map((item: any) => {
+      const value = new Decimal(item.data.value).dividedBy(parseInt(this.convert.magnitude)).toNumber();
+
+      return {
+        ...item,
+        value: convertCurrency(value, item.sourceCurrency, this.convert.currency)
+      };
+    });
+
+    console.log(this.highlight);
 
     this.toggleLabels();
 
