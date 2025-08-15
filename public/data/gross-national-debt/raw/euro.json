@@ -50,6 +50,16 @@
     { "year": 2020, "value": 15131.7 },
     { "year": 2021, "value": 17013.2 },
     { "year": 2022, "value": 19353.1 },
-    { "year": 2023, "value": 21673.6 }
+    { "year": 2023, "value": 21673.6 },
+    {
+      "year": 2024,
+      "value": 24974.8,
+      "sources": [
+        {
+          "name": "Government deficit/surplus, debt and associated data (Евростат)",
+          "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/0effbb97-1d8a-44b4-9f16-624fb3494d57?lang=en"]
+        }
+      ]
+    }
   ]
 }

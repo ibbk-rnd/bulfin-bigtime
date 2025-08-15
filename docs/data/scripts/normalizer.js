@@ -115,6 +115,15 @@ function mergeSources(itemSources, commonSources) {
     if (source.ref) {
       refs.push(source.ref);
       common.push(...commonSources.find((item) => item.id === source.ref).sources);
+    } else {
+      if (typeof source.url === 'string' && source.url.startsWith('ref:')) {
+        const refId = source.url.split(':')[1];
+        const sourceIndex = source.url.split(':')[2];
+        const sources = commonSources.find((item) => item.id === refId).sources;
+
+        source.url = sources[sourceIndex].url;
+        source.name = sources[sourceIndex].name;
+      }
     }
   });
 

@@ -1,0 +1,109 @@
+<div class="container mb-4">
+  <div class="mb-4">
+    <h1>Колко плащаш на България</h1>
+    <a routerLink="" class="me-3 text-decoration-none">Показатели</a>
+    <a routerLink="kolko-na-den" class="text-decoration-none">Колко плащаш</a>
+  </div>
+
+  <form [formGroup]="form">
+    <div class="btn-group me-3" role="group">
+      <input type="radio" formControlName="magnitude" class="btn-check" value="1000000000" id="magnitude-1000000000" >
+      <label class="btn btn-outline-secondary" for="magnitude-1000000000">млрд</label>
+      <input type="radio" formControlName="magnitude" class="btn-check" value="1000000" id="magnitude-1000000">
+      <label class="btn btn-outline-secondary" for="magnitude-1000000">млн</label>
+      <input type="radio" formControlName="magnitude" class="btn-check" value="1000" id="magnitude-1000">
+      <label class="btn btn-outline-secondary" for="magnitude-1000">хил</label>
+      <input type="radio" formControlName="magnitude" class="btn-check" value="1" id="magnitude-1" >
+      <label class="btn btn-outline-secondary" for="magnitude-1">единици</label>
+    </div>
+
+    <div class="btn-group" role="group">
+      <input type="radio" class="btn-check" formControlName="currency" value="EUR" id="btn-currency-eur">
+      <label class="btn btn-outline-secondary" for="btn-currency-eur">евро</label>
+      <input type="radio" class="btn-check" formControlName="currency" value="BGN" id="btn-currency-bgn">
+      <label class="btn btn-outline-secondary" for="btn-currency-bgn">лева</label>
+    </div>
+  </form>
+</div>
+
+<div class="container">
+  @for (item of aa; track item) {
+    <h5><strong>{{ item.name }}</strong> българския данакоплатец плаща</h5>
+
+    <div class="mb-2">
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="m-0">{{ item.value|perDay:magnitude:currency }}</h4>
+              на ден
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="m-0">{{ item.value|perMonth:magnitude:currency }}</h4>
+              на месец
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="m-0">{{ item.value|forYear:magnitude:currency }}</h4>
+              за 2025 година
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-end mt-1">
+        <button (click)="toggleInfo(item)" class="p-0 btn border-0 me-2">Източник</button>
+        <div *ngIf="item.isVisible"><a href="{{item.sources[0].url[0]}}" class="text-decoration-none" target="_blank">{{ item.sources[0].name }}, {{ item.sources[0].note }}</a></div>
+      </div>
+    </div>
+  }
+</div>
+
+<div class="container-fluid">
+
+
+  @for (item of aa; track item) {
+    <div class="row">
+      <div class="col-3 offset-1 ">
+        <h5><strong>{{ item.name }}</strong><br>българския данакоплатец плаща</h5>
+      </div>
+      <div class="col-7">
+        <div class="row mb-4">
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="m-0">{{ item.value|perDay:magnitude:currency }}</h4>
+                на ден
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="m-0">{{ item.value|perMonth:magnitude:currency }}</h4>
+                на месец
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="m-0">{{ item.value|forYear:magnitude:currency }}</h4>
+                за 2025 година
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+
+  </div>
+  <div class="col-6"></div>

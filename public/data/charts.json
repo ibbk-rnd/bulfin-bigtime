@@ -1235,6 +1235,18 @@
         "value": 21673600000,
         "change": 2320500000,
         "changePercent": 11.31
+      },
+      {
+        "date": "2024-12-31",
+        "value": 24974800000,
+        "change": 3301200000,
+        "changePercent": 14.15,
+        "sources": [
+          {
+            "name": "Government deficit/surplus, debt and associated data (Евростат)",
+            "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/0effbb97-1d8a-44b4-9f16-624fb3494d57?lang=en"]
+          }
+        ]
       }
     ]
   },
@@ -1410,6 +1422,18 @@
         "value": 22.9,
         "change": 0.4,
         "changePercent": 1.76
+      },
+      {
+        "date": "2024-12-31",
+        "value": 24.1,
+        "change": 1.2,
+        "changePercent": 5.11,
+        "sources": [
+          {
+            "name": "Government deficit/surplus, debt and associated data (Евростат)",
+            "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/d72b3e58-ea97-4982-8aa8-6a95e7816629?lang=en"]
+          }
+        ]
       }
     ]
   },
@@ -14398,7 +14422,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }
@@ -14798,7 +14822,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }
@@ -15198,7 +15222,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }
@@ -15597,7 +15621,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }
@@ -15997,7 +16021,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }
@@ -16397,7 +16421,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }
@@ -16797,7 +16821,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }
@@ -17181,7 +17205,8 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"],
+            "note": "страница 11; Чл. 12. (1)"
           }
         ]
       }
@@ -17582,7 +17607,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }
@@ -17983,7 +18008,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }
@@ -18384,7 +18409,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }
@@ -18618,7 +18643,7 @@
         "sources": [
           {
             "name": "Закон за държавния бюджет на Република България за 2025 г.",
-            "url": ["https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694", "https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf"]
+            "url": ["https://www.minfin.bg/upload/60901/ZDBRB+2025.pdf", "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=233694"]
           }
         ]
       }

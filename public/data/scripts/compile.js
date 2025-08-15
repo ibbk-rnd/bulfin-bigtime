@@ -19,7 +19,7 @@ const files = [
   ['../other', 'other.json'],
 ];
 
-const commonSources = fs.readFileSync('../common-links.json', 'utf8');
+const commonSources = fs.readFileSync('../ref.json', 'utf8');
 let commonData = JSON.parse(commonSources);
 let compiledFiles = [];
 

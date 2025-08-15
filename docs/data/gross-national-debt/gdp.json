@@ -170,6 +170,18 @@
       "value": 22.9,
       "change": 0.4,
       "changePercent": 1.76
+    },
+    {
+      "date": "2024-12-31",
+      "value": 24.1,
+      "change": 1.2,
+      "changePercent": 5.11,
+      "sources": [
+        {
+          "name": "Government deficit/surplus, debt and associated data (Евростат)",
+          "url": ["https://ec.europa.eu/eurostat/databrowser/bookmark/d72b3e58-ea97-4982-8aa8-6a95e7816629?lang=en"]
+        }
+      ]
     }
   ]
 }

@@ -1813,7 +1813,9 @@
         "value": 4135659.7,
         "sources": [
           {
-            "ref": "budget-2025"
+            "name": "ref:budget-2025:0",
+            "url": "ref:budget-2025:0",
+            "note": "страница 11; Чл. 12. (1)"
           }
         ]
       }
